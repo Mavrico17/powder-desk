@@ -1,0 +1,24 @@
+name: One-time cleanup
+
+on:
+  workflow_dispatch: {}
+  push:
+    paths: [".github/workflows/flatten.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  flatten:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Move uploaded files to the repo root
+        run: |
+          if [ -d powder-desk/powder-desk ]; then
+            git config user.name "powder-desk-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git mv powder-desk/powder-desk/* .
+            git commit -m "Move files to repo root"
+            git push
+          fi
