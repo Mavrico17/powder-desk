@@ -1,0 +1,39 @@
+name: Update forecast
+
+on:
+  schedule:
+    # every 2 hours, plus one right after the UAC's ~7 AM forecast (13:30 UTC)
+    - cron: "17 */2 * * *"
+    - cron: "30 13 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-forecast
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch forecasts and send alerts
+        run: python scripts/fetch.py
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+      - name: Save data
+        run: |
+          git config user.name "powder-desk-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data.json state/alerts.json
+          git diff --cached --quiet || git commit -m "Forecast update $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --autostash
+          git push
