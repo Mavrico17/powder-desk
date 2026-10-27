@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Powder Desk</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❄️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --snow: #F2F5F7;
+  --surface: #FFFFFF;
+  --ink: #132029;
+  --muted: #586874;
+  --line: #D6DEE4;
+  --stake: #E4572E;
+  --ice: #3E7CA6;
+  --ice-soft: #CFE0EC;
+  --storm: #182838;
+  --storm-2: #22374B;
+  --storm-ink: #EAF1F6;
+  --storm-muted: #9FB3C3;
+  color-scheme: light;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --snow: #0E161E;
+    --surface: #152029;
+    --ink: #E5EDF2;
+    --muted: #93A5B2;
+    --line: #26353F;
+    --stake: #F0693F;
+    --ice: #7FB4DA;
+    --ice-soft: #23394A;
+    --storm: #13202D;
+    --storm-2: #1D2F40;
+    color-scheme: dark;
+  }
+}
+*, *::before, *::after { box-sizing: inherit; }
+html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+body {
+  margin: 0;
+  background: var(--snow);
+  color: var(--ink);
+  font-family: "Archivo", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--ice); text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid var(--stake); outline-offset: 2px; border-radius: 4px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+.num { font-stretch: 62%; font-weight: 800; font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+.muted { color: var(--muted); }
+.small { font-size: 0.85rem; }
+h2 { font-stretch: 112%; font-weight: 800; font-size: 1.5rem; line-height: 1.15; margin: 0 0 4px; letter-spacing: -0.01em; }
+h3 { font-weight: 700; font-size: 1.05rem; margin: 0 0 6px; }
+section { padding: 40px 0 8px; }
+.section-lede { margin: 0 0 20px; color: var(--muted); max-width: 62ch; }
+
+/* header */
+header.top { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding: 20px 0 16px; flex-wrap: wrap; }
+.wordmark { font-stretch: 125%; font-weight: 900; font-size: 1.6rem; letter-spacing: -0.02em; margin: 0; }
+.wordmark span { font-weight: 400; font-stretch: 100%; font-size: 1rem; color: var(--muted); margin-left: 10px; letter-spacing: 0; }
+.updated { color: var(--muted); font-size: 0.9rem; display: flex; gap: 12px; align-items: baseline; }
+.sample-flag { background: var(--stake); color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 0.8rem; font-weight: 700; }
+
+/* alert banner */
+.alerts { display: grid; gap: 8px; margin-bottom: 16px; }
+.alert { background: var(--stake); color: #fff; border-radius: 6px; padding: 12px 16px; display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; }
+.alert.regional { background: var(--ice); }
+.alert b { font-weight: 800; }
+.alert p { margin: 0; grid-column: 2; white-space: pre-line; font-size: 0.95rem; }
+.alert .glyph { grid-row: span 2; font-size: 1.3rem; line-height: 1.2; }
+
+/* hero */
+.hero { background: var(--storm); color: var(--storm-ink); border-radius: 10px; padding: 28px; display: grid; grid-template-columns: 170px minmax(0, 1fr); grid-template-areas: "stake top" "stake week" "stake key"; column-gap: 32px; row-gap: 18px; align-items: start; }
+.hero-top { grid-area: top; display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+.hero .week { grid-area: week; }
+.hero .week-key { grid-area: key; }
+.hero .stake-col { grid-area: stake; align-self: stretch; justify-content: flex-end; }
+.hero a { color: #BFE0F7; }
+.stake-col { display: flex; flex-direction: column; align-items: center; }
+.stake-svg { width: 150px; height: auto; display: block; }
+.spot-switch { display: flex; gap: 6px; flex-wrap: wrap; }
+.spot-switch button { font: inherit; font-size: 0.9rem; background: transparent; color: var(--storm-muted); border: 1px solid #39506A; border-radius: 999px; padding: 4px 14px; cursor: pointer; }
+.spot-switch button[aria-pressed="true"] { background: var(--storm-ink); color: var(--storm); border-color: var(--storm-ink); font-weight: 700; }
+.headline { display: flex; align-items: flex-end; gap: 20px; flex-wrap: wrap; }
+.big { font-size: clamp(5rem, 13vw, 8.5rem); line-height: 0.82; }
+.big small { font-size: 0.28em; font-stretch: 100%; font-weight: 600; margin-left: 6px; letter-spacing: 0; }
+.headline-text { max-width: 44ch; padding-bottom: 6px; }
+.headline-text p { margin: 0; }
+.headline-text .lead { font-size: 1.15rem; font-weight: 600; }
+.headline-text .sub { color: var(--storm-muted); font-size: 0.95rem; margin-top: 4px; }
+.h72 { color: var(--storm-ink); }
+
+.week { display: grid; grid-template-columns: repeat(7, minmax(92px, 1fr)); gap: 2px; overflow-x: auto; scrollbar-width: thin; }
+.day { background: var(--storm-2); padding: 12px 10px; display: flex; flex-direction: column; gap: 6px; min-height: 230px; }
+.day:first-child { border-radius: 6px 0 0 6px; }
+.day:last-child { border-radius: 0 6px 6px 0; }
+.day .dname { font-weight: 700; }
+.day .sky { font-size: 0.8rem; color: var(--storm-muted); line-height: 1.3; min-height: 2.6em; }
+.day .temps { font-size: 0.9rem; }
+.day .temps .lo { color: var(--storm-muted); }
+.bar-wrap { flex: 1; display: flex; align-items: flex-end; justify-content: center; min-height: 70px; position: relative; }
+.bar { width: 26px; background: #F4F8FB; border-radius: 3px 3px 0 0; position: relative; }
+.whisker { position: absolute; left: 50%; width: 2px; background: #F4F8FB; opacity: 0.45; transform: translateX(-50%); }
+.whisker::before, .whisker::after { content: ""; position: absolute; left: -4px; width: 10px; height: 2px; background: inherit; }
+.whisker::before { top: 0; } .whisker::after { bottom: 0; }
+.day .snow-num { text-align: center; font-size: 1.35rem; line-height: 1; }
+.day .snow-num small { font-size: 0.7rem; font-stretch: 100%; font-weight: 500; color: var(--storm-muted); display: block; margin-top: 2px; }
+.week-key { font-size: 0.85rem; color: var(--storm-muted); margin: 0; }
+
+/* avalanche */
+.avy { display: grid; grid-template-columns: 260px 1fr; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.avy-rating { padding: 24px; display: flex; flex-direction: column; justify-content: space-between; gap: 18px; min-height: 200px; }
+.avy-rating .level { font-size: 3.4rem; line-height: 0.9; }
+.avy-rating .of { font-weight: 600; opacity: 0.85; }
+.avy-body { padding: 24px 28px; display: flex; flex-direction: column; gap: 12px; }
+.avy-body p { margin: 0; max-width: 72ch; }
+.avy-body .bottom-line { font-size: 1.08rem; }
+.warning-tag { display: inline-block; background: #ED1C24; color: #fff; font-weight: 800; padding: 2px 8px; border-radius: 3px; }
+
+/* voices */
+.voices { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.col { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 20px; }
+.card .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 8px; }
+.card p { margin: 0 0 10px; }
+.card ul { margin: 0 0 10px; padding-left: 20px; }
+.card li { margin-bottom: 4px; }
+details summary { cursor: pointer; color: var(--ice); font-weight: 600; }
+details[open] summary { margin-bottom: 8px; }
+.read { border-left: 5px solid var(--stake); }
+.read .take { font-size: 1.1rem; line-height: 1.55; }
+.compare { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+.compare th { text-align: left; font-weight: 600; color: var(--muted); font-size: 0.8rem; padding: 0 8px 6px 0; }
+.compare td { padding: 7px 8px 7px 0; border-top: 1px solid var(--line); vertical-align: middle; }
+.compare td.v { text-align: right; white-space: nowrap; }
+.compare tr.nws td { font-weight: 700; }
+.dotline { position: relative; height: 14px; min-width: 120px; }
+.dotline::before { content: ""; position: absolute; left: 0; right: 0; top: 6px; height: 2px; background: var(--line); }
+.dotline .dot { position: absolute; top: 2px; width: 10px; height: 10px; border-radius: 50%; background: var(--ice); transform: translateX(-50%); }
+.dotline .medline { position: absolute; top: 0; width: 2px; height: 14px; background: var(--stake); transform: translateX(-50%); }
+
+/* where */
+.controls { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--surface); }
+.seg button { font: inherit; font-size: 0.9rem; border: 0; background: transparent; color: var(--ink); padding: 6px 14px; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--snow); font-weight: 700; }
+.rank { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+.rank li { display: grid; grid-template-columns: 34px minmax(160px, 1.4fr) 140px 1.6fr; gap: 14px; align-items: center; padding: 12px 16px; border-top: 1px solid var(--line); }
+.rank li:first-child { border-top: 0; }
+.rank .pos { font-size: 1.4rem; color: var(--muted); }
+.rank .name { font-weight: 700; }
+.rank .name .sub { display: block; font-weight: 400; color: var(--muted); font-size: 0.85rem; }
+.rank .val { font-size: 1.7rem; line-height: 1; }
+.rank .val small { font-size: 0.75rem; font-stretch: 100%; font-weight: 500; color: var(--muted); margin-left: 4px; }
+.rank .val .rng { display: block; font-size: 0.78rem; font-stretch: 100%; font-weight: 500; color: var(--muted); margin: 3px 0 0; }
+.hbar { height: 10px; background: var(--ice-soft); border-radius: 5px; position: relative; overflow: hidden; }
+.hbar i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--ice); border-radius: 5px; }
+.rank li.big .hbar i { background: var(--stake); }
+.bar-label { font-size: 0.8rem; color: var(--muted); margin-top: 4px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; font-size: 0.8rem; color: var(--muted); margin-top: 3px; }
+.chip i { width: 10px; height: 10px; border-radius: 2px; display: inline-block; border: 1px solid rgba(0,0,0,0.25); }
+.big-tag { color: var(--stake); font-weight: 800; font-size: 0.8rem; margin-left: 6px; }
+.more { margin-top: 10px; font: inherit; background: none; border: 0; color: var(--ice); font-weight: 600; cursor: pointer; padding: 4px 0; }
+
+/* footer */
+footer { padding: 48px 0 40px; color: var(--muted); font-size: 0.88rem; }
+footer h3 { color: var(--ink); }
+footer ul { padding-left: 18px; margin: 6px 0 16px; columns: 2; column-gap: 32px; }
+footer p { max-width: 80ch; }
+.errors { background: var(--surface); border: 1px dashed var(--line); padding: 12px 16px; border-radius: 6px; }
+
+.empty { padding: 60px 0; text-align: center; color: var(--muted); }
+
+@media (max-width: 880px) {
+  .hero { grid-template-columns: 64px minmax(0, 1fr); grid-template-areas: "stake top" "week week" "key key"; padding: 18px; column-gap: 16px; }
+  .hero .stake-col { justify-content: flex-end; }
+  .stake-svg { width: 64px; }
+  .big { font-size: 5.2rem; }
+  .headline { gap: 10px; }
+  .voices { grid-template-columns: 1fr; }
+  .avy { grid-template-columns: 1fr; }
+  .avy-rating { min-height: 0; gap: 8px; padding: 20px; }
+  .avy-rating .level { font-size: 2.6rem; }
+  .avy-body { padding: 20px; }
+  .rank li { grid-template-columns: 28px 1fr 96px; }
+  .rank li .barcell { grid-column: 2 / -1; }
+  footer ul { columns: 1; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .snowfill { transition: y 600ms ease, height 600ms ease; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1 class="wordmark">Powder Desk<span id="home-name"></span></h1>
+    <div class="updated" id="updated"></div>
+  </header>
+  <div class="alerts" id="alerts" aria-live="polite"></div>
+  <main id="app"><p class="empty">Loading the latest forecast…</p></main>
+  <footer id="footer"></footer>
+</div>
+
+<script>
+(() => {
+"use strict";
+const NAADS = { 1: "#50B848", 2: "#FFF200", 3: "#F7941E", 4: "#ED1C24", 5: "#231F20" };
+const state = { data: null, spot: null, filter: "all", sort: "h72", showAll: false };
+
+function h(tag, attrs, ...kids) {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v == null || v === false) continue;
+    if (k === "class") el.className = v;
+    else if (k === "style") el.style.cssText = v;
+    else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+    else el.setAttribute(k, v);
+  }
+  for (const kid of kids.flat()) {
+    if (kid == null || kid === false) continue;
+    el.append(kid instanceof Node ? kid : document.createTextNode(String(kid)));
+  }
+  return el;
+}
+const svgNS = "http://www.w3.org/2000/svg";
+function s(tag, attrs) { const el = document.createElementNS(svgNS, tag); for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v); return el; }
+
+const fmtIn = x => x == null ? "–" : x >= 1 ? Math.round(x).toString() : x > 0.05 ? "<1" : "0";
+const tz = () => state.data?.timezone || "America/Denver";
+function when(iso, opts) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (isNaN(d)) return iso;
+  return new Intl.DateTimeFormat("en-US", { timeZone: tz(), ...opts }).format(d);
+}
+const timeOnly = iso => when(iso, { hour: "numeric", minute: "2-digit" });
+const dayTime = iso => when(iso, { weekday: "short", hour: "numeric", minute: "2-digit" });
+function dayLabel(dateStr, i) {
+  if (i === 0) return "Today";
+  const d = new Date(dateStr + "T12:00:00");
+  return d.toLocaleDateString("en-US", { weekday: "short" });
+}
+function dangerName(a) {
+  if (!a || a.level == null || a.level < 1) return "No rating";
+  return a.danger ? a.danger.replace(/\b\w/g, c => c.toUpperCase()) : "Level " + a.level;
+}
+
+/* ---------- snow stake ---------- */
+function stake(range) {
+  const top = 30, ground = 440, W = 150;
+  const maxVal = Math.max(range?.max || 0, range?.median || 0);
+  const scaleMax = Math.max(24, Math.ceil((maxVal * 1.15) / 6) * 6);
+  const y = v => ground - (Math.min(v, scaleMax) / scaleMax) * (ground - top);
+  const svg = s("svg", { viewBox: `0 0 ${W} 470`, class: "stake-svg", role: "img",
+    "aria-label": range ? `Snow stake reading ${fmtIn(range.median)} inches, range ${fmtIn(range.min)} to ${fmtIn(range.max)}` : "No snow data" });
+  // stake
+  svg.append(s("rect", { x: 60, y: top - 14, width: 30, height: ground - top + 14, fill: "#E4572E", rx: 2 }));
+  for (let i = 0; i <= scaleMax; i++) {
+    const yy = y(i), major = i % 6 === 0;
+    svg.append(s("line", { x1: 60, x2: major ? 80 : 70, y1: yy, y2: yy, stroke: "#14202B", "stroke-width": major ? 2.5 : 1.2 }));
+    if (major && i > 0) {
+      const t = s("text", { x: 52, y: yy + 5, "text-anchor": "end", fill: "#9FB3C3", "font-size": 13, "font-family": "Archivo, sans-serif", "font-weight": 600 });
+      t.textContent = i; svg.append(t);
+    }
+  }
+  if (range) {
+    // forecast spread band
+    svg.append(s("rect", { x: 14, y: y(range.max), width: W - 28, height: Math.max(1, y(range.min) - y(range.max)),
+      fill: "#F4F8FB", opacity: 0.16 }));
+    for (const v of [range.min, range.max]) {
+      svg.append(s("line", { x1: 14, x2: W - 14, y1: y(v), y2: y(v), stroke: "#F4F8FB", "stroke-width": 1.2, "stroke-dasharray": "3 4", opacity: 0.7 }));
+    }
+    // the snowpack at the middle forecast
+    const sy = y(range.median);
+    const path = `M0 ${ground} L0 ${sy + 6} Q 30 ${sy - 4} 60 ${sy} L90 ${sy} Q 120 ${sy - 3} ${W} ${sy + 5} L${W} ${ground} Z`;
+    const defs = s("defs", {});
+    const g = s("linearGradient", { id: "snowgrad", x1: 0, y1: 0, x2: 0, y2: 1 });
+    g.append(s("stop", { offset: "0", "stop-color": "#FFFFFF", "stop-opacity": 0.96 }));
+    g.append(s("stop", { offset: "1", "stop-color": "#BCD3E4", "stop-opacity": 0.9 }));
+    defs.append(g); svg.append(defs);
+    svg.append(s("path", { d: path, fill: "url(#snowgrad)", class: "snowfill" }));
+    // ticks keep showing faintly through the snow, like reading a stake through fresh powder
+    for (let i = 1; i <= Math.min(range.median, scaleMax); i++) {
+      const yy = y(i);
+      svg.append(s("line", { x1: 60, x2: i % 6 === 0 ? 80 : 70, y1: yy, y2: yy, stroke: "#14202B", "stroke-width": i % 6 === 0 ? 2 : 1, opacity: 0.22 }));
+    }
+    const lab = (v, txt) => { const t = s("text", { x: W - 12, y: y(v) - 5, "text-anchor": "end", fill: v <= range.median ? "#4A6275" : "#C9D8E4", "font-size": 11, "font-family": "Archivo, sans-serif" }); t.textContent = txt; svg.append(t); };
+    if (range.max - range.min >= 1.5) { lab(range.max, "high " + fmtIn(range.max)); }
+    if (range.max - range.min >= 1.5 && range.min > 1) { lab(range.min, "low " + fmtIn(range.min)); }
+  }
+  svg.append(s("rect", { x: 0, y: ground, width: W, height: 30, fill: "#F4F8FB" }));
+  return svg;
+}
+
+/* ---------- sections ---------- */
+function renderAlerts(d) {
+  const box = document.getElementById("alerts");
+  box.replaceChildren();
+  for (const a of d.alerts_active || []) {
+    box.append(h("div", { class: "alert " + a.kind, role: "status" },
+      h("span", { class: "glyph", "aria-hidden": "true" }, a.kind === "avy" ? "⚠" : a.kind === "nws" ? "⚑" : "❄"),
+      h("b", {}, a.title), h("p", {}, a.body)));
+  }
+}
+
+function renderHero(d) {
+  const locals = d.spots.filter(x => x.group === "local");
+  const spot = locals.find(x => x.id === state.spot) || locals[0];
+  const week = d.home.week || [];
+  const maxDay = Math.max(4, ...spot.days.map(x => x.max || x.median || 0));
+  const strip = h("div", { class: "week", role: "list" },
+    spot.days.map((day, i) => {
+      const nws = week.find(w => w.date === day.date) || {};
+      const hgt = v => `${Math.round(((v || 0) / maxDay) * 100)}%`;
+      return h("div", { class: "day", role: "listitem" },
+        h("div", { class: "dname" }, dayLabel(day.date, i)),
+        h("div", { class: "sky" }, nws.short || ""),
+        h("div", { class: "temps num" }, nws.hi != null ? `${nws.hi}°` : "–", " ", h("span", { class: "lo" }, nws.lo != null ? `${nws.lo}°` : ""),
+          nws.pop ? h("span", { class: "lo" }, `  ${nws.pop}%`) : null),
+        h("div", { class: "bar-wrap" },
+          day.max > (day.min ?? 0) + 0.4 ? h("div", { class: "whisker", style: `bottom:${hgt(day.min)};height:calc(${hgt(day.max)} - ${hgt(day.min)})` }) : null,
+          h("div", { class: "bar", style: `height:${hgt(day.median)}` })),
+        h("div", { class: "snow-num num" }, `${fmtIn(day.median)}"`,
+          h("small", {}, day.max != null && day.max - day.min >= 1 ? `${fmtIn(day.min)}–${fmtIn(day.max)}` : "\u00a0")));
+    }));
+
+  const d7 = spot.d7, h72 = spot.h72;
+  const hero = h("section", { class: "hero", "aria-labelledby": "hero-title" },
+    h("div", { class: "stake-col" }, stake(d7)),
+    h("div", { class: "hero-top" },
+      h("div", { class: "spot-switch", role: "group", "aria-label": "Local spot" },
+        locals.map(l => h("button", { type: "button", "aria-pressed": String(l.id === spot.id),
+          onclick: () => { state.spot = l.id; render(); } }, l.name))),
+      h("div", { class: "headline" },
+        h("div", { class: "big num", id: "hero-title" }, fmtIn(d7?.median), h("small", {}, "in.")),
+        h("div", { class: "headline-text" },
+          h("p", { class: "lead" }, `${spot.name}, next 7 days`),
+          h("p", { class: "sub" }, d7 ? `Middle of ${d7.n} forecasts. They range from ${fmtIn(d7.min)} to ${fmtIn(d7.max)} in.` : "No model data right now."),
+          h("p", { class: "sub" }, h("span", { class: "h72" }, `Next 72 hours: ${fmtIn(h72?.median)} in.`),
+            spot.nws?.d7 != null ? `  NWS forecasters: ${fmtIn(spot.nws.d7)} in. this week.` : "")))),
+      strip,
+      h("p", { class: "week-key" }, `Bars are snow at ${spot.name} (${spot.elev_ft.toLocaleString()} ft); the thin line shows the spread between forecasts. Sky and temperatures are for ${d.home.name}.`));
+  return hero;
+}
+
+function renderAvy(d) {
+  const a = d.avalanche;
+  const sec = h("section", { "aria-labelledby": "avy-title" },
+    h("h2", { id: "avy-title" }, "Avalanche forecast"),
+    h("p", { class: "section-lede" }, a ? `${a.zone} zone, ${a.center}` : "Utah Avalanche Center"));
+  if (!a) {
+    sec.append(h("div", { class: "card" }, h("p", {}, "The avalanche rating didn't load this round. "),
+      h("a", { href: "https://utahavalanchecenter.org/forecast/logan" }, "Open the Logan forecast")));
+    return sec;
+  }
+  const rated = a.level != null && a.level >= 1;
+  const bg = rated ? (a.color || NAADS[a.level]) : "#C9D1D7";
+  const fg = rated ? (a.level === 5 ? "#fff" : (a.font_color || "#000")) : "#25323B";
+  const body = h("div", { class: "avy-body" });
+  if (a.warning) body.append(h("p", {}, h("span", { class: "warning-tag" }, "Avalanche warning in effect")));
+  if (a.bottom_line) body.append(h("p", { class: "bottom-line" }, a.bottom_line));
+  else if (rated && a.travel_advice) body.append(h("p", { class: "bottom-line" }, a.travel_advice));
+  else body.append(h("p", { class: "bottom-line" }, "No danger rating is out for today. The UAC usually starts daily rated forecasts once there's enough snow to ride."));
+  if (a.bottom_line && rated && a.travel_advice) body.append(h("p", { class: "muted small" }, a.travel_advice));
+  const issued = a.start ? `Issued ${dayTime(a.start)}` : a.issued_text ? `Issued ${a.issued_text}` : "";
+  const expires = a.end ? `, expires ${dayTime(a.end)}` : "";
+  body.append(h("p", { class: "muted small" }, issued + expires + (a.forecaster ? `. Forecaster: ${a.forecaster}` : "")));
+  body.append(h("p", {}, h("a", { href: a.link || "https://utahavalanchecenter.org/forecast/logan" }, "Read the full forecast at the UAC")));
+  sec.append(h("div", { class: "avy" },
+    h("div", { class: "avy-rating", style: `background:${bg};color:${fg}` },
+      h("div", { class: "level num" }, dangerName(a)),
+      h("div", { class: "of" }, rated ? `Level ${a.level} of 5` : a.expired ? "Last rating has expired" : "Not rated")),
+    body));
+  return sec;
+}
+
+function renderVoices(d) {
+  const spot = d.spots.find(x => x.id === (state.spot || d.primary_local)) || d.spots[0];
+  const left = h("div", { class: "col" });
+  const disc = d.discussion;
+  if (disc) {
+    const keys = (disc.key_messages || "").split(/\s-\s|^-\s/).map(t => t.trim()).filter(Boolean);
+    left.append(h("article", { class: "card" },
+      h("h3", {}, `NWS ${disc.office === "SLC" ? "Salt Lake City" : disc.office} forecast discussion`),
+      h("div", { class: "meta" }, `Issued ${dayTime(disc.issued)}`),
+      keys.length ? h("ul", {}, keys.map(k => h("li", {}, k))) : null,
+      disc.synopsis ? h("p", {}, disc.synopsis) : null,
+      (disc.short_term || disc.long_term) ? h("details", {}, h("summary", {}, "Short and long range"),
+        disc.short_term ? h("p", {}, h("b", {}, "Next couple of days. "), disc.short_term) : null,
+        disc.long_term ? h("p", {}, h("b", {}, "Later in the week. "), disc.long_term) : null) : null,
+      h("a", { href: disc.url }, "Read the full discussion")));
+  }
+  for (const p of d.posts || []) {
+    left.append(h("article", { class: "card" },
+      h("h3", {}, p.title || "Latest post"),
+      h("div", { class: "meta" }, [p.author, p.source].filter(Boolean).join(", ") + (p.published ? `, ${when(p.published, { month: "short", day: "numeric" })}` : "")),
+      p.excerpt ? h("p", {}, p.excerpt) : null,
+      p.url ? h("a", { href: p.url }, "Read the post") : null));
+  }
+  left.append(h("article", { class: "card" },
+    h("h3", {}, "OpenSnow"),
+    h("p", { class: "muted" }, "OpenSnow doesn't offer a public data feed, so its forecasts are a click away instead."),
+    h("a", { href: "https://opensnow.com/dailysnow/utah" }, "Open the Utah Daily Snow")));
+
+  const take = d.take?.text;
+  const right = h("div", { class: "col" });
+  right.append(h("article", { class: "card read" },
+    h("h3", {}, take ? "Claude's read" : "Forecast consensus"),
+    h("p", { class: "take" }, take || d.rules_take),
+    h("div", { class: "meta" }, take ? `Written ${dayTime(d.take.generated_at)} from the numbers on this page. The UAC's rating always outranks it.` : "Computed from the forecasts below.")));
+
+  // comparison table
+  const rows = Object.entries(spot.by_model || {}).map(([m, v]) => ({ label: d.models[m] || m, h72: v.h72, d7: v.d7 }));
+  if (spot.nws) rows.push({ label: "NWS forecasters", h72: spot.nws.h72, d7: spot.nws.d7, nws: true });
+  const vals = rows.map(r => r.d7).filter(v => v != null);
+  const axisMax = Math.max(6, ...vals) * 1.08;
+  const pos = v => `${(v / axisMax) * 100}%`;
+  right.append(h("article", { class: "card" },
+    h("h3", {}, `How the sources compare at ${spot.name}`),
+    h("div", { class: "meta" }, `Inches of snow. Model snow uses a ${d.snow_ratio}:1 snow-to-water ratio; the orange tick is the middle.`),
+    h("table", { class: "compare" },
+      h("thead", {}, h("tr", {}, h("th", {}, "Source"), h("th", { style: "text-align:right" }, "72 h"), h("th", { style: "text-align:right" }, "7 days"), h("th", {}, ""))),
+      h("tbody", {}, rows.map(r => h("tr", { class: r.nws ? "nws" : "" },
+        h("td", {}, r.label),
+        h("td", { class: "v num" }, fmtIn(r.h72)),
+        h("td", { class: "v num" }, fmtIn(r.d7)),
+        h("td", { style: "width:42%" }, h("div", { class: "dotline" },
+          spot.d7 ? h("span", { class: "medline", style: `left:${pos(spot.d7.median)}` }) : null,
+          r.d7 != null ? h("span", { class: "dot", style: `left:${pos(r.d7)}` + (r.nws ? ";background:var(--ink)" : "") }) : null))))))));
+
+  return h("section", { "aria-labelledby": "voices-title" },
+    h("h2", { id: "voices-title" }, "The forecasters and the numbers"),
+    h("p", { class: "section-lede" }, "What the people who forecast for a living are saying, next to a neutral read of every source."),
+    h("div", { class: "voices" }, left, right));
+}
+
+function renderWhere(d) {
+  const thr = d.thresholds?.regional_72h_in ?? 14;
+  let list = d.spots.filter(x => (state.filter === "all" ? true : x.kind === state.filter));
+  const key = state.sort;
+  list = list.filter(x => x[key]).sort((a, b) => b[key].median - a[key].median);
+  const max = Math.max(6, ...list.map(x => x[key].max || x[key].median));
+  const shown = state.showAll ? list : list.slice(0, 10);
+  const segBtn = (group, val, label) => h("button", { type: "button", "aria-pressed": String(state[group] === val),
+    onclick: () => { state[group] = val; render(); } }, label);
+  const other = key === "h72" ? "d7" : "h72";
+  const sec = h("section", { "aria-labelledby": "where-title" },
+    h("h2", { id: "where-title" }, "Where it's dumping"),
+    h("p", { class: "section-lede" }, `Resorts and backcountry zones within a few hours of ${d.home.name}, ranked by the middle forecast. Orange means ${thr}+ in. in 72 hours.`),
+    h("div", { class: "controls" },
+      h("div", { class: "seg", role: "group", "aria-label": "Type" }, segBtn("filter", "all", "All"), segBtn("filter", "resort", "Resorts"), segBtn("filter", "backcountry", "Backcountry")),
+      h("div", { class: "seg", role: "group", "aria-label": "Window" }, segBtn("sort", "h72", "Next 72 hours"), segBtn("sort", "d7", "Next 7 days"))),
+    h("ol", { class: "rank" }, shown.map((x, i) => {
+      const v = x[key];
+      const isBig = x.h72 && x.h72.median >= thr;
+      const avy = x.kind === "backcountry" && x.avy ? x.avy : null;
+      return h("li", { class: isBig ? "big" : "" },
+        h("div", { class: "pos num" }, i + 1),
+        h("div", { class: "name" }, x.name, isBig ? h("span", { class: "big-tag" }, "Big") : null,
+          h("span", { class: "sub" }, `${x.kind === "resort" ? "Resort" : "Backcountry"}, ${x.drive}${x.group === "local" ? ", home range" : ""}`),
+          avy ? h("span", { class: "chip" }, h("i", { style: `background:${avy.level >= 1 ? (avy.color || NAADS[avy.level]) : "#C9D1D7"}` }),
+            `${dangerName(avy)} avalanche danger, ${avy.zone}`) : null),
+        h("div", { class: "val num" }, fmtIn(v.median), h("small", {}, "in."),
+          h("span", { class: "rng" }, `range ${fmtIn(v.min)}–${fmtIn(v.max)}`)),
+        h("div", { class: "barcell" },
+          h("div", { class: "hbar" }, h("i", { style: `width:${(v.median / max) * 100}%` })),
+          h("div", { class: "bar-label" }, `${key === "h72" ? "7 days" : "72 hours"}: ${fmtIn(x[other]?.median)} in.`)));
+    })));
+  if (list.length > 10) sec.append(h("button", { class: "more", type: "button", onclick: () => { state.showAll = !state.showAll; render(); } },
+    state.showAll ? "Show top 10" : `Show all ${list.length}`));
+  return sec;
+}
+
+function renderFooter(d) {
+  const f = document.getElementById("footer");
+  f.replaceChildren(
+    h("h3", {}, "Sources"),
+    h("ul", {},
+      h("li", {}, h("a", { href: "https://www.weather.gov/slc/" }, "National Weather Service, Salt Lake City"), " for the valley forecast, snow grid, alerts and discussion"),
+      h("li", {}, h("a", { href: "https://open-meteo.com/" }, "Open-Meteo"), " for the GFS, NBM, ECMWF, ICON and GEM models"),
+      h("li", {}, h("a", { href: "https://utahavalanchecenter.org/" }, "Utah Avalanche Center"), " and ", h("a", { href: "https://avalanche.org/" }, "avalanche.org")),
+      h("li", {}, h("a", { href: "https://bridgertetonavalanchecenter.org/" }, "Bridger-Teton Avalanche Center"), " for Teton spots"),
+      h("li", {}, h("a", { href: "https://wasatchweatherweenies.blogspot.com/" }, "Wasatch Weather Weenies")),
+      h("li", {}, h("a", { href: "https://opensnow.com/dailysnow/utah" }, "OpenSnow Utah Daily Snow"))),
+    h("p", {}, "Totals are forecasts for the elevation listed for each spot, not measured snow. The avalanche rating is shown exactly as the avalanche center issued it; always read their full forecast before heading into avalanche terrain."),
+    ...((d.errors || []).length ? [h("div", { class: "errors" }, h("b", {}, "Some sources didn't update this round: "), d.errors.join("; "))] : []));
+}
+
+function render() {
+  const d = state.data;
+  if (!d) return;
+  if (!state.spot) state.spot = d.primary_local;
+  document.getElementById("home-name").textContent = `${d.home.name}, Utah`;
+  const up = document.getElementById("updated");
+  up.replaceChildren(
+    d.sample ? h("span", { class: "sample-flag" }, "Sample data") : null,
+    h("span", {}, `Updated ${dayTime(d.generated_at)}`));
+  renderAlerts(d);
+  const app = document.getElementById("app");
+  app.replaceChildren(renderHero(d), renderAvy(d), renderVoices(d), renderWhere(d));
+  renderFooter(d);
+}
+
+async function load() {
+  for (const url of ["data.json", "sample-data.json"]) {
+    try {
+      const r = await fetch(url + "?t=" + Date.now(), { cache: "no-store" });
+      if (!r.ok) continue;
+      state.data = await r.json();
+      render();
+      return;
+    } catch (e) { /* try next */ }
+  }
+  document.getElementById("app").replaceChildren(h("p", { class: "empty" },
+    "No forecast data yet. Run the “Update forecast” workflow once in GitHub Actions, then reload."));
+}
+load();
+setInterval(() => { if (document.visibilityState === "visible") load(); }, 20 * 60 * 1000);
+})();
+</script>
+</body>
+</html>

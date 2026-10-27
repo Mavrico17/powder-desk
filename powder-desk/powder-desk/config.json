@@ -1,0 +1,55 @@
+{
+  "_readme": "Edit this file to change spots, thresholds, and sources. Drive times are rough estimates from Logan. elev_ft is the elevation the weather models are adjusted to, so set it near where you actually ski.",
+  "contact_email": "you@example.com",
+  "timezone": "America/Denver",
+  "home": { "name": "Logan", "lat": 41.737, "lon": -111.834 },
+  "primary_local": "beaver",
+  "snow_ratio": 10,
+  "models": {
+    "gfs_seamless": "GFS (NOAA)",
+    "ncep_nbm_conus": "NBM (NOAA)",
+    "ecmwf_ifs025": "ECMWF (Europe)",
+    "icon_seamless": "ICON (Germany)",
+    "gem_seamless": "GEM (Canada)"
+  },
+  "alerts": {
+    "local_72h_in": 8,
+    "local_day_in": 6,
+    "local_7d_in": 14,
+    "regional_72h_in": 14,
+    "avy_danger_level": 4,
+    "cooldown_hours": 36,
+    "regrow_factor": 1.5,
+    "nws_events": ["Winter Storm Watch", "Winter Storm Warning", "Blizzard Warning", "Winter Weather Advisory"]
+  },
+  "uac_zone_slug": "logan",
+  "afd_office": "SLC",
+  "feeds": [
+    {
+      "name": "Wasatch Weather Weenies",
+      "author": "Jim Steenburgh",
+      "url": "https://wasatchweatherweenies.blogspot.com/feeds/posts/default?alt=json&max-results=2"
+    }
+  ],
+  "claude_model": "claude-haiku-5-5",
+  "spots": [
+    { "id": "beaver", "name": "Beaver Mountain", "group": "local", "kind": "resort", "lat": 41.968, "lon": -111.541, "elev_ft": 8100, "drive": "45 min" },
+    { "id": "tony-grove", "name": "Tony Grove", "group": "local", "kind": "backcountry", "lat": 41.894, "lon": -111.640, "elev_ft": 8400, "drive": "45 min" },
+    { "id": "franklin-basin", "name": "Franklin Basin", "group": "local", "kind": "backcountry", "lat": 42.020, "lon": -111.580, "elev_ft": 8000, "drive": "50 min" },
+    { "id": "cherry-peak", "name": "Cherry Peak", "group": "regional", "kind": "resort", "lat": 41.928, "lon": -111.758, "elev_ft": 6700, "drive": "25 min" },
+    { "id": "ben-lomond", "name": "North Ogden Divide", "group": "regional", "kind": "backcountry", "lat": 41.352, "lon": -111.915, "elev_ft": 7500, "drive": "1 h" },
+    { "id": "powder-mountain", "name": "Powder Mountain", "group": "regional", "kind": "resort", "lat": 41.380, "lon": -111.780, "elev_ft": 8400, "drive": "1 h 15 min" },
+    { "id": "snowbasin", "name": "Snowbasin", "group": "regional", "kind": "resort", "lat": 41.216, "lon": -111.857, "elev_ft": 8000, "drive": "1 h 15 min" },
+    { "id": "pebble-creek", "name": "Pebble Creek", "group": "regional", "kind": "resort", "lat": 42.773, "lon": -112.115, "elev_ft": 7500, "drive": "1 h 30 min" },
+    { "id": "alta", "name": "Alta", "group": "regional", "kind": "resort", "lat": 40.588, "lon": -111.638, "elev_ft": 9500, "drive": "2 h" },
+    { "id": "snowbird", "name": "Snowbird", "group": "regional", "kind": "resort", "lat": 40.581, "lon": -111.657, "elev_ft": 9500, "drive": "2 h" },
+    { "id": "brighton", "name": "Brighton", "group": "regional", "kind": "resort", "lat": 40.598, "lon": -111.583, "elev_ft": 9000, "drive": "2 h" },
+    { "id": "solitude", "name": "Solitude", "group": "regional", "kind": "resort", "lat": 40.620, "lon": -111.592, "elev_ft": 9000, "drive": "2 h" },
+    { "id": "park-city", "name": "Park City", "group": "regional", "kind": "resort", "lat": 40.651, "lon": -111.508, "elev_ft": 8500, "drive": "2 h" },
+    { "id": "white-pine", "name": "White Pine (Little Cottonwood)", "group": "regional", "kind": "backcountry", "lat": 40.565, "lon": -111.683, "elev_ft": 9500, "drive": "2 h" },
+    { "id": "cardiff", "name": "Cardiff Fork (Big Cottonwood)", "group": "regional", "kind": "backcountry", "lat": 40.605, "lon": -111.648, "elev_ft": 9200, "drive": "2 h" },
+    { "id": "grand-targhee", "name": "Grand Targhee", "group": "regional", "kind": "resort", "lat": 43.787, "lon": -110.957, "elev_ft": 8500, "drive": "3 h 15 min" },
+    { "id": "teton-pass", "name": "Teton Pass", "group": "regional", "kind": "backcountry", "lat": 43.497, "lon": -110.955, "elev_ft": 8400, "drive": "3 h 15 min" },
+    { "id": "jackson-hole", "name": "Jackson Hole", "group": "regional", "kind": "resort", "lat": 43.587, "lon": -110.828, "elev_ft": 8500, "drive": "3 h 30 min" }
+  ]
+}
