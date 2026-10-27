@@ -274,8 +274,11 @@ def avy_summary(props):
     expired = False
     if end:
         try:
-            expired = dt.datetime.fromisoformat(end.replace("Z", "+00:00")) < NOW
-        except ValueError:
+            end_dt = dt.datetime.fromisoformat(end.replace("Z", "+00:00"))
+            if end_dt.tzinfo is None:  # avalanche.org sends center-local times without an offset
+                end_dt = end_dt.replace(tzinfo=ZoneInfo(props.get("timezone") or CONFIG["timezone"]))
+            expired = end_dt < NOW
+        except (ValueError, TypeError):
             pass
     level = props.get("danger_level")
     if expired:
