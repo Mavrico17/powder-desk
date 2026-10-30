@@ -1,82 +1,85 @@
 {
- "generated_at": "2026-10-29T23:48-06:00",
+ "generated_at": "2026-10-30T06:55-06:00",
  "timezone": "America/Denver",
  "home": {
   "name": "Logan",
   "week": [
    {
-    "date": "2026-10-29",
-    "name": "Tonight",
-    "short": "Mostly Cloudy",
-    "lo": 40,
-    "night_short": "Mostly Cloudy",
-    "pop_night": 2
-   },
-   {
     "date": "2026-10-30",
-    "name": "Friday",
-    "hi": 62,
-    "short": "Partly Sunny",
-    "detailed": "Partly sunny. High near 62, with temperatures falling to around 60 in the afternoon. South wind around 6 mph.",
-    "pop": 10,
-    "lo": 42,
-    "night_short": "Chance Light Rain",
-    "pop_night": 51
+    "name": "Today",
+    "hi": 63,
+    "short": "Partly Sunny then Slight Chance Light Rain",
+    "detailed": "A slight chance of rain after noon. Partly sunny. High near 63, with temperatures falling to around 59 in the afternoon. South southeast wind 2 to 6 mph. Chance of precipitation is 20%.",
+    "pop": 24,
+    "lo": 43,
+    "night_short": "Light Rain Likely",
+    "pop_night": 60
    },
    {
     "date": "2026-10-31",
     "name": "Saturday",
-    "hi": 58,
-    "short": "Chance Light Rain then Chance Showers And Thunderstorms",
-    "detailed": "A chance of rain before noon, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 58. South southeast wind around 3 mph. Chance of precipitation is 50%.",
-    "pop": 51,
-    "lo": 42,
+    "hi": 57,
+    "short": "Light Rain Likely then Chance Showers And Thunderstorms",
+    "detailed": "Rain likely before noon, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 57. South wind around 3 mph. Chance of precipitation is 60%.",
+    "pop": 56,
+    "lo": 41,
     "night_short": "Light Rain",
-    "pop_night": 88
+    "pop_night": 89
    },
    {
     "date": "2026-11-01",
     "name": "Sunday",
-    "hi": 52,
-    "short": "Showers And Thunderstorms",
-    "detailed": "Rain before 11am, then showers and thunderstorms between 11am and 5pm, then rain. Cloudy, with a high near 52. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible.",
-    "pop": 96,
-    "lo": 38,
-    "night_short": "Showers And Thunderstorms",
-    "pop_night": 89
+    "hi": 50,
+    "short": "Light Rain then Showers And Thunderstorms",
+    "detailed": "Rain before 5pm, then showers and thunderstorms. Cloudy, with a high near 50. South southeast wind around 3 mph. Chance of precipitation is 100%. New rainfall amounts between three quarters and one inch possible.",
+    "pop": 99,
+    "lo": 36,
+    "night_short": "Showers And Thunderstorms then Light Rain",
+    "pop_night": 88
    },
    {
     "date": "2026-11-02",
     "name": "Monday",
     "hi": 50,
-    "short": "Chance Light Rain",
-    "detailed": "A chance of rain before 5pm. Partly sunny, with a high near 50.",
-    "pop": 44,
-    "lo": 34,
-    "night_short": "Mostly Cloudy",
-    "pop_night": 7
+    "short": "Chance Light Rain then Partly Sunny",
+    "detailed": "A chance of rain before 11am. Partly sunny, with a high near 50.",
+    "pop": 31,
+    "lo": 32,
+    "night_short": "Partly Cloudy",
+    "pop_night": 0
    },
    {
     "date": "2026-11-03",
     "name": "Tuesday",
-    "hi": 52,
-    "short": "Partly Sunny",
-    "detailed": "Partly sunny, with a high near 52.",
-    "pop": 5,
+    "hi": 54,
+    "short": "Mostly Sunny",
+    "detailed": "Mostly sunny, with a high near 54.",
+    "pop": 1,
     "lo": 34,
-    "night_short": "Partly Cloudy",
-    "pop_night": 8
+    "night_short": "Mostly Cloudy",
+    "pop_night": 6
    },
    {
     "date": "2026-11-04",
     "name": "Wednesday",
-    "hi": 55,
-    "short": "Mostly Sunny",
-    "detailed": "Mostly sunny, with a high near 55.",
-    "pop": 8,
-    "lo": 34,
-    "night_short": "Partly Cloudy",
-    "pop_night": 7
+    "hi": 56,
+    "short": "Partly Sunny",
+    "detailed": "Partly sunny, with a high near 56.",
+    "pop": 6,
+    "lo": 35,
+    "night_short": "Mostly Cloudy",
+    "pop_night": 13
+   },
+   {
+    "date": "2026-11-05",
+    "name": "Thursday",
+    "hi": 54,
+    "short": "Slight Chance Light Rain",
+    "detailed": "A slight chance of rain after 11am. Mostly sunny, with a high near 54.",
+    "pop": 18,
+    "lo": 35,
+    "night_short": "Slight Chance Light Rain",
+    "pop_night": 21
    }
   ]
  },
@@ -101,7 +104,194 @@
    "lon": -111.541,
    "days": [
     {
-     "date": "2026-10-29",
+     "date": "2026-10-30",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.0,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 47,
+     "lo": 33
+    },
+    {
+     "date": "2026-10-31",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.0,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 43,
+     "lo": 34
+    },
+    {
+     "date": "2026-11-01",
+     "median": 1.7,
+     "min": 0.0,
+     "max": 8.7,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 1.7,
+      "ncep_nbm_conus": 2.2,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 8.7
+     },
+     "hi": 38,
+     "lo": 32
+    },
+    {
+     "date": "2026-11-02",
+     "median": 0.9,
+     "min": 0.2,
+     "max": 2.1,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 2.1,
+      "ncep_nbm_conus": 1.8,
+      "ecmwf_ifs025": 0.2,
+      "icon_seamless": 0.2,
+      "gem_seamless": 0.9
+     },
+     "hi": 34,
+     "lo": 25
+    },
+    {
+     "date": "2026-11-03",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.1,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.1,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 41,
+     "lo": 24
+    },
+    {
+     "date": "2026-11-04",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.4,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.4,
+      "ncep_nbm_conus": 0.2,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 43,
+     "lo": 28
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.5,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.2,
+      "ecmwf_ifs025": 0.5,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 38,
+     "lo": 28
+    }
+   ],
+   "h72": {
+    "median": 2.7,
+    "min": 0.1,
+    "max": 9.0,
+    "n": 5
+   },
+   "d7": {
+    "median": 4.1,
+    "min": 0.2,
+    "max": 9.6,
+    "n": 5
+   },
+   "by_model": {
+    "gfs_seamless": {
+     "h72": 2.7,
+     "d7": 4.1
+    },
+    "ncep_nbm_conus": {
+     "h72": 3.6,
+     "d7": 4.5
+    },
+    "ecmwf_ifs025": {
+     "h72": 0.2,
+     "d7": 0.6
+    },
+    "icon_seamless": {
+     "h72": 0.1,
+     "d7": 0.2
+    },
+    "gem_seamless": {
+     "h72": 9.0,
+     "d7": 9.6
+    }
+   },
+   "avy": {
+    "zone": "Logan",
+    "center": "Utah Avalanche Center",
+    "center_id": "UAC",
+    "danger": "no rating",
+    "level": -1,
+    "color": "#888888",
+    "font_color": "#ffffff",
+    "travel_advice": "Watch for signs of unstable snow such as recent avalanches, cracking in the snow, and audible collapsing. Avoid traveling on or under similar slopes.",
+    "link": "https://utahavalanchecenter.org/forecast/logan",
+    "start": null,
+    "end": null,
+    "expired": false,
+    "warning": false
+   },
+   "nws": {
+    "days": {
+     "2026-10-30": 0,
+     "2026-10-31": 0,
+     "2026-11-01": 0.0,
+     "2026-11-02": 0.2,
+     "2026-11-03": 0,
+     "2026-11-04": 0,
+     "2026-11-05": 0
+    },
+    "h72": 0.1,
+    "d7": 0.2,
+    "days_covered": 2
+   }
+  },
+  {
+   "id": "tony-grove",
+   "name": "Tony Grove",
+   "group": "local",
+   "kind": "backcountry",
+   "drive": "45 min",
+   "elev_ft": 8400,
+   "lat": 41.894,
+   "lon": -111.64,
+   "days": [
+    {
+     "date": "2026-10-30",
      "median": 0.0,
      "min": 0.0,
      "max": 0.0,
@@ -114,23 +304,194 @@
       "gem_seamless": 0.0
      },
      "hi": 45,
+     "lo": 33
+    },
+    {
+     "date": "2026-10-31",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.2,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.2,
+      "ncep_nbm_conus": 0.0,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 41,
+     "lo": 33
+    },
+    {
+     "date": "2026-11-01",
+     "median": 1.6,
+     "min": 0.0,
+     "max": 3.5,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 3.5,
+      "ncep_nbm_conus": 3.4,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 1.6,
+      "gem_seamless": 1.4
+     },
+     "hi": 39,
      "lo": 29
     },
     {
-     "date": "2026-10-30",
+     "date": "2026-11-02",
+     "median": 2.5,
+     "min": 0.0,
+     "max": 3.6,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 3.5,
+      "ncep_nbm_conus": 2.5,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 1.5,
+      "gem_seamless": 3.6
+     },
+     "hi": 31,
+     "lo": 24
+    },
+    {
+     "date": "2026-11-03",
      "median": 0.0,
      "min": 0.0,
      "max": 0.1,
      "n": 5,
      "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.1,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 36,
+     "lo": 22
+    },
+    {
+     "date": "2026-11-04",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.2,
+     "n": 5,
+     "models": {
       "gfs_seamless": 0.1,
+      "ncep_nbm_conus": 0.2,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 40,
+     "lo": 27
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.3,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.3,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 37,
+     "lo": 27
+    }
+   ],
+   "h72": {
+    "median": 3.3,
+    "min": 0.0,
+    "max": 5.5,
+    "n": 5
+   },
+   "d7": {
+    "median": 5.0,
+    "min": 0.0,
+    "max": 7.4,
+    "n": 5
+   },
+   "by_model": {
+    "gfs_seamless": {
+     "h72": 5.5,
+     "d7": 7.4
+    },
+    "ncep_nbm_conus": {
+     "h72": 5.3,
+     "d7": 6.5
+    },
+    "ecmwf_ifs025": {
+     "h72": 0.0,
+     "d7": 0.0
+    },
+    "icon_seamless": {
+     "h72": 2.9,
+     "d7": 3.1
+    },
+    "gem_seamless": {
+     "h72": 3.3,
+     "d7": 5.0
+    }
+   },
+   "avy": {
+    "zone": "Logan",
+    "center": "Utah Avalanche Center",
+    "center_id": "UAC",
+    "danger": "no rating",
+    "level": -1,
+    "color": "#888888",
+    "font_color": "#ffffff",
+    "travel_advice": "Watch for signs of unstable snow such as recent avalanches, cracking in the snow, and audible collapsing. Avoid traveling on or under similar slopes.",
+    "link": "https://utahavalanchecenter.org/forecast/logan",
+    "start": null,
+    "end": null,
+    "expired": false,
+    "warning": false
+   },
+   "nws": {
+    "days": {
+     "2026-10-30": 0,
+     "2026-10-31": 0,
+     "2026-11-01": 0.2,
+     "2026-11-02": 0.2,
+     "2026-11-03": 0,
+     "2026-11-04": 0,
+     "2026-11-05": 0
+    },
+    "h72": 0.3,
+    "d7": 0.4,
+    "days_covered": 2
+   }
+  },
+  {
+   "id": "franklin-basin",
+   "name": "Franklin Basin",
+   "group": "local",
+   "kind": "backcountry",
+   "drive": "50 min",
+   "elev_ft": 8000,
+   "lat": 42.02,
+   "lon": -111.58,
+   "days": [
+    {
+     "date": "2026-10-30",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
       "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 33
+     "lo": 34
     },
     {
      "date": "2026-10-31",
@@ -150,45 +511,45 @@
     },
     {
      "date": "2026-11-01",
-     "median": 1.3,
+     "median": 2.7,
      "min": 0.0,
-     "max": 6.3,
+     "max": 10.3,
      "n": 5,
      "models": {
-      "gfs_seamless": 1.4,
-      "ncep_nbm_conus": 1.3,
+      "gfs_seamless": 2.2,
+      "ncep_nbm_conus": 2.7,
       "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 6.3
+      "icon_seamless": 2.8,
+      "gem_seamless": 10.3
      },
-     "hi": 37,
-     "lo": 32
+     "hi": 39,
+     "lo": 30
     },
     {
      "date": "2026-11-02",
-     "median": 0.9,
-     "min": 0.0,
-     "max": 1.9,
+     "median": 2.1,
+     "min": 0.1,
+     "max": 2.5,
      "n": 5,
      "models": {
-      "gfs_seamless": 1.9,
-      "ncep_nbm_conus": 0.9,
-      "ecmwf_ifs025": 0.2,
-      "icon_seamless": 0.0,
-      "gem_seamless": 1.0
+      "gfs_seamless": 2.1,
+      "ncep_nbm_conus": 2.5,
+      "ecmwf_ifs025": 0.1,
+      "icon_seamless": 1.8,
+      "gem_seamless": 2.1
      },
-     "hi": 34,
-     "lo": 27
+     "hi": 32,
+     "lo": 26
     },
     {
      "date": "2026-11-03",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.0,
+     "max": 0.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
+      "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -200,102 +561,11 @@
      "date": "2026-11-04",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.2,
+     "max": 0.4,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.0,
+      "gfs_seamless": 0.4,
       "ncep_nbm_conus": 0.2,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.1
-     },
-     "hi": 43,
-     "lo": 29
-    }
-   ],
-   "h72": {
-    "median": 1.2,
-    "min": 0.0,
-    "max": 6.2,
-    "n": 5
-   },
-   "d7": {
-    "median": 2.4,
-    "min": 0.0,
-    "max": 7.4,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 1.4,
-     "d7": 3.4
-    },
-    "ncep_nbm_conus": {
-     "h72": 1.2,
-     "d7": 2.4
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 0.2
-    },
-    "icon_seamless": {
-     "h72": 0.0,
-     "d7": 0.0
-    },
-    "gem_seamless": {
-     "h72": 6.2,
-     "d7": 7.4
-    }
-   },
-   "avy": {
-    "zone": "Logan",
-    "center": "Utah Avalanche Center",
-    "center_id": "UAC",
-    "danger": "no rating",
-    "level": -1,
-    "color": "#888888",
-    "font_color": "#ffffff",
-    "travel_advice": "Watch for signs of unstable snow such as recent avalanches, cracking in the snow, and audible collapsing. Avoid traveling on or under similar slopes.",
-    "link": "https://utahavalanchecenter.org/forecast/logan",
-    "start": null,
-    "end": null,
-    "expired": false,
-    "warning": false
-   },
-   "nws": {
-    "days": {
-     "2026-10-29": 0,
-     "2026-10-30": 0,
-     "2026-10-31": 0,
-     "2026-11-01": 0.1,
-     "2026-11-02": 0.3,
-     "2026-11-03": 0,
-     "2026-11-04": 0
-    },
-    "h72": 0.1,
-    "d7": 0.4,
-    "days_covered": 2
-   }
-  },
-  {
-   "id": "tony-grove",
-   "name": "Tony Grove",
-   "group": "local",
-   "kind": "backcountry",
-   "drive": "45 min",
-   "elev_ft": 8400,
-   "lat": 41.894,
-   "lon": -111.64,
-   "days": [
-    {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -304,134 +574,54 @@
      "lo": 29
     },
     {
-     "date": "2026-10-30",
+     "date": "2026-11-05",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.6,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.6,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 45,
-     "lo": 34
-    },
-    {
-     "date": "2026-10-31",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.9,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.9,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 41,
-     "lo": 34
-    },
-    {
-     "date": "2026-11-01",
-     "median": 1.0,
-     "min": 0.0,
-     "max": 2.6,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.6,
-      "ncep_nbm_conus": 1.8,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 1.0
-     },
-     "hi": 39,
-     "lo": 32
-    },
-    {
-     "date": "2026-11-02",
-     "median": 1.1,
-     "min": 0.0,
-     "max": 2.6,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.2,
-      "ncep_nbm_conus": 1.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 2.6
-     },
-     "hi": 34,
-     "lo": 25
-    },
-    {
-     "date": "2026-11-03",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
+     "max": 0.2,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
+      "ncep_nbm_conus": 0.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 38,
-     "lo": 22
-    },
-    {
-     "date": "2026-11-04",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.2,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.2,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.1
-     },
-     "hi": 42,
      "lo": 28
     }
    ],
    "h72": {
-    "median": 0.9,
-    "min": 0.0,
-    "max": 4.0,
+    "median": 4.3,
+    "min": 0.1,
+    "max": 11.1,
     "n": 5
    },
    "d7": {
-    "median": 3.0,
-    "min": 0.0,
-    "max": 6.3,
+    "median": 4.6,
+    "min": 0.1,
+    "max": 12.4,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 4.0,
-     "d7": 6.3
+     "h72": 3.2,
+     "d7": 4.6
     },
     "ncep_nbm_conus": {
-     "h72": 1.6,
-     "d7": 3.0
+     "h72": 4.6,
+     "d7": 5.7
     },
     "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 0.0
+     "h72": 0.1,
+     "d7": 0.1
     },
     "icon_seamless": {
-     "h72": 0.0,
-     "d7": 0.0
+     "h72": 4.3,
+     "d7": 4.6
     },
     "gem_seamless": {
-     "h72": 0.9,
-     "d7": 3.7
+     "h72": 11.1,
+     "d7": 12.4
     }
    },
    "avy": {
@@ -451,203 +641,16 @@
    },
    "nws": {
     "days": {
-     "2026-10-29": 0,
      "2026-10-30": 0,
      "2026-10-31": 0,
-     "2026-11-01": 0.5,
-     "2026-11-02": 0.2,
+     "2026-11-01": 2.0,
+     "2026-11-02": 0.9,
      "2026-11-03": 0,
-     "2026-11-04": 0
+     "2026-11-04": 0,
+     "2026-11-05": 0
     },
-    "h72": 0.5,
-    "d7": 0.7,
-    "days_covered": 2
-   }
-  },
-  {
-   "id": "franklin-basin",
-   "name": "Franklin Basin",
-   "group": "local",
-   "kind": "backcountry",
-   "drive": "50 min",
-   "elev_ft": 8000,
-   "lat": 42.02,
-   "lon": -111.58,
-   "days": [
-    {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 47,
-     "lo": 29
-    },
-    {
-     "date": "2026-10-30",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 47,
-     "lo": 33
-    },
-    {
-     "date": "2026-10-31",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 43,
-     "lo": 34
-    },
-    {
-     "date": "2026-11-01",
-     "median": 1.8,
-     "min": 0.0,
-     "max": 8.3,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.6,
-      "ncep_nbm_conus": 1.8,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 8.3
-     },
-     "hi": 39,
-     "lo": 33
-    },
-    {
-     "date": "2026-11-02",
-     "median": 1.1,
-     "min": 0.2,
-     "max": 1.9,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 1.9,
-      "ncep_nbm_conus": 1.1,
-      "ecmwf_ifs025": 0.2,
-      "icon_seamless": 0.7,
-      "gem_seamless": 1.8
-     },
-     "hi": 35,
-     "lo": 28
-    },
-    {
-     "date": "2026-11-03",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 41,
-     "lo": 24
-    },
-    {
-     "date": "2026-11-04",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.1
-     },
-     "hi": 44,
-     "lo": 30
-    }
-   ],
-   "h72": {
-    "median": 1.7,
-    "min": 0.0,
-    "max": 8.3,
-    "n": 5
-   },
-   "d7": {
-    "median": 3.0,
-    "min": 0.2,
-    "max": 10.1,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 2.5,
-     "d7": 4.5
-    },
-    "ncep_nbm_conus": {
-     "h72": 1.7,
-     "d7": 3.0
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 0.2
-    },
-    "icon_seamless": {
-     "h72": 0.0,
-     "d7": 0.7
-    },
-    "gem_seamless": {
-     "h72": 8.3,
-     "d7": 10.1
-    }
-   },
-   "avy": {
-    "zone": "Logan",
-    "center": "Utah Avalanche Center",
-    "center_id": "UAC",
-    "danger": "no rating",
-    "level": -1,
-    "color": "#888888",
-    "font_color": "#ffffff",
-    "travel_advice": "Watch for signs of unstable snow such as recent avalanches, cracking in the snow, and audible collapsing. Avoid traveling on or under similar slopes.",
-    "link": "https://utahavalanchecenter.org/forecast/logan",
-    "start": null,
-    "end": null,
-    "expired": false,
-    "warning": false
-   },
-   "nws": {
-    "days": {
-     "2026-10-29": 0,
-     "2026-10-30": 0,
-     "2026-10-31": 0,
-     "2026-11-01": 1.4,
-     "2026-11-02": 1.0,
-     "2026-11-03": 0,
-     "2026-11-04": 0
-    },
-    "h72": 1.4,
-    "d7": 2.4,
+    "h72": 2.8,
+    "d7": 2.9,
     "days_covered": 2
    }
   },
@@ -661,22 +664,6 @@
    "lat": 41.928,
    "lon": -111.758,
    "days": [
-    {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 48,
-     "lo": 37
-    },
     {
      "date": "2026-10-30",
      "median": 0.0,
@@ -713,33 +700,33 @@
      "date": "2026-11-01",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.6,
+     "max": 1.7,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.2,
-      "ncep_nbm_conus": 0.6,
+      "gfs_seamless": 1.7,
+      "ncep_nbm_conus": 0.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 45,
-     "lo": 38
+     "lo": 34
     },
     {
      "date": "2026-11-02",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.3,
+     "max": 1.5,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.3,
+      "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.1
+      "gem_seamless": 1.5
      },
      "hi": 39,
-     "lo": 29
+     "lo": 28
     },
     {
      "date": "2026-11-03",
@@ -754,8 +741,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
-     "lo": 27
+     "hi": 43,
+     "lo": 26
     },
     {
      "date": "2026-11-04",
@@ -771,29 +758,45 @@
       "gem_seamless": 0.0
      },
      "hi": 45,
-     "lo": 33
+     "lo": 34
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.0,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 43,
+     "lo": 31
     }
    ],
    "h72": {
-    "median": 0.0,
+    "median": 0.3,
     "min": 0.0,
-    "max": 0.6,
+    "max": 1.7,
     "n": 5
    },
    "d7": {
-    "median": 0.1,
+    "median": 0.3,
     "min": 0.0,
-    "max": 0.8,
+    "max": 1.7,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 0.2,
-     "d7": 0.2
+     "h72": 1.7,
+     "d7": 1.7
     },
     "ncep_nbm_conus": {
-     "h72": 0.6,
-     "d7": 0.8
+     "h72": 0.3,
+     "d7": 0.3
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -804,8 +807,8 @@
      "d7": 0.0
     },
     "gem_seamless": {
-     "h72": 0.0,
-     "d7": 0.1
+     "h72": 0.3,
+     "d7": 1.5
     }
    },
    "avy": {
@@ -835,22 +838,6 @@
    "lon": -111.915,
    "days": [
     {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 49,
-     "lo": 33
-    },
-    {
      "date": "2026-10-30",
      "median": 0.0,
      "min": 0.0,
@@ -863,7 +850,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
+     "hi": 49,
      "lo": 38
     },
     {
@@ -886,30 +873,30 @@
      "date": "2026-11-01",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.8,
+     "max": 0.4,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.3,
-      "ncep_nbm_conus": 0.8,
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.4,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.0
+      "gem_seamless": 0.4
      },
      "hi": 42,
-     "lo": 34
+     "lo": 32
     },
     {
      "date": "2026-11-02",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.4,
+     "max": 4.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
+      "ncep_nbm_conus": 0.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.4
+      "gem_seamless": 4.0
      },
      "hi": 38,
      "lo": 28
@@ -927,46 +914,62 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 41,
+     "hi": 42,
      "lo": 26
     },
     {
      "date": "2026-11-04",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
+      "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 46,
      "lo": 29
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.0,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 43,
+     "lo": 28
     }
    ],
    "h72": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.7,
+    "max": 3.4,
     "n": 5
    },
    "d7": {
-    "median": 0.3,
+    "median": 0.0,
     "min": 0.0,
-    "max": 1.0,
+    "max": 4.4,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 0.3,
-     "d7": 0.3
+     "h72": 0.0,
+     "d7": 0.0
     },
     "ncep_nbm_conus": {
-     "h72": 0.7,
-     "d7": 1.0
+     "h72": 0.5,
+     "d7": 0.5
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -977,8 +980,8 @@
      "d7": 0.0
     },
     "gem_seamless": {
-     "h72": 0.0,
-     "d7": 0.4
+     "h72": 3.4,
+     "d7": 4.4
     }
    },
    "avy": {
@@ -1008,99 +1011,83 @@
    "lon": -111.78,
    "days": [
     {
-     "date": "2026-10-29",
+     "date": "2026-10-30",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.0,
+     "max": 0.2,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.0,
+      "gfs_seamless": 0.2,
       "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
-     "lo": 31
-    },
-    {
-     "date": "2026-10-30",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 1.4,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 1.4,
-      "ncep_nbm_conus": 0.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 46,
+     "hi": 47,
      "lo": 34
     },
     {
      "date": "2026-10-31",
      "median": 0.0,
      "min": 0.0,
-     "max": 3.0,
+     "max": 1.0,
      "n": 5,
      "models": {
-      "gfs_seamless": 3.0,
-      "ncep_nbm_conus": 0.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 44,
-     "lo": 35
-    },
-    {
-     "date": "2026-11-01",
-     "median": 0.3,
-     "min": 0.0,
-     "max": 2.8,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.8,
-      "ncep_nbm_conus": 2.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.3
-     },
-     "hi": 38,
-     "lo": 32
-    },
-    {
-     "date": "2026-11-02",
-     "median": 0.6,
-     "min": 0.0,
-     "max": 1.5,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.4,
-      "ncep_nbm_conus": 1.1,
-      "ecmwf_ifs025": 0.6,
-      "icon_seamless": 0.0,
-      "gem_seamless": 1.5
-     },
-     "hi": 32,
-     "lo": 25
-    },
-    {
-     "date": "2026-11-03",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
+      "gfs_seamless": 1.0,
       "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 38,
+     "hi": 43,
+     "lo": 36
+    },
+    {
+     "date": "2026-11-01",
+     "median": 0.9,
+     "min": 0.0,
+     "max": 3.8,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.9,
+      "ncep_nbm_conus": 3.8,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.8,
+      "gem_seamless": 1.1
+     },
+     "hi": 39,
+     "lo": 28
+    },
+    {
+     "date": "2026-11-02",
+     "median": 1.3,
+     "min": 0.7,
+     "max": 3.6,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 1.3,
+      "ncep_nbm_conus": 1.2,
+      "ecmwf_ifs025": 0.7,
+      "icon_seamless": 1.8,
+      "gem_seamless": 3.6
+     },
+     "hi": 32,
+     "lo": 26
+    },
+    {
+     "date": "2026-11-03",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.1,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.1,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 40,
      "lo": 22
     },
     {
@@ -1117,41 +1104,57 @@
       "gem_seamless": 0.0
      },
      "hi": 43,
-     "lo": 28
+     "lo": 27
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.3,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.3,
+      "ecmwf_ifs025": 0.1,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 38,
+     "lo": 25
     }
    ],
    "h72": {
-    "median": 0.3,
-    "min": 0.0,
-    "max": 7.0,
+    "median": 3.0,
+    "min": 0.5,
+    "max": 4.7,
     "n": 5
    },
    "d7": {
-    "median": 1.8,
-    "min": 0.0,
-    "max": 7.5,
+    "median": 3.3,
+    "min": 0.8,
+    "max": 5.6,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 7.0,
-     "d7": 7.5
+     "h72": 3.0,
+     "d7": 3.3
     },
     "ncep_nbm_conus": {
-     "h72": 2.0,
-     "d7": 3.5
+     "h72": 4.7,
+     "d7": 5.6
     },
     "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 0.6
+     "h72": 0.5,
+     "d7": 0.8
     },
     "icon_seamless": {
-     "h72": 0.0,
-     "d7": 0.0
+     "h72": 2.4,
+     "d7": 2.6
     },
     "gem_seamless": {
-     "h72": 0.3,
-     "d7": 1.8
+     "h72": 3.5,
+     "d7": 4.6
     }
    },
    "avy": {
@@ -1181,22 +1184,6 @@
    "lon": -111.857,
    "days": [
     {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 48,
-     "lo": 31
-    },
-    {
      "date": "2026-10-30",
      "median": 0.0,
      "min": 0.0,
@@ -1209,59 +1196,11 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 46,
      "lo": 35
     },
     {
      "date": "2026-10-31",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.8,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.8,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 46,
-     "lo": 36
-    },
-    {
-     "date": "2026-11-01",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 2.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 2.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 40,
-     "lo": 34
-    },
-    {
-     "date": "2026-11-02",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.8,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.8,
-      "ecmwf_ifs025": 0.2,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 35,
-     "lo": 27
-    },
-    {
-     "date": "2026-11-03",
      "median": 0.0,
      "min": 0.0,
      "max": 0.0,
@@ -1273,8 +1212,56 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 40,
-     "lo": 24
+     "hi": 45,
+     "lo": 36
+    },
+    {
+     "date": "2026-11-01",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 2.4,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 2.4,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 39,
+     "lo": 30
+    },
+    {
+     "date": "2026-11-02",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 1.1,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 1.1,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.2
+     },
+     "hi": 35,
+     "lo": 25
+    },
+    {
+     "date": "2026-11-03",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.1,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.1,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 38,
+     "lo": 22
     },
     {
      "date": "2026-11-04",
@@ -1289,30 +1276,46 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
-     "lo": 27
+     "hi": 44,
+     "lo": 26
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.3,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.3,
+      "ecmwf_ifs025": 0.2,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 40,
+     "lo": 24
     }
    ],
    "h72": {
     "median": 0.0,
     "min": 0.0,
-    "max": 1.9,
+    "max": 3.2,
     "n": 5
    },
    "d7": {
     "median": 0.2,
     "min": 0.0,
-    "max": 3.0,
+    "max": 4.0,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 0.9,
-     "d7": 0.9
+     "h72": 0.0,
+     "d7": 0.0
     },
     "ncep_nbm_conus": {
-     "h72": 1.9,
-     "d7": 3.0
+     "h72": 3.2,
+     "d7": 4.0
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -1324,7 +1327,7 @@
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 0.0
+     "d7": 0.2
     }
    },
    "avy": {
@@ -1354,22 +1357,6 @@
    "lon": -112.115,
    "days": [
     {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 46,
-     "lo": 27
-    },
-    {
      "date": "2026-10-30",
      "median": 0.0,
      "min": 0.0,
@@ -1399,93 +1386,109 @@
       "gem_seamless": 0.0
      },
      "hi": 43,
-     "lo": 36
+     "lo": 34
     },
     {
      "date": "2026-11-01",
-     "median": 0.1,
+     "median": 0.3,
      "min": 0.0,
-     "max": 0.9,
+     "max": 0.6,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.1,
-      "ncep_nbm_conus": 0.9,
+      "gfs_seamless": 0.3,
+      "ncep_nbm_conus": 0.6,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.1
+      "gem_seamless": 0.5
      },
-     "hi": 39,
-     "lo": 33
+     "hi": 38,
+     "lo": 30
     },
     {
      "date": "2026-11-02",
-     "median": 0.9,
+     "median": 1.1,
      "min": 0.0,
-     "max": 2.1,
+     "max": 1.6,
      "n": 5,
      "models": {
-      "gfs_seamless": 1.2,
-      "ncep_nbm_conus": 0.9,
+      "gfs_seamless": 1.4,
+      "ncep_nbm_conus": 1.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 2.1
+      "gem_seamless": 1.6
      },
      "hi": 34,
-     "lo": 25
+     "lo": 27
     },
     {
      "date": "2026-11-03",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.0,
+     "max": 0.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
+      "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 39,
-     "lo": 22
+     "lo": 23
     },
     {
      "date": "2026-11-04",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.0,
+     "max": 0.2,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
+      "ncep_nbm_conus": 0.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 40,
+     "hi": 41,
      "lo": 24
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.3,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.3,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 41,
+     "lo": 26
     }
    ],
    "h72": {
-    "median": 0.0,
+    "median": 1.4,
     "min": 0.0,
-    "max": 0.9,
+    "max": 1.7,
     "n": 5
    },
    "d7": {
-    "median": 1.3,
+    "median": 1.7,
     "min": 0.0,
-    "max": 2.1,
+    "max": 2.2,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 0.1,
-     "d7": 1.3
+     "h72": 1.7,
+     "d7": 1.7
     },
     "ncep_nbm_conus": {
-     "h72": 0.9,
-     "d7": 1.8
+     "h72": 1.4,
+     "d7": 2.2
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -1496,7 +1499,7 @@
      "d7": 0.0
     },
     "gem_seamless": {
-     "h72": 0.0,
+     "h72": 1.5,
      "d7": 2.1
     }
    },
@@ -1513,150 +1516,150 @@
    "lon": -111.638,
    "days": [
     {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 45,
-     "lo": 31
-    },
-    {
      "date": "2026-10-30",
      "median": 0.5,
      "min": 0.0,
-     "max": 6.3,
+     "max": 6.7,
      "n": 5,
      "models": {
-      "gfs_seamless": 6.3,
-      "ncep_nbm_conus": 0.5,
+      "gfs_seamless": 6.7,
+      "ncep_nbm_conus": 0.8,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.5
      },
-     "hi": 44,
+     "hi": 43,
      "lo": 33
     },
     {
      "date": "2026-10-31",
      "median": 0.5,
      "min": 0.0,
-     "max": 1.3,
+     "max": 0.8,
      "n": 5,
      "models": {
-      "gfs_seamless": 1.3,
+      "gfs_seamless": 0.5,
       "ncep_nbm_conus": 0.5,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.6
+      "gem_seamless": 0.8
      },
-     "hi": 41,
-     "lo": 32
+     "hi": 40,
+     "lo": 33
     },
     {
      "date": "2026-11-01",
-     "median": 6.3,
-     "min": 0.1,
-     "max": 30.9,
+     "median": 7.3,
+     "min": 1.5,
+     "max": 33.1,
      "n": 5,
      "models": {
-      "gfs_seamless": 6.3,
-      "ncep_nbm_conus": 12.8,
-      "ecmwf_ifs025": 0.1,
-      "icon_seamless": 0.6,
-      "gem_seamless": 30.9
+      "gfs_seamless": 7.3,
+      "ncep_nbm_conus": 14.8,
+      "ecmwf_ifs025": 1.5,
+      "icon_seamless": 5.8,
+      "gem_seamless": 33.1
      },
      "hi": 35,
-     "lo": 28
+     "lo": 26
     },
     {
      "date": "2026-11-02",
      "median": 3.9,
-     "min": 1.5,
-     "max": 5.8,
+     "min": 2.3,
+     "max": 7.3,
      "n": 5,
      "models": {
-      "gfs_seamless": 2.9,
-      "ncep_nbm_conus": 5.8,
-      "ecmwf_ifs025": 3.9,
-      "icon_seamless": 1.5,
-      "gem_seamless": 4.0
+      "gfs_seamless": 3.9,
+      "ncep_nbm_conus": 7.3,
+      "ecmwf_ifs025": 2.3,
+      "icon_seamless": 2.3,
+      "gem_seamless": 5.6
      },
-     "hi": 29,
-     "lo": 20
+     "hi": 28,
+     "lo": 21
     },
     {
      "date": "2026-11-03",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.2,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
+      "ncep_nbm_conus": 0.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 37,
-     "lo": 18
+     "hi": 36,
+     "lo": 20
     },
     {
      "date": "2026-11-04",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.1,
+     "max": 1.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 1.1,
+      "ncep_nbm_conus": 1.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.6
+      "gem_seamless": 0.0
      },
      "hi": 38,
-     "lo": 30
+     "lo": 26
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.7,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.7,
+      "ecmwf_ifs025": 0.3,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 36,
+     "lo": 27
     }
    ],
    "h72": {
-    "median": 12.8,
-    "min": 0.3,
-    "max": 31.3,
+    "median": 16.8,
+    "min": 3.1,
+    "max": 36.9,
     "n": 5
    },
    "d7": {
-    "median": 16.7,
-    "min": 2.1,
-    "max": 36.5,
+    "median": 18.3,
+    "min": 4.1,
+    "max": 40.0,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 13.6,
-     "d7": 16.7
+     "h72": 16.8,
+     "d7": 18.3
     },
     "ncep_nbm_conus": {
-     "h72": 12.8,
-     "d7": 20.8
+     "h72": 20.4,
+     "d7": 25.4
     },
     "ecmwf_ifs025": {
-     "h72": 0.3,
-     "d7": 4.0
+     "h72": 3.1,
+     "d7": 4.1
     },
     "icon_seamless": {
-     "h72": 0.6,
-     "d7": 2.1
+     "h72": 7.5,
+     "d7": 8.1
     },
     "gem_seamless": {
-     "h72": 31.3,
-     "d7": 36.5
+     "h72": 36.9,
+     "d7": 40.0
     }
    },
    "avy": {
@@ -1686,150 +1689,150 @@
    "lon": -111.657,
    "days": [
     {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 45,
-     "lo": 31
-    },
-    {
      "date": "2026-10-30",
      "median": 0.5,
      "min": 0.0,
-     "max": 4.6,
+     "max": 3.3,
      "n": 5,
      "models": {
-      "gfs_seamless": 4.6,
-      "ncep_nbm_conus": 0.8,
+      "gfs_seamless": 3.3,
+      "ncep_nbm_conus": 1.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.5
      },
-     "hi": 44,
+     "hi": 43,
      "lo": 33
     },
     {
      "date": "2026-10-31",
      "median": 0.6,
      "min": 0.0,
-     "max": 1.3,
+     "max": 0.9,
      "n": 5,
      "models": {
-      "gfs_seamless": 1.3,
-      "ncep_nbm_conus": 0.7,
+      "gfs_seamless": 0.6,
+      "ncep_nbm_conus": 0.9,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.6
+      "gem_seamless": 0.8
      },
-     "hi": 41,
-     "lo": 32
+     "hi": 40,
+     "lo": 33
     },
     {
      "date": "2026-11-01",
-     "median": 6.3,
-     "min": 0.1,
-     "max": 30.9,
+     "median": 7.3,
+     "min": 1.5,
+     "max": 33.1,
      "n": 5,
      "models": {
-      "gfs_seamless": 6.3,
-      "ncep_nbm_conus": 12.6,
-      "ecmwf_ifs025": 0.1,
-      "icon_seamless": 0.6,
-      "gem_seamless": 30.9
+      "gfs_seamless": 7.3,
+      "ncep_nbm_conus": 14.6,
+      "ecmwf_ifs025": 1.5,
+      "icon_seamless": 5.8,
+      "gem_seamless": 33.1
      },
      "hi": 35,
-     "lo": 28
+     "lo": 26
     },
     {
      "date": "2026-11-02",
      "median": 3.9,
-     "min": 1.5,
-     "max": 5.6,
+     "min": 2.3,
+     "max": 6.8,
      "n": 5,
      "models": {
-      "gfs_seamless": 2.9,
-      "ncep_nbm_conus": 5.6,
-      "ecmwf_ifs025": 3.9,
-      "icon_seamless": 1.5,
-      "gem_seamless": 4.0
+      "gfs_seamless": 3.9,
+      "ncep_nbm_conus": 6.8,
+      "ecmwf_ifs025": 2.3,
+      "icon_seamless": 2.3,
+      "gem_seamless": 5.6
      },
-     "hi": 29,
-     "lo": 20
+     "hi": 28,
+     "lo": 21
     },
     {
      "date": "2026-11-03",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.2,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
+      "ncep_nbm_conus": 0.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 37,
-     "lo": 18
+     "hi": 36,
+     "lo": 20
     },
     {
      "date": "2026-11-04",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.1,
+     "max": 1.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 1.1,
+      "ncep_nbm_conus": 1.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.6
+      "gem_seamless": 0.0
      },
      "hi": 38,
-     "lo": 30
+     "lo": 26
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.6,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.6,
+      "ecmwf_ifs025": 0.3,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 36,
+     "lo": 27
     }
    ],
    "h72": {
-    "median": 11.9,
-    "min": 0.3,
-    "max": 31.3,
+    "median": 13.5,
+    "min": 3.1,
+    "max": 36.9,
     "n": 5
    },
    "d7": {
     "median": 15.0,
-    "min": 2.1,
-    "max": 36.5,
+    "min": 4.1,
+    "max": 40.0,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 11.9,
+     "h72": 13.5,
      "d7": 15.0
     },
     "ncep_nbm_conus": {
-     "h72": 13.2,
-     "d7": 21.0
+     "h72": 20.7,
+     "d7": 25.4
     },
     "ecmwf_ifs025": {
-     "h72": 0.3,
-     "d7": 4.0
+     "h72": 3.1,
+     "d7": 4.1
     },
     "icon_seamless": {
-     "h72": 0.6,
-     "d7": 2.1
+     "h72": 7.5,
+     "d7": 8.1
     },
     "gem_seamless": {
-     "h72": 31.3,
-     "d7": 36.5
+     "h72": 36.9,
+     "d7": 40.0
     }
    },
    "avy": {
@@ -1859,150 +1862,150 @@
    "lon": -111.583,
    "days": [
     {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 47,
-     "lo": 31
-    },
-    {
      "date": "2026-10-30",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.5,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.3,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.5
-     },
-     "hi": 45,
-     "lo": 34
-    },
-    {
-     "date": "2026-10-31",
      "median": 0.0,
      "min": 0.0,
      "max": 0.6,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.2,
+      "ncep_nbm_conus": 0.6,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.6
+      "gem_seamless": 0.5
      },
-     "hi": 43,
-     "lo": 34
+     "hi": 44,
+     "lo": 33
     },
     {
-     "date": "2026-11-01",
-     "median": 6.9,
-     "min": 0.0,
-     "max": 30.9,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 7.0,
-      "ncep_nbm_conus": 6.9,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.6,
-      "gem_seamless": 30.9
-     },
-     "hi": 36,
-     "lo": 30
-    },
-    {
-     "date": "2026-11-02",
-     "median": 1.8,
-     "min": 0.4,
-     "max": 4.9,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 1.8,
-      "ncep_nbm_conus": 4.9,
-      "ecmwf_ifs025": 0.4,
-      "icon_seamless": 1.3,
-      "gem_seamless": 4.0
-     },
-     "hi": 33,
-     "lo": 24
-    },
-    {
-     "date": "2026-11-03",
+     "date": "2026-10-31",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.8,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
       "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
+      "gem_seamless": 0.8
+     },
+     "hi": 42,
+     "lo": 35
+    },
+    {
+     "date": "2026-11-01",
+     "median": 7.6,
+     "min": 0.1,
+     "max": 33.1,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 7.6,
+      "ncep_nbm_conus": 7.8,
+      "ecmwf_ifs025": 0.1,
+      "icon_seamless": 5.8,
+      "gem_seamless": 33.1
+     },
+     "hi": 37,
+     "lo": 29
+    },
+    {
+     "date": "2026-11-02",
+     "median": 2.4,
+     "min": 0.1,
+     "max": 5.9,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 2.4,
+      "ncep_nbm_conus": 5.9,
+      "ecmwf_ifs025": 0.1,
+      "icon_seamless": 2.3,
+      "gem_seamless": 5.6
+     },
+     "hi": 30,
+     "lo": 24
+    },
+    {
+     "date": "2026-11-03",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.2,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.2,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 38,
-     "lo": 21
+     "lo": 22
     },
     {
      "date": "2026-11-04",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.0,
+     "max": 0.9,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 1.0,
+      "ncep_nbm_conus": 0.9,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.6
+      "gem_seamless": 0.0
      },
      "hi": 38,
      "lo": 28
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.5,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.5,
+      "ecmwf_ifs025": 0.4,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 38,
+     "lo": 26
     }
    ],
    "h72": {
-    "median": 6.7,
-    "min": 0.0,
-    "max": 31.3,
+    "median": 9.0,
+    "min": 0.2,
+    "max": 36.9,
     "n": 5
    },
    "d7": {
-    "median": 8.8,
-    "min": 0.4,
-    "max": 36.5,
+    "median": 10.0,
+    "min": 0.6,
+    "max": 40.0,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 6.9,
-     "d7": 8.8
+     "h72": 9.0,
+     "d7": 10.0
     },
     "ncep_nbm_conus": {
-     "h72": 6.7,
-     "d7": 13.4
+     "h72": 11.9,
+     "d7": 16.0
     },
     "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 0.4
+     "h72": 0.2,
+     "d7": 0.6
     },
     "icon_seamless": {
-     "h72": 0.6,
-     "d7": 1.9
+     "h72": 7.5,
+     "d7": 8.1
     },
     "gem_seamless": {
-     "h72": 31.3,
-     "d7": 36.5
+     "h72": 36.9,
+     "d7": 40.0
     }
    },
    "avy": {
@@ -2032,150 +2035,150 @@
    "lon": -111.592,
    "days": [
     {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 47,
-     "lo": 30
-    },
-    {
      "date": "2026-10-30",
      "median": 0.1,
      "min": 0.0,
-     "max": 1.5,
+     "max": 0.5,
      "n": 5,
      "models": {
-      "gfs_seamless": 1.5,
+      "gfs_seamless": 0.4,
       "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.5
      },
      "hi": 45,
-     "lo": 34
+     "lo": 33
     },
     {
      "date": "2026-10-31",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.6,
+     "max": 0.8,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.3,
+      "gfs_seamless": 0.0,
       "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.6
+      "gem_seamless": 0.8
      },
-     "hi": 43,
-     "lo": 34
+     "hi": 42,
+     "lo": 35
     },
     {
      "date": "2026-11-01",
-     "median": 7.0,
-     "min": 0.0,
-     "max": 30.9,
+     "median": 7.6,
+     "min": 0.1,
+     "max": 33.1,
      "n": 5,
      "models": {
-      "gfs_seamless": 7.0,
-      "ncep_nbm_conus": 7.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.6,
-      "gem_seamless": 30.9
+      "gfs_seamless": 7.6,
+      "ncep_nbm_conus": 8.0,
+      "ecmwf_ifs025": 0.1,
+      "icon_seamless": 5.8,
+      "gem_seamless": 33.1
      },
-     "hi": 36,
-     "lo": 30
+     "hi": 37,
+     "lo": 29
     },
     {
      "date": "2026-11-02",
-     "median": 1.8,
-     "min": 0.4,
-     "max": 4.8,
+     "median": 2.4,
+     "min": 0.1,
+     "max": 6.2,
      "n": 5,
      "models": {
-      "gfs_seamless": 1.8,
-      "ncep_nbm_conus": 4.8,
-      "ecmwf_ifs025": 0.4,
-      "icon_seamless": 1.3,
-      "gem_seamless": 4.0
+      "gfs_seamless": 2.4,
+      "ncep_nbm_conus": 6.2,
+      "ecmwf_ifs025": 0.1,
+      "icon_seamless": 2.3,
+      "gem_seamless": 5.6
      },
-     "hi": 34,
+     "hi": 30,
      "lo": 24
     },
     {
      "date": "2026-11-03",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.2,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
+      "ncep_nbm_conus": 0.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 39,
-     "lo": 21
+     "hi": 38,
+     "lo": 22
     },
     {
      "date": "2026-11-04",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.0,
+     "max": 0.9,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 1.0,
+      "ncep_nbm_conus": 0.9,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.6
+      "gem_seamless": 0.0
      },
-     "hi": 40,
+     "hi": 39,
      "lo": 28
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.5,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.5,
+      "ecmwf_ifs025": 0.4,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 39,
+     "lo": 26
     }
    ],
    "h72": {
-    "median": 6.5,
-    "min": 0.0,
-    "max": 31.3,
+    "median": 9.4,
+    "min": 0.2,
+    "max": 36.9,
     "n": 5
    },
    "d7": {
-    "median": 10.5,
-    "min": 0.4,
-    "max": 36.5,
+    "median": 10.4,
+    "min": 0.6,
+    "max": 40.0,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 8.6,
-     "d7": 10.5
+     "h72": 9.4,
+     "d7": 10.4
     },
     "ncep_nbm_conus": {
-     "h72": 6.5,
-     "d7": 13.1
+     "h72": 11.6,
+     "d7": 15.8
     },
     "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 0.4
+     "h72": 0.2,
+     "d7": 0.6
     },
     "icon_seamless": {
-     "h72": 0.6,
-     "d7": 1.9
+     "h72": 7.5,
+     "d7": 8.1
     },
     "gem_seamless": {
-     "h72": 31.3,
-     "d7": 36.5
+     "h72": 36.9,
+     "d7": 40.0
     }
    },
    "avy": {
@@ -2205,36 +2208,20 @@
    "lon": -111.508,
    "days": [
     {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 50,
-     "lo": 29
-    },
-    {
      "date": "2026-10-30",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.6,
+     "max": 0.4,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.6,
+      "gfs_seamless": 0.4,
       "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 35
+     "lo": 34
     },
     {
      "date": "2026-10-31",
@@ -2249,40 +2236,40 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
-     "lo": 34
+     "hi": 45,
+     "lo": 35
     },
     {
      "date": "2026-11-01",
-     "median": 0.7,
-     "min": 0.0,
-     "max": 4.6,
+     "median": 1.4,
+     "min": 0.4,
+     "max": 5.0,
      "n": 5,
      "models": {
-      "gfs_seamless": 4.6,
-      "ncep_nbm_conus": 2.8,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
+      "gfs_seamless": 5.0,
+      "ncep_nbm_conus": 3.4,
+      "ecmwf_ifs025": 0.4,
+      "icon_seamless": 1.4,
       "gem_seamless": 0.7
      },
      "hi": 38,
-     "lo": 32
+     "lo": 30
     },
     {
      "date": "2026-11-02",
-     "median": 0.7,
-     "min": 0.0,
-     "max": 3.7,
+     "median": 1.8,
+     "min": 0.7,
+     "max": 4.6,
      "n": 5,
      "models": {
-      "gfs_seamless": 2.8,
-      "ncep_nbm_conus": 3.7,
+      "gfs_seamless": 4.2,
+      "ncep_nbm_conus": 4.6,
       "ecmwf_ifs025": 0.7,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.7
+      "icon_seamless": 1.8,
+      "gem_seamless": 0.9
      },
-     "hi": 36,
-     "lo": 24
+     "hi": 33,
+     "lo": 22
     },
     {
      "date": "2026-11-03",
@@ -2297,8 +2284,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 41,
-     "lo": 22
+     "hi": 40,
+     "lo": 19
     },
     {
      "date": "2026-11-04",
@@ -2313,42 +2300,58 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 41,
+     "hi": 43,
      "lo": 27
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 1.1,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.3,
+      "ecmwf_ifs025": 1.1,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 40,
+     "lo": 26
     }
    ],
    "h72": {
-    "median": 0.5,
-    "min": 0.0,
-    "max": 5.0,
+    "median": 2.8,
+    "min": 0.5,
+    "max": 7.7,
     "n": 5
    },
    "d7": {
-    "median": 1.3,
-    "min": 0.0,
-    "max": 8.0,
+    "median": 3.2,
+    "min": 1.5,
+    "max": 9.5,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 5.0,
-     "d7": 8.0
+     "h72": 7.7,
+     "d7": 9.5
     },
     "ncep_nbm_conus": {
-     "h72": 2.4,
-     "d7": 7.2
+     "h72": 5.9,
+     "d7": 9.1
     },
     "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 0.7
+     "h72": 0.5,
+     "d7": 2.2
     },
     "icon_seamless": {
-     "h72": 0.0,
-     "d7": 0.0
+     "h72": 2.8,
+     "d7": 3.2
     },
     "gem_seamless": {
-     "h72": 0.5,
-     "d7": 1.3
+     "h72": 1.1,
+     "d7": 1.5
     }
    },
    "avy": null
@@ -2364,84 +2367,68 @@
    "lon": -111.683,
    "days": [
     {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 45,
-     "lo": 31
-    },
-    {
      "date": "2026-10-30",
      "median": 0.5,
      "min": 0.0,
-     "max": 5.7,
+     "max": 2.7,
      "n": 5,
      "models": {
-      "gfs_seamless": 5.7,
-      "ncep_nbm_conus": 1.0,
+      "gfs_seamless": 2.7,
+      "ncep_nbm_conus": 1.5,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.5
      },
-     "hi": 44,
+     "hi": 43,
      "lo": 33
     },
     {
      "date": "2026-10-31",
-     "median": 0.6,
+     "median": 0.8,
      "min": 0.0,
-     "max": 1.6,
+     "max": 1.3,
      "n": 5,
      "models": {
-      "gfs_seamless": 1.6,
-      "ncep_nbm_conus": 1.2,
+      "gfs_seamless": 0.8,
+      "ncep_nbm_conus": 1.3,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.6
+      "gem_seamless": 0.8
      },
-     "hi": 42,
-     "lo": 32
+     "hi": 40,
+     "lo": 33
     },
     {
      "date": "2026-11-01",
-     "median": 6.3,
-     "min": 0.1,
-     "max": 30.9,
+     "median": 7.3,
+     "min": 1.5,
+     "max": 33.1,
      "n": 5,
      "models": {
-      "gfs_seamless": 6.3,
-      "ncep_nbm_conus": 12.6,
-      "ecmwf_ifs025": 0.1,
-      "icon_seamless": 0.6,
-      "gem_seamless": 30.9
+      "gfs_seamless": 7.3,
+      "ncep_nbm_conus": 14.3,
+      "ecmwf_ifs025": 1.5,
+      "icon_seamless": 5.8,
+      "gem_seamless": 33.1
      },
      "hi": 35,
-     "lo": 28
+     "lo": 26
     },
     {
      "date": "2026-11-02",
      "median": 3.9,
-     "min": 1.5,
-     "max": 5.5,
+     "min": 2.3,
+     "max": 6.6,
      "n": 5,
      "models": {
-      "gfs_seamless": 2.9,
-      "ncep_nbm_conus": 5.5,
-      "ecmwf_ifs025": 3.9,
-      "icon_seamless": 1.5,
-      "gem_seamless": 4.0
+      "gfs_seamless": 3.9,
+      "ncep_nbm_conus": 6.6,
+      "ecmwf_ifs025": 2.3,
+      "icon_seamless": 2.3,
+      "gem_seamless": 5.6
      },
-     "hi": 29,
-     "lo": 20
+     "hi": 28,
+     "lo": 21
     },
     {
      "date": "2026-11-03",
@@ -2456,58 +2443,74 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 37,
-     "lo": 18
+     "hi": 36,
+     "lo": 20
     },
     {
      "date": "2026-11-04",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.1,
+     "max": 1.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 1.1,
+      "ncep_nbm_conus": 1.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.6
+      "gem_seamless": 0.0
      },
-     "hi": 41,
-     "lo": 30
+     "hi": 38,
+     "lo": 26
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.5,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.5,
+      "ecmwf_ifs025": 0.3,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 36,
+     "lo": 27
     }
    ],
    "h72": {
-    "median": 13.4,
-    "min": 0.3,
-    "max": 31.3,
+    "median": 13.2,
+    "min": 3.1,
+    "max": 36.9,
     "n": 5
    },
    "d7": {
-    "median": 16.5,
-    "min": 2.1,
-    "max": 36.5,
+    "median": 14.7,
+    "min": 4.1,
+    "max": 40.0,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 13.4,
-     "d7": 16.5
+     "h72": 13.2,
+     "d7": 14.7
     },
     "ncep_nbm_conus": {
-     "h72": 13.8,
-     "d7": 21.5
+     "h72": 20.9,
+     "d7": 25.2
     },
     "ecmwf_ifs025": {
-     "h72": 0.3,
-     "d7": 4.0
+     "h72": 3.1,
+     "d7": 4.1
     },
     "icon_seamless": {
-     "h72": 0.6,
-     "d7": 2.1
+     "h72": 7.5,
+     "d7": 8.1
     },
     "gem_seamless": {
-     "h72": 31.3,
-     "d7": 36.5
+     "h72": 36.9,
+     "d7": 40.0
     }
    },
    "avy": {
@@ -2537,150 +2540,150 @@
    "lon": -111.648,
    "days": [
     {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 46,
-     "lo": 32
-    },
-    {
      "date": "2026-10-30",
-     "median": 0.0,
+     "median": 0.1,
      "min": 0.0,
-     "max": 4.1,
+     "max": 2.2,
      "n": 5,
      "models": {
-      "gfs_seamless": 4.1,
-      "ncep_nbm_conus": 0.0,
+      "gfs_seamless": 2.2,
+      "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.5
      },
-     "hi": 45,
+     "hi": 44,
      "lo": 34
     },
     {
      "date": "2026-10-31",
      "median": 0.1,
      "min": 0.0,
-     "max": 0.7,
+     "max": 0.8,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.7,
+      "gfs_seamless": 0.2,
       "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.6
+      "gem_seamless": 0.8
      },
-     "hi": 43,
+     "hi": 41,
      "lo": 34
     },
     {
      "date": "2026-11-01",
-     "median": 5.5,
-     "min": 0.0,
-     "max": 30.9,
+     "median": 7.0,
+     "min": 1.5,
+     "max": 33.1,
      "n": 5,
      "models": {
-      "gfs_seamless": 5.5,
-      "ncep_nbm_conus": 9.8,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.6,
-      "gem_seamless": 30.9
+      "gfs_seamless": 7.0,
+      "ncep_nbm_conus": 11.3,
+      "ecmwf_ifs025": 1.5,
+      "icon_seamless": 5.8,
+      "gem_seamless": 33.1
      },
      "hi": 36,
-     "lo": 29
+     "lo": 27
     },
     {
      "date": "2026-11-02",
      "median": 3.9,
-     "min": 1.5,
-     "max": 5.6,
+     "min": 2.3,
+     "max": 7.3,
      "n": 5,
      "models": {
-      "gfs_seamless": 2.9,
-      "ncep_nbm_conus": 5.6,
-      "ecmwf_ifs025": 3.9,
-      "icon_seamless": 1.5,
-      "gem_seamless": 4.0
+      "gfs_seamless": 3.9,
+      "ncep_nbm_conus": 7.3,
+      "ecmwf_ifs025": 2.3,
+      "icon_seamless": 2.3,
+      "gem_seamless": 5.6
      },
      "hi": 30,
-     "lo": 21
+     "lo": 22
     },
     {
      "date": "2026-11-03",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.2,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
+      "ncep_nbm_conus": 0.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 38,
-     "lo": 19
+     "hi": 37,
+     "lo": 21
     },
     {
      "date": "2026-11-04",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.1,
+     "max": 1.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 1.1,
+      "ncep_nbm_conus": 1.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.6
+      "gem_seamless": 0.0
      },
-     "hi": 40,
-     "lo": 31
+     "hi": 39,
+     "lo": 27
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.7,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.7,
+      "ecmwf_ifs025": 0.2,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 37,
+     "lo": 28
     }
    ],
    "h72": {
-    "median": 9.1,
-    "min": 0.2,
-    "max": 31.3,
+    "median": 11.8,
+    "min": 3.0,
+    "max": 36.9,
     "n": 5
    },
    "d7": {
-    "median": 13.2,
-    "min": 2.1,
-    "max": 36.5,
+    "median": 13.3,
+    "min": 4.1,
+    "max": 40.0,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 10.1,
-     "d7": 13.2
+     "h72": 11.8,
+     "d7": 13.3
     },
     "ncep_nbm_conus": {
-     "h72": 9.1,
-     "d7": 16.7
+     "h72": 15.7,
+     "d7": 20.7
     },
     "ecmwf_ifs025": {
-     "h72": 0.2,
-     "d7": 3.9
+     "h72": 3.0,
+     "d7": 4.1
     },
     "icon_seamless": {
-     "h72": 0.6,
-     "d7": 2.1
+     "h72": 7.5,
+     "d7": 8.1
     },
     "gem_seamless": {
-     "h72": 31.3,
-     "d7": 36.5
+     "h72": 36.9,
+     "d7": 40.0
     }
    },
    "avy": {
@@ -2710,7 +2713,7 @@
    "lon": -110.957,
    "days": [
     {
-     "date": "2026-10-29",
+     "date": "2026-10-30",
      "median": 0.0,
      "min": 0.0,
      "max": 0.0,
@@ -2722,138 +2725,138 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
-     "lo": 24
-    },
-    {
-     "date": "2026-10-30",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.2,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.2,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 44,
-     "lo": 33
+     "hi": 46,
+     "lo": 31
     },
     {
      "date": "2026-10-31",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.1,
+     "max": 0.9,
      "n": 5,
      "models": {
-      "gfs_seamless": 1.1,
-      "ncep_nbm_conus": 0.1,
+      "gfs_seamless": 0.3,
+      "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.0
+      "gem_seamless": 0.9
      },
      "hi": 40,
-     "lo": 32
+     "lo": 33
     },
     {
      "date": "2026-11-01",
      "median": 0.4,
      "min": 0.0,
-     "max": 3.8,
+     "max": 3.7,
      "n": 5,
      "models": {
       "gfs_seamless": 0.4,
-      "ncep_nbm_conus": 3.8,
-      "ecmwf_ifs025": 0.2,
-      "icon_seamless": 0.0,
-      "gem_seamless": 1.2
+      "ncep_nbm_conus": 3.7,
+      "ecmwf_ifs025": 0.9,
+      "icon_seamless": 0.2,
+      "gem_seamless": 0.0
      },
-     "hi": 37,
-     "lo": 30
+     "hi": 36,
+     "lo": 31
     },
     {
      "date": "2026-11-02",
-     "median": 2.4,
-     "min": 0.5,
-     "max": 3.9,
+     "median": 2.5,
+     "min": 1.4,
+     "max": 4.6,
      "n": 5,
      "models": {
-      "gfs_seamless": 3.9,
-      "ncep_nbm_conus": 2.7,
-      "ecmwf_ifs025": 2.3,
-      "icon_seamless": 0.5,
-      "gem_seamless": 2.4
+      "gfs_seamless": 4.6,
+      "ncep_nbm_conus": 3.7,
+      "ecmwf_ifs025": 1.4,
+      "icon_seamless": 2.5,
+      "gem_seamless": 2.3
      },
-     "hi": 33,
-     "lo": 27
+     "hi": 31,
+     "lo": 24
     },
     {
      "date": "2026-11-03",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.4,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
+      "ncep_nbm_conus": 0.4,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 36,
-     "lo": 21
+     "hi": 37,
+     "lo": 20
     },
     {
      "date": "2026-11-04",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.4,
+     "max": 0.4,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.8,
+      "ncep_nbm_conus": 0.4,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 1.4
+      "gem_seamless": 0.0
      },
-     "hi": 40,
-     "lo": 26
+     "hi": 41,
+     "lo": 27
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.6,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.6,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 36,
+     "lo": 29
     }
    ],
    "h72": {
-    "median": 1.0,
-    "min": 0.0,
-    "max": 3.5,
+    "median": 1.7,
+    "min": 1.4,
+    "max": 5.9,
     "n": 5
    },
    "d7": {
-    "median": 5.0,
-    "min": 0.5,
-    "max": 7.4,
+    "median": 3.2,
+    "min": 2.3,
+    "max": 8.9,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 1.5,
-     "d7": 5.5
+     "h72": 3.0,
+     "d7": 5.3
     },
     "ncep_nbm_conus": {
-     "h72": 3.5,
-     "d7": 7.4
+     "h72": 5.9,
+     "d7": 8.9
     },
     "ecmwf_ifs025": {
-     "h72": 0.2,
-     "d7": 2.5
+     "h72": 1.4,
+     "d7": 2.3
     },
     "icon_seamless": {
-     "h72": 0.0,
-     "d7": 0.5
+     "h72": 1.7,
+     "d7": 2.8
     },
     "gem_seamless": {
-     "h72": 1.0,
-     "d7": 5.0
+     "h72": 1.7,
+     "d7": 3.2
     }
    },
    "avy": {
@@ -2883,81 +2886,65 @@
    "lon": -110.955,
    "days": [
     {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 44,
-     "lo": 23
-    },
-    {
      "date": "2026-10-30",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.4,
+     "max": 0.6,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.4,
+      "gfs_seamless": 0.6,
       "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
-     "lo": 31
+     "hi": 46,
+     "lo": 30
     },
     {
      "date": "2026-10-31",
-     "median": 0.0,
+     "median": 1.4,
      "min": 0.0,
-     "max": 2.4,
+     "max": 3.3,
      "n": 5,
      "models": {
-      "gfs_seamless": 2.4,
+      "gfs_seamless": 3.3,
       "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.6,
+      "ecmwf_ifs025": 2.1,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.0
+      "gem_seamless": 1.4
      },
      "hi": 40,
      "lo": 30
     },
     {
      "date": "2026-11-01",
-     "median": 0.7,
-     "min": 0.2,
+     "median": 1.7,
+     "min": 0.0,
      "max": 2.5,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.2,
+      "gfs_seamless": 0.0,
       "ncep_nbm_conus": 2.5,
-      "ecmwf_ifs025": 0.7,
-      "icon_seamless": 0.2,
-      "gem_seamless": 0.7
+      "ecmwf_ifs025": 2.5,
+      "icon_seamless": 0.6,
+      "gem_seamless": 1.7
      },
-     "hi": 36,
-     "lo": 29
+     "hi": 34,
+     "lo": 30
     },
     {
      "date": "2026-11-02",
      "median": 1.9,
-     "min": 1.4,
-     "max": 2.5,
+     "min": 1.0,
+     "max": 2.8,
      "n": 5,
      "models": {
-      "gfs_seamless": 2.5,
-      "ncep_nbm_conus": 2.2,
+      "gfs_seamless": 2.7,
+      "ncep_nbm_conus": 2.8,
       "ecmwf_ifs025": 1.9,
-      "icon_seamless": 1.4,
-      "gem_seamless": 1.4
+      "icon_seamless": 1.8,
+      "gem_seamless": 1.0
      },
      "hi": 32,
      "lo": 26
@@ -2966,67 +2953,83 @@
      "date": "2026-11-03",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.3,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
+      "ncep_nbm_conus": 0.3,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 37,
-     "lo": 22
+     "hi": 38,
+     "lo": 21
     },
     {
      "date": "2026-11-04",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.3,
+     "max": 0.4,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.4,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 42,
+     "lo": 24
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.1,
+     "min": 0.0,
+     "max": 0.6,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
       "ncep_nbm_conus": 0.6,
-      "ecmwf_ifs025": 0.0,
+      "ecmwf_ifs025": 0.1,
       "icon_seamless": 0.0,
-      "gem_seamless": 1.3
+      "gem_seamless": 0.1
      },
-     "hi": 42,
-     "lo": 24
+     "hi": 40,
+     "lo": 25
     }
    ],
    "h72": {
-    "median": 1.1,
-    "min": 0.0,
-    "max": 3.0,
+    "median": 4.2,
+    "min": 1.9,
+    "max": 5.8,
     "n": 5
    },
    "d7": {
-    "median": 3.4,
-    "min": 1.6,
-    "max": 5.5,
+    "median": 6.6,
+    "min": 2.4,
+    "max": 6.6,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 3.0,
-     "d7": 5.5
+     "h72": 5.3,
+     "d7": 6.6
     },
     "ncep_nbm_conus": {
-     "h72": 2.3,
-     "d7": 5.5
+     "h72": 4.2,
+     "d7": 6.6
     },
     "ecmwf_ifs025": {
-     "h72": 1.1,
-     "d7": 3.2
+     "h72": 5.8,
+     "d7": 6.6
     },
     "icon_seamless": {
-     "h72": 0.0,
-     "d7": 1.6
+     "h72": 1.9,
+     "d7": 2.4
     },
     "gem_seamless": {
-     "h72": 0.7,
-     "d7": 3.4
+     "h72": 3.1,
+     "d7": 4.1
     }
    },
    "avy": {
@@ -3056,150 +3059,150 @@
    "lon": -110.828,
    "days": [
     {
-     "date": "2026-10-29",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 42,
-     "lo": 22
-    },
-    {
      "date": "2026-10-30",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.8,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.1,
+      "gfs_seamless": 0.8,
       "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
-     "lo": 30
+     "hi": 44,
+     "lo": 31
     },
     {
      "date": "2026-10-31",
-     "median": 0.0,
+     "median": 0.2,
      "min": 0.0,
      "max": 2.0,
      "n": 5,
      "models": {
-      "gfs_seamless": 2.0,
-      "ncep_nbm_conus": 0.0,
+      "gfs_seamless": 1.8,
+      "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.2
+      "icon_seamless": 0.2,
+      "gem_seamless": 2.0
      },
-     "hi": 40,
-     "lo": 32
+     "hi": 38,
+     "lo": 33
     },
     {
      "date": "2026-11-01",
-     "median": 0.4,
+     "median": 0.7,
      "min": 0.0,
-     "max": 1.1,
+     "max": 6.1,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.2,
-      "ncep_nbm_conus": 1.1,
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 1.3,
       "ecmwf_ifs025": 0.0,
-      "icon_seamless": 1.0,
-      "gem_seamless": 0.4
+      "icon_seamless": 6.1,
+      "gem_seamless": 0.7
      },
-     "hi": 36,
-     "lo": 29
+     "hi": 35,
+     "lo": 31
     },
     {
      "date": "2026-11-02",
-     "median": 1.4,
-     "min": 0.1,
-     "max": 3.0,
+     "median": 1.8,
+     "min": 0.0,
+     "max": 3.2,
      "n": 5,
      "models": {
-      "gfs_seamless": 2.3,
-      "ncep_nbm_conus": 1.4,
-      "ecmwf_ifs025": 0.1,
-      "icon_seamless": 3.0,
-      "gem_seamless": 0.6
+      "gfs_seamless": 2.5,
+      "ncep_nbm_conus": 1.8,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 3.2,
+      "gem_seamless": 0.3
      },
-     "hi": 33,
-     "lo": 24
+     "hi": 32,
+     "lo": 22
     },
     {
      "date": "2026-11-03",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.2,
+     "max": 0.3,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
-      "ecmwf_ifs025": 0.2,
+      "ncep_nbm_conus": 0.3,
+      "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 36,
-     "lo": 20
+     "hi": 38,
+     "lo": 18
     },
     {
      "date": "2026-11-04",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.1,
+     "max": 0.3,
+     "n": 5,
+     "models": {
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.3,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.0
+     },
+     "hi": 41,
+     "lo": 27
+    },
+    {
+     "date": "2026-11-05",
+     "median": 0.0,
+     "min": 0.0,
+     "max": 0.5,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
       "ncep_nbm_conus": 0.5,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 1.1
+      "gem_seamless": 0.0
      },
-     "hi": 41,
-     "lo": 25
+     "hi": 39,
+     "lo": 26
     }
    ],
    "h72": {
-    "median": 0.6,
+    "median": 2.7,
     "min": 0.0,
-    "max": 2.2,
+    "max": 8.2,
     "n": 5
    },
    "d7": {
-    "median": 3.0,
-    "min": 0.3,
-    "max": 4.6,
+    "median": 4.3,
+    "min": 0.0,
+    "max": 9.4,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
-     "h72": 2.2,
-     "d7": 4.6
+     "h72": 3.9,
+     "d7": 5.0
     },
     "ncep_nbm_conus": {
-     "h72": 1.0,
-     "d7": 3.0
+     "h72": 2.4,
+     "d7": 4.3
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 0.3
+     "d7": 0.0
     },
     "icon_seamless": {
-     "h72": 0.6,
-     "d7": 4.0
+     "h72": 8.2,
+     "d7": 9.4
     },
     "gem_seamless": {
-     "h72": 0.5,
-     "d7": 2.3
+     "h72": 2.7,
+     "d7": 3.0
     }
    },
    "avy": {
@@ -3237,8 +3240,8 @@
  "nws_alerts": [],
  "discussion": {
   "office": "SLC",
-  "issued": "2026-10-30T04:23:00+00:00",
-  "key_messages": "- Tropical moisture will move into the region on Friday, leading to scattered showers and thunderstorms capable of producing heavy rainfall that could lead to flash flooding, particularly over southwest Utah. - After a relative lull in precipitation on Saturday, a strong atmospheric river will interact with a strong cold front Sunday into Monday, resulting in widespread moderate to heavy precipitation across the region. This will increase the potential for flash flooding once again and bring accumulating snow to the mountains. - Dry and unseasonably cool conditions are then expected through about midweek before a more active pattern returns.",
+  "issued": "2026-10-30T11:58:00+00:00",
+  "key_messages": null,
   "synopsis": null,
   "short_term": null,
   "long_term": null,
@@ -3263,8 +3266,14 @@
   }
  ],
  "take": null,
- "rules_take": "Beaver Mountain: the forecasts put 0\u20137 in. over the next 7 days (middle 2 in.), and they disagree a lot. About 1 in. of that lands in the next 72 hours. The NWS forecasters have <1 in. for the week.",
- "alerts_active": [],
+ "rules_take": "Beaver Mountain: the forecasts put <1\u201310 in. over the next 7 days (middle 4 in.), and they disagree a lot. About 3 in. of that lands in the next 72 hours. The NWS forecasters have <1 in. for the week.",
+ "alerts_active": [
+  {
+   "kind": "regional",
+   "title": "Big totals nearby in the next 72 h",
+   "body": "Alta (2 h): 17 in."
+  }
+ ],
  "thresholds": {
   "local_72h_in": 8,
   "local_day_in": 6,
