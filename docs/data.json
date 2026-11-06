@@ -1,28 +1,28 @@
 {
- "generated_at": "2026-11-06T08:55-07:00",
+ "generated_at": "2026-11-06T12:59-07:00",
  "timezone": "America/Denver",
  "home": {
   "name": "Logan",
   "week": [
    {
     "date": "2026-11-06",
-    "name": "Today",
+    "name": "This Afternoon",
     "hi": 52,
     "short": "Sunny",
-    "detailed": "Sunny. High near 52, with temperatures falling to around 47 in the afternoon. Southeast wind around 2 mph.",
+    "detailed": "Sunny. High near 52, with temperatures falling to around 48 in the afternoon. West southwest wind around 2 mph.",
     "pop": 0,
-    "lo": 31,
+    "lo": 33,
     "night_short": "Mostly Clear",
-    "pop_night": 0
+    "pop_night": 1
    },
    {
     "date": "2026-11-07",
     "name": "Saturday",
-    "hi": 53,
-    "short": "Sunny",
-    "detailed": "Sunny. High near 53, with temperatures falling to around 49 in the afternoon. East wind around 1 mph.",
-    "pop": 0,
-    "lo": 33,
+    "hi": 55,
+    "short": "Mostly Sunny",
+    "detailed": "Mostly sunny. High near 55, with temperatures falling to around 50 in the afternoon. Northeast wind around 2 mph.",
+    "pop": 1,
+    "lo": 35,
     "night_short": "Mostly Clear",
     "pop_night": 0
    },
@@ -31,9 +31,9 @@
     "name": "Sunday",
     "hi": 58,
     "short": "Sunny",
-    "detailed": "Sunny, with a high near 58. South wind 0 to 3 mph.",
+    "detailed": "Sunny, with a high near 58. Southwest wind 0 to 3 mph.",
     "pop": 0,
-    "lo": 36,
+    "lo": 37,
     "night_short": "Partly Cloudy",
     "pop_night": 0
    },
@@ -52,34 +52,34 @@
     "date": "2026-11-10",
     "name": "Tuesday",
     "hi": 58,
-    "short": "Mostly Sunny",
-    "detailed": "Mostly sunny, with a high near 58.",
+    "short": "Sunny",
+    "detailed": "Sunny, with a high near 58.",
     "pop": 0,
-    "lo": 37,
+    "lo": 36,
     "night_short": "Mostly Clear",
     "pop_night": 0
    },
    {
     "date": "2026-11-11",
     "name": "Veterans Day",
-    "hi": 58,
+    "hi": 59,
     "short": "Sunny",
-    "detailed": "Sunny, with a high near 58.",
-    "pop": 1,
+    "detailed": "Sunny, with a high near 59.",
+    "pop": 0,
     "lo": 38,
     "night_short": "Partly Cloudy",
-    "pop_night": 3
+    "pop_night": 0
    },
    {
     "date": "2026-11-12",
     "name": "Thursday",
-    "hi": 59,
-    "short": "Mostly Sunny",
-    "detailed": "Mostly sunny, with a high near 59.",
-    "pop": 9,
+    "hi": 60,
+    "short": "Sunny",
+    "detailed": "Sunny, with a high near 60.",
+    "pop": 1,
     "lo": 39,
-    "night_short": "Slight Chance Light Rain",
-    "pop_night": 16
+    "night_short": "Partly Cloudy",
+    "pop_night": 3
    }
   ]
  },
@@ -116,7 +116,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
+     "hi": 41,
      "lo": 27
     },
     {
@@ -132,8 +132,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
-     "lo": 28
+     "hi": 44,
+     "lo": 27
     },
     {
      "date": "2026-11-08",
@@ -180,7 +180,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 45,
      "lo": 31
     },
     {
@@ -196,7 +196,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 47,
      "lo": 30
     },
     {
@@ -319,7 +319,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 42,
      "lo": 26
     },
     {
@@ -335,7 +335,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 45,
      "lo": 32
     },
     {
@@ -351,7 +351,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 46,
      "lo": 32
     },
     {
@@ -522,8 +522,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
-     "lo": 33
+     "hi": 49,
+     "lo": 32
     },
     {
      "date": "2026-11-09",
@@ -554,7 +554,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 47,
      "lo": 32
     },
     {
@@ -586,8 +586,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
-     "lo": 33
+     "hi": 51,
+     "lo": 35
     }
    ],
    "h72": {
@@ -677,7 +677,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
+     "hi": 42,
      "lo": 30
     },
     {
@@ -758,7 +758,7 @@
       "gem_seamless": 0.0
      },
      "hi": 49,
-     "lo": 36
+     "lo": 35
     },
     {
      "date": "2026-11-12",
@@ -774,7 +774,7 @@
       "gem_seamless": 0.0
      },
      "hi": 50,
-     "lo": 35
+     "lo": 36
     }
    ],
    "h72": {
@@ -882,7 +882,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 47,
      "lo": 31
     },
     {
@@ -898,7 +898,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
+     "hi": 49,
      "lo": 32
     },
     {
@@ -915,7 +915,7 @@
       "gem_seamless": 0.0
      },
      "hi": 45,
-     "lo": 32
+     "lo": 33
     },
     {
      "date": "2026-11-11",
@@ -930,8 +930,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
-     "lo": 30
+     "hi": 47,
+     "lo": 31
     },
     {
      "date": "2026-11-12",
@@ -946,8 +946,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
-     "lo": 30
+     "hi": 48,
+     "lo": 33
     }
    ],
    "h72": {
@@ -1087,7 +1087,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 46,
      "lo": 30
     },
     {
@@ -1103,8 +1103,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
-     "lo": 28
+     "hi": 45,
+     "lo": 29
     },
     {
      "date": "2026-11-12",
@@ -1119,8 +1119,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
-     "lo": 30
+     "hi": 50,
+     "lo": 31
     }
    ],
    "h72": {
@@ -1212,8 +1212,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
-     "lo": 22
+     "hi": 42,
+     "lo": 23
     },
     {
      "date": "2026-11-08",
@@ -1228,7 +1228,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 45,
      "lo": 26
     },
     {
@@ -1260,8 +1260,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
-     "lo": 26
+     "hi": 42,
+     "lo": 27
     },
     {
      "date": "2026-11-11",
@@ -1276,7 +1276,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 45,
      "lo": 25
     },
     {
@@ -1292,8 +1292,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
-     "lo": 26
+     "hi": 46,
+     "lo": 29
     }
    ],
    "h72": {
@@ -1418,7 +1418,7 @@
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 26
+     "lo": 27
     },
     {
      "date": "2026-11-10",
@@ -1434,7 +1434,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 29
+     "lo": 31
     },
     {
      "date": "2026-11-11",
@@ -1449,8 +1449,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
-     "lo": 25
+     "hi": 48,
+     "lo": 26
     },
     {
      "date": "2026-11-12",
@@ -1465,8 +1465,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
-     "lo": 24
+     "hi": 49,
+     "lo": 28
     }
    ],
    "h72": {
@@ -1528,7 +1528,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 38,
+     "hi": 37,
      "lo": 23
     },
     {
@@ -1545,7 +1545,7 @@
       "gem_seamless": 0.0
      },
      "hi": 42,
-     "lo": 25
+     "lo": 26
     },
     {
      "date": "2026-11-08",
@@ -1561,7 +1561,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 31
+     "lo": 32
     },
     {
      "date": "2026-11-09",
@@ -1593,7 +1593,7 @@
       "gem_seamless": 0.0
      },
      "hi": 42,
-     "lo": 29
+     "lo": 30
     },
     {
      "date": "2026-11-11",
@@ -1608,7 +1608,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 45,
      "lo": 29
     },
     {
@@ -1625,7 +1625,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 30
+     "lo": 33
     }
    ],
    "h72": {
@@ -1701,7 +1701,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 38,
+     "hi": 37,
      "lo": 23
     },
     {
@@ -1718,7 +1718,7 @@
       "gem_seamless": 0.0
      },
      "hi": 42,
-     "lo": 25
+     "lo": 26
     },
     {
      "date": "2026-11-08",
@@ -1734,7 +1734,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 31
+     "lo": 32
     },
     {
      "date": "2026-11-09",
@@ -1749,7 +1749,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 46,
      "lo": 33
     },
     {
@@ -1766,7 +1766,7 @@
       "gem_seamless": 0.0
      },
      "hi": 42,
-     "lo": 29
+     "lo": 30
     },
     {
      "date": "2026-11-11",
@@ -1798,7 +1798,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 30
+     "lo": 33
     }
    ],
    "h72": {
@@ -1874,7 +1874,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 40,
+     "hi": 39,
      "lo": 25
     },
     {
@@ -1906,7 +1906,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
+     "hi": 49,
      "lo": 32
     },
     {
@@ -1938,8 +1938,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 30
+     "hi": 46,
+     "lo": 31
     },
     {
      "date": "2026-11-11",
@@ -1954,8 +1954,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 28
+     "hi": 48,
+     "lo": 30
     },
     {
      "date": "2026-11-12",
@@ -1970,8 +1970,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
-     "lo": 31
+     "hi": 51,
+     "lo": 34
     }
    ],
    "h72": {
@@ -2047,7 +2047,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 40,
+     "hi": 39,
      "lo": 25
     },
     {
@@ -2079,8 +2079,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
-     "lo": 33
+     "hi": 49,
+     "lo": 34
     },
     {
      "date": "2026-11-09",
@@ -2111,8 +2111,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 30
+     "hi": 46,
+     "lo": 31
     },
     {
      "date": "2026-11-11",
@@ -2127,8 +2127,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 28
+     "hi": 48,
+     "lo": 30
     },
     {
      "date": "2026-11-12",
@@ -2143,8 +2143,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
-     "lo": 31
+     "hi": 51,
+     "lo": 35
     }
    ],
    "h72": {
@@ -2220,7 +2220,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 41,
+     "hi": 40,
      "lo": 26
     },
     {
@@ -2236,7 +2236,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
+     "hi": 44,
      "lo": 28
     },
     {
@@ -2269,7 +2269,7 @@
       "gem_seamless": 0.0
      },
      "hi": 53,
-     "lo": 30
+     "lo": 31
     },
     {
      "date": "2026-11-10",
@@ -2300,7 +2300,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 49,
      "lo": 28
     },
     {
@@ -2316,8 +2316,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 52,
-     "lo": 29
+     "hi": 53,
+     "lo": 33
     }
    ],
    "h72": {
@@ -2379,7 +2379,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 38,
+     "hi": 37,
      "lo": 23
     },
     {
@@ -2395,8 +2395,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
-     "lo": 25
+     "hi": 42,
+     "lo": 26
     },
     {
      "date": "2026-11-08",
@@ -2412,7 +2412,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 31
+     "lo": 32
     },
     {
      "date": "2026-11-09",
@@ -2444,7 +2444,7 @@
       "gem_seamless": 0.0
      },
      "hi": 42,
-     "lo": 29
+     "lo": 30
     },
     {
      "date": "2026-11-11",
@@ -2459,7 +2459,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 46,
      "lo": 29
     },
     {
@@ -2476,7 +2476,7 @@
       "gem_seamless": 0.0
      },
      "hi": 47,
-     "lo": 30
+     "lo": 33
     }
    ],
    "h72": {
@@ -2552,7 +2552,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 39,
+     "hi": 38,
      "lo": 24
     },
     {
@@ -2569,7 +2569,7 @@
       "gem_seamless": 0.0
      },
      "hi": 43,
-     "lo": 26
+     "lo": 27
     },
     {
      "date": "2026-11-08",
@@ -2585,7 +2585,7 @@
       "gem_seamless": 0.0
      },
      "hi": 47,
-     "lo": 32
+     "lo": 33
     },
     {
      "date": "2026-11-09",
@@ -2601,7 +2601,7 @@
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 36
+     "lo": 35
     },
     {
      "date": "2026-11-10",
@@ -2617,7 +2617,7 @@
       "gem_seamless": 0.0
      },
      "hi": 43,
-     "lo": 30
+     "lo": 31
     },
     {
      "date": "2026-11-11",
@@ -2632,7 +2632,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
+     "hi": 46,
      "lo": 30
     },
     {
@@ -2649,7 +2649,7 @@
       "gem_seamless": 0.0
      },
      "hi": 47,
-     "lo": 31
+     "lo": 34
     }
    ],
    "h72": {
@@ -2773,7 +2773,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 43,
      "lo": 32
     },
     {
@@ -2789,7 +2789,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 40,
+     "hi": 41,
      "lo": 29
     },
     {
@@ -2805,7 +2805,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
+     "hi": 44,
      "lo": 28
     },
     {
@@ -2822,7 +2822,7 @@
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 31
+     "lo": 32
     }
    ],
    "h72": {
@@ -2953,13 +2953,13 @@
      "date": "2026-11-10",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.0,
+     "max": 0.4,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
       "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
+      "icon_seamless": 0.4,
       "gem_seamless": 0.0
      },
      "hi": 42,
@@ -2978,7 +2978,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 46,
      "lo": 28
     },
     {
@@ -2994,8 +2994,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 28
+     "hi": 48,
+     "lo": 30
     }
    ],
    "h72": {
@@ -3007,7 +3007,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.0,
+    "max": 0.4,
     "n": 5
    },
    "by_model": {
@@ -3025,7 +3025,7 @@
     },
     "icon_seamless": {
      "h72": 0.0,
-     "d7": 0.0
+     "d7": 0.4
     },
     "gem_seamless": {
      "h72": 0.0,
@@ -3119,20 +3119,20 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 45,
      "lo": 31
     },
     {
      "date": "2026-11-10",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.0,
+     "max": 2.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
       "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
+      "icon_seamless": 2.0,
       "gem_seamless": 0.0
      },
      "hi": 42,
@@ -3151,7 +3151,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 45,
      "lo": 29
     },
     {
@@ -3167,7 +3167,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
+     "hi": 47,
      "lo": 31
     }
    ],
@@ -3180,7 +3180,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.0,
+    "max": 2.0,
     "n": 5
    },
    "by_model": {
@@ -3198,7 +3198,7 @@
     },
     "icon_seamless": {
      "h72": 0.0,
-     "d7": 0.0
+     "d7": 2.0
     },
     "gem_seamless": {
      "h72": 0.0,
@@ -3240,7 +3240,7 @@
  "nws_alerts": [],
  "discussion": {
   "office": "SLC",
-  "issued": "2026-11-06T11:49:00+00:00",
+  "issued": "2026-11-06T17:21:00+00:00",
   "key_messages": null,
   "synopsis": null,
   "short_term": null,
