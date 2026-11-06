@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T12:59-07:00",
+ "generated_at": "2026-11-06T14:29-07:00",
  "timezone": "America/Denver",
  "home": {
   "name": "Logan",
@@ -132,7 +132,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 45,
      "lo": 27
     },
     {
@@ -212,7 +212,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 49,
+     "hi": 51,
      "lo": 33
     }
    ],
@@ -368,7 +368,7 @@
       "gem_seamless": 0.0
      },
      "hi": 44,
-     "lo": 31
+     "lo": 30
     },
     {
      "date": "2026-11-11",
@@ -383,7 +383,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 45,
      "lo": 30
     },
     {
@@ -400,7 +400,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 31
+     "lo": 32
     }
    ],
    "h72": {
@@ -491,7 +491,7 @@
       "gem_seamless": 0.0
      },
      "hi": 41,
-     "lo": 27
+     "lo": 26
     },
     {
      "date": "2026-11-07",
@@ -506,7 +506,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 45,
      "lo": 28
     },
     {
@@ -570,8 +570,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 49,
-     "lo": 31
+     "hi": 48,
+     "lo": 32
     },
     {
      "date": "2026-11-12",
@@ -587,7 +587,7 @@
       "gem_seamless": 0.0
      },
      "hi": 51,
-     "lo": 35
+     "lo": 34
     }
    ],
    "h72": {
@@ -710,7 +710,7 @@
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 36
+     "lo": 35
     },
     {
      "date": "2026-11-09",
@@ -742,7 +742,7 @@
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 37
+     "lo": 36
     },
     {
      "date": "2026-11-11",
@@ -947,7 +947,7 @@
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 33
+     "lo": 32
     }
    ],
    "h72": {
@@ -1245,7 +1245,7 @@
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 27
+     "lo": 28
     },
     {
      "date": "2026-11-10",
@@ -1277,7 +1277,7 @@
       "gem_seamless": 0.0
      },
      "hi": 45,
-     "lo": 25
+     "lo": 26
     },
     {
      "date": "2026-11-12",
@@ -1449,7 +1449,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 47,
      "lo": 26
     },
     {
@@ -1592,7 +1592,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
+     "hi": 43,
      "lo": 30
     },
     {
@@ -1624,8 +1624,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
-     "lo": 33
+     "hi": 48,
+     "lo": 34
     }
    ],
    "h72": {
@@ -1749,7 +1749,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 47,
      "lo": 33
     },
     {
@@ -1765,7 +1765,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
+     "hi": 43,
      "lo": 30
     },
     {
@@ -1781,7 +1781,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 45,
      "lo": 29
     },
     {
@@ -1797,8 +1797,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
-     "lo": 33
+     "hi": 48,
+     "lo": 34
     }
    ],
    "h72": {
@@ -2252,7 +2252,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 53,
+     "hi": 52,
      "lo": 32
     },
     {
@@ -2427,7 +2427,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 47,
      "lo": 34
     },
     {
@@ -2443,7 +2443,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
+     "hi": 43,
      "lo": 30
     },
     {
@@ -2475,8 +2475,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 33
+     "hi": 48,
+     "lo": 34
     }
    ],
    "h72": {
@@ -2616,7 +2616,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
+     "hi": 44,
      "lo": 31
     },
     {
@@ -2648,8 +2648,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 34
+     "hi": 49,
+     "lo": 35
     }
    ],
    "h72": {
@@ -2742,7 +2742,7 @@
       "gem_seamless": 0.0
      },
      "hi": 42,
-     "lo": 27
+     "lo": 26
     },
     {
      "date": "2026-11-08",
@@ -2789,7 +2789,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 41,
+     "hi": 40,
      "lo": 29
     },
     {
@@ -2806,7 +2806,7 @@
       "gem_seamless": 0.0
      },
      "hi": 44,
-     "lo": 28
+     "lo": 29
     },
     {
      "date": "2026-11-12",
@@ -3104,7 +3104,7 @@
       "gem_seamless": 0.0
      },
      "hi": 47,
-     "lo": 29
+     "lo": 30
     },
     {
      "date": "2026-11-09",
@@ -3135,7 +3135,7 @@
       "icon_seamless": 2.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
+     "hi": 41,
      "lo": 29
     },
     {
@@ -3240,8 +3240,8 @@
  "nws_alerts": [],
  "discussion": {
   "office": "SLC",
-  "issued": "2026-11-06T17:21:00+00:00",
-  "key_messages": null,
+  "issued": "2026-11-06T20:57:00+00:00",
+  "key_messages": "- Breezy winds will remain in place across far southwestern Utah around the Pine Valley Mountains, with peak winds expected to gust between 30-40 mph through Saturday morning. - A stretch of dry and increasingly mild weather is anticipated over the weekend, with the dry conditions expected to continue for much of the upcoming week.",
   "synopsis": null,
   "short_term": null,
   "long_term": null,
