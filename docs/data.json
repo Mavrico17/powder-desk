@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T09:40-07:00",
+ "generated_at": "2026-11-08T11:24-07:00",
  "timezone": "America/Denver",
  "home": {
   "name": "Logan",
@@ -181,7 +181,7 @@
       "gem_seamless": 0.0
      },
      "hi": 51,
-     "lo": 31
+     "lo": 32
     },
     {
      "date": "2026-11-13",
@@ -196,7 +196,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 49,
+     "hi": 48,
      "lo": 32
     },
     {
@@ -320,7 +320,7 @@
       "gem_seamless": 0.0
      },
      "hi": 47,
-     "lo": 34
+     "lo": 32
     },
     {
      "date": "2026-11-10",
@@ -336,7 +336,7 @@
       "gem_seamless": 0.0
      },
      "hi": 42,
-     "lo": 30
+     "lo": 31
     },
     {
      "date": "2026-11-11",
@@ -367,8 +367,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
-     "lo": 33
+     "hi": 49,
+     "lo": 31
     },
     {
      "date": "2026-11-13",
@@ -384,7 +384,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 33
+     "lo": 31
     },
     {
      "date": "2026-11-14",
@@ -399,7 +399,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 45,
      "lo": 31
     }
    ],
@@ -522,7 +522,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
+     "hi": 43,
      "lo": 30
     },
     {
@@ -571,7 +571,7 @@
       "gem_seamless": 0.0
      },
      "hi": 50,
-     "lo": 32
+     "lo": 33
     },
     {
      "date": "2026-11-14",
@@ -709,7 +709,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 47,
      "lo": 36
     },
     {
@@ -867,7 +867,7 @@
       "gem_seamless": 0.0
      },
      "hi": 50,
-     "lo": 34
+     "lo": 33
     },
     {
      "date": "2026-11-10",
@@ -882,7 +882,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 47,
      "lo": 32
     },
     {
@@ -898,7 +898,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 47,
      "lo": 32
     },
     {
@@ -930,8 +930,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 49,
-     "lo": 31
+     "hi": 48,
+     "lo": 32
     },
     {
      "date": "2026-11-14",
@@ -947,7 +947,7 @@
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 33
+     "lo": 31
     }
    ],
    "h72": {
@@ -1024,7 +1024,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 31
+     "lo": 30
     },
     {
      "date": "2026-11-09",
@@ -1056,7 +1056,7 @@
       "gem_seamless": 0.0
      },
      "hi": 44,
-     "lo": 30
+     "lo": 31
     },
     {
      "date": "2026-11-11",
@@ -1072,7 +1072,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 29
+     "lo": 30
     },
     {
      "date": "2026-11-12",
@@ -1088,7 +1088,7 @@
       "gem_seamless": 0.0
      },
      "hi": 50,
-     "lo": 31
+     "lo": 32
     },
     {
      "date": "2026-11-13",
@@ -1103,8 +1103,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
-     "lo": 31
+     "hi": 47,
+     "lo": 30
     },
     {
      "date": "2026-11-14",
@@ -1120,7 +1120,7 @@
       "gem_seamless": 0.0
      },
      "hi": 47,
-     "lo": 31
+     "lo": 30
     }
    ],
    "h72": {
@@ -1244,7 +1244,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 45,
      "lo": 27
     },
     {
@@ -1260,8 +1260,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 26
+     "hi": 48,
+     "lo": 27
     },
     {
      "date": "2026-11-13",
@@ -1276,7 +1276,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 46,
      "lo": 26
     },
     {
@@ -1292,8 +1292,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
-     "lo": 27
+     "hi": 47,
+     "lo": 25
     }
    ],
    "h72": {
@@ -1369,7 +1369,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 46,
      "lo": 29
     },
     {
@@ -1418,7 +1418,7 @@
       "gem_seamless": 0.0
      },
      "hi": 47,
-     "lo": 25
+     "lo": 26
     },
     {
      "date": "2026-11-12",
@@ -1434,7 +1434,7 @@
       "gem_seamless": 0.0
      },
      "hi": 50,
-     "lo": 26
+     "lo": 28
     },
     {
      "date": "2026-11-13",
@@ -1465,8 +1465,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 24
+     "hi": 46,
+     "lo": 28
     }
    ],
    "h72": {
@@ -1529,7 +1529,7 @@
       "gem_seamless": 0.0
      },
      "hi": 47,
-     "lo": 33
+     "lo": 30
     },
     {
      "date": "2026-11-09",
@@ -1560,7 +1560,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
+     "hi": 43,
      "lo": 29
     },
     {
@@ -1624,7 +1624,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 42,
      "lo": 32
     }
    ],
@@ -1672,8 +1672,8 @@
     "font_color": "#ffffff",
     "travel_advice": "Watch for signs of unstable snow such as recent avalanches, cracking in the snow, and audible collapsing. Avoid traveling on or under similar slopes.",
     "link": "https://utahavalanchecenter.org/forecast/salt-lake",
-    "start": null,
-    "end": null,
+    "start": "2026-11-08T17:53:00",
+    "end": "2026-11-09T17:53:00",
     "expired": false,
     "warning": false
    }
@@ -1702,7 +1702,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 32
+     "lo": 30
     },
     {
      "date": "2026-11-09",
@@ -1733,7 +1733,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
+     "hi": 43,
      "lo": 29
     },
     {
@@ -1797,7 +1797,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 42,
      "lo": 32
     }
    ],
@@ -1845,8 +1845,8 @@
     "font_color": "#ffffff",
     "travel_advice": "Watch for signs of unstable snow such as recent avalanches, cracking in the snow, and audible collapsing. Avoid traveling on or under similar slopes.",
     "link": "https://utahavalanchecenter.org/forecast/salt-lake",
-    "start": null,
-    "end": null,
+    "start": "2026-11-08T17:53:00",
+    "end": "2026-11-09T17:53:00",
     "expired": false,
     "warning": false
    }
@@ -1906,7 +1906,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 45,
      "lo": 31
     },
     {
@@ -1922,7 +1922,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 49,
      "lo": 30
     },
     {
@@ -1938,7 +1938,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 51,
+     "hi": 52,
      "lo": 34
     },
     {
@@ -1954,8 +1954,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 49,
-     "lo": 33
+     "hi": 48,
+     "lo": 31
     },
     {
      "date": "2026-11-14",
@@ -1970,8 +1970,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 29
+     "hi": 44,
+     "lo": 30
     }
    ],
    "h72": {
@@ -2018,8 +2018,8 @@
     "font_color": "#ffffff",
     "travel_advice": "Watch for signs of unstable snow such as recent avalanches, cracking in the snow, and audible collapsing. Avoid traveling on or under similar slopes.",
     "link": "https://utahavalanchecenter.org/forecast/salt-lake",
-    "start": null,
-    "end": null,
+    "start": "2026-11-08T17:53:00",
+    "end": "2026-11-09T17:53:00",
     "expired": false,
     "warning": false
    }
@@ -2048,7 +2048,7 @@
       "gem_seamless": 0.0
      },
      "hi": 50,
-     "lo": 34
+     "lo": 32
     },
     {
      "date": "2026-11-09",
@@ -2095,7 +2095,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 49,
      "lo": 30
     },
     {
@@ -2111,8 +2111,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 51,
-     "lo": 34
+     "hi": 52,
+     "lo": 35
     },
     {
      "date": "2026-11-13",
@@ -2127,8 +2127,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 49,
-     "lo": 33
+     "hi": 48,
+     "lo": 31
     },
     {
      "date": "2026-11-14",
@@ -2143,8 +2143,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 29
+     "hi": 44,
+     "lo": 30
     }
    ],
    "h72": {
@@ -2191,8 +2191,8 @@
     "font_color": "#ffffff",
     "travel_advice": "Watch for signs of unstable snow such as recent avalanches, cracking in the snow, and audible collapsing. Avoid traveling on or under similar slopes.",
     "link": "https://utahavalanchecenter.org/forecast/salt-lake",
-    "start": null,
-    "end": null,
+    "start": "2026-11-08T17:53:00",
+    "end": "2026-11-09T17:53:00",
     "expired": false,
     "warning": false
    }
@@ -2220,7 +2220,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 53,
+     "hi": 52,
      "lo": 31
     },
     {
@@ -2253,7 +2253,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 31
+     "lo": 32
     },
     {
      "date": "2026-11-11",
@@ -2268,8 +2268,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
-     "lo": 28
+     "hi": 49,
+     "lo": 29
     },
     {
      "date": "2026-11-12",
@@ -2284,7 +2284,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 54,
+     "hi": 55,
      "lo": 33
     },
     {
@@ -2300,8 +2300,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 51,
-     "lo": 30
+     "hi": 50,
+     "lo": 29
     },
     {
      "date": "2026-11-14",
@@ -2380,7 +2380,7 @@
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 33
+     "lo": 30
     },
     {
      "date": "2026-11-09",
@@ -2411,7 +2411,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
+     "hi": 43,
      "lo": 29
     },
     {
@@ -2459,7 +2459,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 45,
      "lo": 32
     },
     {
@@ -2523,8 +2523,8 @@
     "font_color": "#ffffff",
     "travel_advice": "Watch for signs of unstable snow such as recent avalanches, cracking in the snow, and audible collapsing. Avoid traveling on or under similar slopes.",
     "link": "https://utahavalanchecenter.org/forecast/salt-lake",
-    "start": null,
-    "end": null,
+    "start": "2026-11-08T17:53:00",
+    "end": "2026-11-09T17:53:00",
     "expired": false,
     "warning": false
    }
@@ -2553,7 +2553,7 @@
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 34
+     "lo": 32
     },
     {
      "date": "2026-11-09",
@@ -2632,7 +2632,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 46,
      "lo": 33
     },
     {
@@ -2648,7 +2648,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
+     "hi": 44,
      "lo": 33
     }
    ],
@@ -2696,8 +2696,8 @@
     "font_color": "#ffffff",
     "travel_advice": "Watch for signs of unstable snow such as recent avalanches, cracking in the snow, and audible collapsing. Avoid traveling on or under similar slopes.",
     "link": "https://utahavalanchecenter.org/forecast/salt-lake",
-    "start": null,
-    "end": null,
+    "start": "2026-11-08T17:53:00",
+    "end": "2026-11-09T17:53:00",
     "expired": false,
     "warning": false
    }
@@ -2790,7 +2790,7 @@
       "gem_seamless": 0.0
      },
      "hi": 49,
-     "lo": 32
+     "lo": 33
     },
     {
      "date": "2026-11-13",
@@ -2946,7 +2946,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 47,
      "lo": 27
     },
     {
@@ -2962,7 +2962,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
+     "hi": 49,
      "lo": 29
     },
     {
@@ -2978,7 +2978,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 46,
      "lo": 30
     },
     {
@@ -2994,7 +2994,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
+     "hi": 44,
      "lo": 27
     }
    ],
@@ -3094,13 +3094,13 @@
      "date": "2026-11-10",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
       "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.1,
+      "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 39,
@@ -3119,8 +3119,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
-     "lo": 27
+     "hi": 45,
+     "lo": 28
     },
     {
      "date": "2026-11-12",
@@ -3151,7 +3151,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 45,
      "lo": 31
     },
     {
@@ -3167,14 +3167,14 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 43,
      "lo": 30
     }
    ],
    "h72": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.1,
+    "max": 0.0,
     "n": 5
    },
    "d7": {
@@ -3197,8 +3197,8 @@
      "d7": 0.0
     },
     "icon_seamless": {
-     "h72": 0.1,
-     "d7": 0.1
+     "h72": 0.0,
+     "d7": 0.0
     },
     "gem_seamless": {
      "h72": 0.0,
@@ -3240,8 +3240,8 @@
  "nws_alerts": [],
  "discussion": {
   "office": "SLC",
-  "issued": "2026-11-08T11:16:00+00:00",
-  "key_messages": null,
+  "issued": "2026-11-08T18:10:00+00:00",
+  "key_messages": "- Patchy fog may develop again tonight in prone areas such as the Cache and Heber Valleys. - Conditions remain dry and mild areawide through a majority of the week, with the next chance for precipitation arriving next weekend.",
   "synopsis": null,
   "short_term": null,
   "long_term": null,
