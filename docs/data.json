@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-08T11:24-07:00",
+ "generated_at": "2026-11-08T15:04-07:00",
  "timezone": "America/Denver",
  "home": {
   "name": "Logan",
   "week": [
    {
     "date": "2026-11-08",
-    "name": "Today",
+    "name": "This Afternoon",
     "hi": 58,
     "short": "Mostly Sunny",
-    "detailed": "Mostly sunny. High near 58, with temperatures falling to around 53 in the afternoon. South wind around 2 mph.",
+    "detailed": "Mostly sunny. High near 58, with temperatures falling to around 54 in the afternoon. South wind around 2 mph.",
     "pop": 0,
     "lo": 37,
     "night_short": "Mostly Cloudy",
@@ -18,20 +18,20 @@
    {
     "date": "2026-11-09",
     "name": "Monday",
-    "hi": 60,
+    "hi": 61,
     "short": "Partly Sunny",
-    "detailed": "Partly sunny. High near 60, with temperatures falling to around 55 in the afternoon. South southwest wind around 3 mph.",
+    "detailed": "Partly sunny. High near 61, with temperatures falling to around 56 in the afternoon. South southeast wind around 3 mph.",
     "pop": 0,
-    "lo": 36,
+    "lo": 37,
     "night_short": "Mostly Cloudy",
     "pop_night": 0
    },
    {
     "date": "2026-11-10",
     "name": "Tuesday",
-    "hi": 58,
+    "hi": 57,
     "short": "Sunny",
-    "detailed": "Sunny, with a high near 58. North northeast wind around 2 mph.",
+    "detailed": "Sunny, with a high near 57. West wind around 2 mph.",
     "pop": 0,
     "lo": 35,
     "night_short": "Mostly Clear",
@@ -51,13 +51,13 @@
    {
     "date": "2026-11-12",
     "name": "Thursday",
-    "hi": 60,
+    "hi": 61,
     "short": "Sunny",
-    "detailed": "Sunny, with a high near 60.",
+    "detailed": "Sunny, with a high near 61.",
     "pop": 0,
-    "lo": 38,
+    "lo": 37,
     "night_short": "Partly Cloudy",
-    "pop_night": 1
+    "pop_night": 0
    },
    {
     "date": "2026-11-13",
@@ -65,10 +65,10 @@
     "hi": 59,
     "short": "Mostly Sunny",
     "detailed": "Mostly sunny, with a high near 59.",
-    "pop": 8,
+    "pop": 4,
     "lo": 39,
     "night_short": "Partly Cloudy",
-    "pop_night": 12
+    "pop_night": 5
    },
    {
     "date": "2026-11-14",
@@ -76,10 +76,10 @@
     "hi": 58,
     "short": "Mostly Sunny",
     "detailed": "Mostly sunny, with a high near 58.",
-    "pop": 9,
+    "pop": 7,
     "lo": 40,
     "night_short": "Mostly Cloudy",
-    "pop_night": 14
+    "pop_night": 13
    }
   ]
  },
@@ -116,7 +116,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
+     "hi": 51,
      "lo": 31
     },
     {
@@ -148,7 +148,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
+     "hi": 44,
      "lo": 30
     },
     {
@@ -203,11 +203,11 @@
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.3,
+     "max": 0.8,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.3,
+      "ncep_nbm_conus": 0.8,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -225,7 +225,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.3,
+    "max": 0.9,
     "n": 5
    },
    "by_model": {
@@ -235,7 +235,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.3
+     "d7": 0.9
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -368,7 +368,7 @@
       "gem_seamless": 0.0
      },
      "hi": 49,
-     "lo": 31
+     "lo": 32
     },
     {
      "date": "2026-11-13",
@@ -390,11 +390,11 @@
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.4,
+     "max": 0.9,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.4,
+      "ncep_nbm_conus": 0.9,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -412,7 +412,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.5,
+    "max": 1.0,
     "n": 5
    },
    "by_model": {
@@ -422,7 +422,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.5
+     "d7": 1.0
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -507,7 +507,7 @@
       "gem_seamless": 0.0
      },
      "hi": 51,
-     "lo": 33
+     "lo": 32
     },
     {
      "date": "2026-11-10",
@@ -523,7 +523,7 @@
       "gem_seamless": 0.0
      },
      "hi": 43,
-     "lo": 30
+     "lo": 29
     },
     {
      "date": "2026-11-11",
@@ -539,7 +539,7 @@
       "gem_seamless": 0.0
      },
      "hi": 49,
-     "lo": 32
+     "lo": 30
     },
     {
      "date": "2026-11-12",
@@ -570,18 +570,18 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
+     "hi": 49,
      "lo": 33
     },
     {
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.4,
+     "max": 0.9,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.4,
+      "ncep_nbm_conus": 0.9,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -599,7 +599,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.4,
+    "max": 1.0,
     "n": 5
    },
    "by_model": {
@@ -609,7 +609,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.4
+     "d7": 1.0
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -726,7 +726,7 @@
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 35
+     "lo": 36
     },
     {
      "date": "2026-11-12",
@@ -764,11 +764,11 @@
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.2,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
+      "ncep_nbm_conus": 0.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -786,7 +786,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.1,
+    "max": 0.2,
     "n": 5
    },
    "by_model": {
@@ -796,7 +796,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.1
+     "d7": 0.2
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -866,7 +866,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
+     "hi": 49,
      "lo": 33
     },
     {
@@ -937,11 +937,11 @@
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.3,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
+      "ncep_nbm_conus": 0.3,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -959,7 +959,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.1,
+    "max": 0.3,
     "n": 5
    },
    "by_model": {
@@ -969,7 +969,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.1
+     "d7": 0.3
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -1110,16 +1110,16 @@
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.5,
+     "max": 1.2,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.5,
+      "ncep_nbm_conus": 1.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 46,
      "lo": 30
     }
    ],
@@ -1132,7 +1132,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.6,
+    "max": 1.3,
     "n": 5
    },
    "by_model": {
@@ -1142,7 +1142,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.6
+     "d7": 1.3
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -1212,7 +1212,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 47,
      "lo": 29
     },
     {
@@ -1277,17 +1277,17 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 26
+     "lo": 27
     },
     {
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.3,
+     "max": 0.8,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.3,
+      "ncep_nbm_conus": 0.8,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -1305,7 +1305,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.3,
+    "max": 0.9,
     "n": 5
    },
    "by_model": {
@@ -1315,7 +1315,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.3
+     "d7": 0.9
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -1440,11 +1440,11 @@
      "date": "2026-11-13",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
+      "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -1478,7 +1478,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.3,
+    "max": 0.2,
     "n": 5
    },
    "by_model": {
@@ -1488,7 +1488,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.3
+     "d7": 0.2
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -1528,7 +1528,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 46,
      "lo": 30
     },
     {
@@ -1615,17 +1615,17 @@
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.4,
+     "max": 1.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.4,
+      "ncep_nbm_conus": 1.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 42,
-     "lo": 32
+     "lo": 31
     }
    ],
    "h72": {
@@ -1637,7 +1637,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.6,
+    "max": 1.2,
     "n": 5
    },
    "by_model": {
@@ -1647,7 +1647,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.6
+     "d7": 1.2
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -1788,17 +1788,17 @@
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.4,
+     "max": 1.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.4,
+      "ncep_nbm_conus": 1.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 42,
-     "lo": 32
+     "lo": 31
     }
    ],
    "h72": {
@@ -1810,7 +1810,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.6,
+    "max": 1.2,
     "n": 5
    },
    "by_model": {
@@ -1820,7 +1820,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.6
+     "d7": 1.2
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -1961,11 +1961,11 @@
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.3,
+     "max": 1.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.3,
+      "ncep_nbm_conus": 1.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -1983,7 +1983,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.4,
+    "max": 1.1,
     "n": 5
    },
    "by_model": {
@@ -1993,7 +1993,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.4
+     "d7": 1.1
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -2134,11 +2134,11 @@
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.3,
+     "max": 1.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.3,
+      "ncep_nbm_conus": 1.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -2156,7 +2156,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.5,
+    "max": 1.1,
     "n": 5
    },
    "by_model": {
@@ -2166,7 +2166,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.5
+     "d7": 1.1
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -2284,7 +2284,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 55,
+     "hi": 54,
      "lo": 33
     },
     {
@@ -2300,23 +2300,23 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
+     "hi": 51,
      "lo": 29
     },
     {
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.2,
+     "max": 0.7,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.2,
+      "ncep_nbm_conus": 0.7,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
+     "hi": 48,
      "lo": 27
     }
    ],
@@ -2329,7 +2329,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.3,
+    "max": 0.8,
     "n": 5
    },
    "by_model": {
@@ -2339,7 +2339,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.3
+     "d7": 0.8
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -2459,24 +2459,24 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
+     "hi": 46,
      "lo": 32
     },
     {
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.3,
+     "max": 1.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.3,
+      "ncep_nbm_conus": 1.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
-     "lo": 32
+     "hi": 42,
+     "lo": 31
     }
    ],
    "h72": {
@@ -2488,7 +2488,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.5,
+    "max": 1.2,
     "n": 5
    },
    "by_model": {
@@ -2498,7 +2498,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.5
+     "d7": 1.2
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -2569,7 +2569,7 @@
       "gem_seamless": 0.0
      },
      "hi": 50,
-     "lo": 37
+     "lo": 36
     },
     {
      "date": "2026-11-10",
@@ -2633,23 +2633,23 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 33
+     "lo": 34
     },
     {
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.3,
+     "max": 1.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.3,
+      "ncep_nbm_conus": 1.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
-     "lo": 33
+     "hi": 43,
+     "lo": 32
     }
    ],
    "h72": {
@@ -2661,7 +2661,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.5,
+    "max": 1.1,
     "n": 5
    },
    "by_model": {
@@ -2671,7 +2671,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.5
+     "d7": 1.1
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -2741,24 +2741,24 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 45,
      "lo": 32
     },
     {
      "date": "2026-11-10",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.2,
+     "max": 0.3,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.2,
-      "ecmwf_ifs025": 0.2,
+      "ncep_nbm_conus": 0.1,
+      "ecmwf_ifs025": 0.3,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 38,
-     "lo": 28
+     "lo": 27
     },
     {
      "date": "2026-11-11",
@@ -2773,8 +2773,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
-     "lo": 29
+     "hi": 43,
+     "lo": 27
     },
     {
      "date": "2026-11-12",
@@ -2796,45 +2796,45 @@
      "date": "2026-11-13",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.2,
+     "max": 0.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.2,
+      "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 33
+     "lo": 34
     },
     {
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.7,
+     "max": 1.2,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.7,
+      "ncep_nbm_conus": 1.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
+     "hi": 44,
      "lo": 32
     }
    ],
    "h72": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.2,
+    "max": 0.3,
     "n": 5
    },
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 1.0,
+    "max": 1.4,
     "n": 5
    },
    "by_model": {
@@ -2843,12 +2843,12 @@
      "d7": 0.0
     },
     "ncep_nbm_conus": {
-     "h72": 0.2,
-     "d7": 1.0
+     "h72": 0.1,
+     "d7": 1.4
     },
     "ecmwf_ifs025": {
-     "h72": 0.1,
-     "d7": 0.2
+     "h72": 0.3,
+     "d7": 0.3
     },
     "icon_seamless": {
      "h72": 0.0,
@@ -2931,7 +2931,7 @@
       "gem_seamless": 0.0
      },
      "hi": 40,
-     "lo": 29
+     "lo": 28
     },
     {
      "date": "2026-11-11",
@@ -2946,7 +2946,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 46,
      "lo": 27
     },
     {
@@ -2979,23 +2979,23 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 30
+     "lo": 28
     },
     {
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.6,
+     "max": 1.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.6,
+      "ncep_nbm_conus": 1.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 44,
-     "lo": 27
+     "lo": 28
     }
    ],
    "h72": {
@@ -3007,7 +3007,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.8,
+    "max": 1.2,
     "n": 5
    },
    "by_model": {
@@ -3017,7 +3017,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.8
+     "d7": 1.2
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -3152,17 +3152,17 @@
       "gem_seamless": 0.0
      },
      "hi": 45,
-     "lo": 31
+     "lo": 32
     },
     {
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.5,
+     "max": 0.9,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.5,
+      "ncep_nbm_conus": 0.9,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -3180,7 +3180,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.6,
+    "max": 1.0,
     "n": 5
    },
    "by_model": {
@@ -3190,7 +3190,7 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.6
+     "d7": 1.0
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
@@ -3251,18 +3251,18 @@
   {
    "source": "Wasatch Weather Weenies",
    "author": "Jim Steenburgh",
-   "title": "Extended Range Regime Change",
-   "published": "2026-11-05T10:50:54.007-07:00",
-   "excerpt": "In dry times, it's easy to be seduced by long-range forecasts. This is especially true if one is looking at plume diagrams, such as those produced by the Utah Snow Ensemble because the eye is drawn to those members that\u2026",
-   "url": "https://wasatchweatherweenies.blogspot.com/2026/11/extended-range-regime-change.html"
+   "title": "Ski Report",
+   "published": "2026-11-08T13:58:16.853-07:00",
+   "excerpt": "I got out for my first turns of the season today. Some youngsters dragged me up the mountain. Coverage on the \"Collins Glacier\" above the angle station is good. Below the angle you'll find some rocks. Reports are it's\u2026",
+   "url": "https://wasatchweatherweenies.blogspot.com/2026/11/ski-report.html"
   },
   {
    "source": "Wasatch Weather Weenies",
    "author": "Jim Steenburgh",
-   "title": "What Is the Wet Bulb Temperature?",
-   "published": "2026-11-04T09:26:12.482-07:00",
-   "excerpt": "If you are a skier and you are interested in snow level or snowmaking, you should get to know something called the wet-bulb temperature. Most of the time when we refer to temperature we are talking about the ambient air\u2026",
-   "url": "https://wasatchweatherweenies.blogspot.com/2026/11/what-is-wet-bulb-temperature.html"
+   "title": "Extended Range Regime Change",
+   "published": "2026-11-05T10:50:54.007-07:00",
+   "excerpt": "In dry times, it's easy to be seduced by long-range forecasts. This is especially true if one is looking at plume diagrams, such as those produced by the Utah Snow Ensemble because the eye is drawn to those members that\u2026",
+   "url": "https://wasatchweatherweenies.blogspot.com/2026/11/extended-range-regime-change.html"
   }
  ],
  "take": null,
