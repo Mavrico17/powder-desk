@@ -1,16 +1,13 @@
 {
- "generated_at": "2026-11-08T15:04-07:00",
+ "generated_at": "2026-11-08T18:43-07:00",
  "timezone": "America/Denver",
  "home": {
   "name": "Logan",
   "week": [
    {
     "date": "2026-11-08",
-    "name": "This Afternoon",
-    "hi": 58,
-    "short": "Mostly Sunny",
-    "detailed": "Mostly sunny. High near 58, with temperatures falling to around 54 in the afternoon. South wind around 2 mph.",
-    "pop": 0,
+    "name": "Tonight",
+    "short": "Mostly Cloudy",
     "lo": 37,
     "night_short": "Mostly Cloudy",
     "pop_night": 0
@@ -133,7 +130,7 @@
       "gem_seamless": 0.0
      },
      "hi": 51,
-     "lo": 32
+     "lo": 31
     },
     {
      "date": "2026-11-10",
@@ -336,7 +333,7 @@
       "gem_seamless": 0.0
      },
      "hi": 42,
-     "lo": 31
+     "lo": 30
     },
     {
      "date": "2026-11-11",
@@ -367,7 +364,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 49,
+     "hi": 50,
      "lo": 32
     },
     {
@@ -384,7 +381,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 31
+     "lo": 32
     },
     {
      "date": "2026-11-14",
@@ -400,7 +397,7 @@
       "gem_seamless": 0.0
      },
      "hi": 45,
-     "lo": 31
+     "lo": 33
     }
    ],
    "h72": {
@@ -539,7 +536,7 @@
       "gem_seamless": 0.0
      },
      "hi": 49,
-     "lo": 30
+     "lo": 31
     },
     {
      "date": "2026-11-12",
@@ -554,7 +551,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 53,
+     "hi": 54,
      "lo": 34
     },
     {
@@ -586,7 +583,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 48,
      "lo": 33
     }
    ],
@@ -677,7 +674,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 49,
      "lo": 36
     },
     {
@@ -898,7 +895,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 48,
      "lo": 32
     },
     {
@@ -931,7 +928,7 @@
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 32
+     "lo": 33
     },
     {
      "date": "2026-11-14",
@@ -1087,7 +1084,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
+     "hi": 51,
      "lo": 32
     },
     {
@@ -1103,8 +1100,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 30
+     "hi": 48,
+     "lo": 32
     },
     {
      "date": "2026-11-14",
@@ -1229,7 +1226,7 @@
       "gem_seamless": 0.0
      },
      "hi": 45,
-     "lo": 27
+     "lo": 26
     },
     {
      "date": "2026-11-11",
@@ -1244,7 +1241,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
+     "hi": 46,
      "lo": 27
     },
     {
@@ -1260,8 +1257,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
-     "lo": 27
+     "hi": 49,
+     "lo": 28
     },
     {
      "date": "2026-11-13",
@@ -1277,7 +1274,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 27
+     "lo": 25
     },
     {
      "date": "2026-11-14",
@@ -1417,7 +1414,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 48,
      "lo": 26
     },
     {
@@ -1433,8 +1430,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
-     "lo": 28
+     "hi": 51,
+     "lo": 27
     },
     {
      "date": "2026-11-13",
@@ -1450,7 +1447,7 @@
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 26
+     "lo": 29
     },
     {
      "date": "2026-11-14",
@@ -1560,7 +1557,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
+     "hi": 42,
      "lo": 29
     },
     {
@@ -1577,7 +1574,7 @@
       "gem_seamless": 0.0
      },
      "hi": 45,
-     "lo": 29
+     "lo": 30
     },
     {
      "date": "2026-11-12",
@@ -1592,7 +1589,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 49,
      "lo": 34
     },
     {
@@ -1608,8 +1605,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
-     "lo": 32
+     "hi": 44,
+     "lo": 33
     },
     {
      "date": "2026-11-14",
@@ -1733,7 +1730,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
+     "hi": 42,
      "lo": 29
     },
     {
@@ -1750,7 +1747,7 @@
       "gem_seamless": 0.0
      },
      "hi": 45,
-     "lo": 29
+     "lo": 30
     },
     {
      "date": "2026-11-12",
@@ -1765,7 +1762,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 49,
      "lo": 34
     },
     {
@@ -1781,8 +1778,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
-     "lo": 32
+     "hi": 44,
+     "lo": 33
     },
     {
      "date": "2026-11-14",
@@ -1938,7 +1935,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 52,
+     "hi": 53,
      "lo": 34
     },
     {
@@ -1970,7 +1967,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 45,
      "lo": 30
     }
    ],
@@ -2111,8 +2108,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 52,
-     "lo": 35
+     "hi": 53,
+     "lo": 36
     },
     {
      "date": "2026-11-13",
@@ -2143,7 +2140,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
+     "hi": 45,
      "lo": 30
     }
    ],
@@ -2220,7 +2217,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 52,
+     "hi": 53,
      "lo": 31
     },
     {
@@ -2252,7 +2249,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 47,
      "lo": 32
     },
     {
@@ -2268,7 +2265,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 49,
+     "hi": 50,
      "lo": 29
     },
     {
@@ -2284,8 +2281,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 54,
-     "lo": 33
+     "hi": 55,
+     "lo": 34
     },
     {
      "date": "2026-11-13",
@@ -2300,7 +2297,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 51,
+     "hi": 50,
      "lo": 29
     },
     {
@@ -2411,7 +2408,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
+     "hi": 42,
      "lo": 29
     },
     {
@@ -2428,7 +2425,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 29
+     "lo": 30
     },
     {
      "date": "2026-11-12",
@@ -2460,7 +2457,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 32
+     "lo": 33
     },
     {
      "date": "2026-11-14",
@@ -2475,7 +2472,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
+     "hi": 44,
      "lo": 31
     }
    ],
@@ -2617,7 +2614,7 @@
       "gem_seamless": 0.0
      },
      "hi": 50,
-     "lo": 35
+     "lo": 36
     },
     {
      "date": "2026-11-13",
@@ -2748,17 +2745,17 @@
      "date": "2026-11-10",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.3,
+     "max": 0.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
       "ncep_nbm_conus": 0.1,
-      "ecmwf_ifs025": 0.3,
+      "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 38,
-     "lo": 27
+     "lo": 28
     },
     {
      "date": "2026-11-11",
@@ -2773,8 +2770,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
-     "lo": 27
+     "hi": 44,
+     "lo": 29
     },
     {
      "date": "2026-11-12",
@@ -2828,7 +2825,7 @@
    "h72": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.3,
+    "max": 0.1,
     "n": 5
    },
    "d7": {
@@ -2847,8 +2844,8 @@
      "d7": 1.4
     },
     "ecmwf_ifs025": {
-     "h72": 0.3,
-     "d7": 0.3
+     "h72": 0.0,
+     "d7": 0.0
     },
     "icon_seamless": {
      "h72": 0.0,
@@ -2946,8 +2943,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
-     "lo": 27
+     "hi": 47,
+     "lo": 28
     },
     {
      "date": "2026-11-12",
@@ -2962,8 +2959,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 49,
-     "lo": 29
+     "hi": 50,
+     "lo": 30
     },
     {
      "date": "2026-11-13",
@@ -2979,7 +2976,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 28
+     "lo": 30
     },
     {
      "date": "2026-11-14",
@@ -3071,7 +3068,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 48,
      "lo": 30
     },
     {
@@ -3152,7 +3149,7 @@
       "gem_seamless": 0.0
      },
      "hi": 45,
-     "lo": 32
+     "lo": 31
     },
     {
      "date": "2026-11-14",
@@ -3168,7 +3165,7 @@
       "gem_seamless": 0.0
      },
      "hi": 43,
-     "lo": 30
+     "lo": 29
     }
    ],
    "h72": {
@@ -3240,8 +3237,8 @@
  "nws_alerts": [],
  "discussion": {
   "office": "SLC",
-  "issued": "2026-11-08T18:10:00+00:00",
-  "key_messages": "- Patchy fog may develop again tonight in prone areas such as the Cache and Heber Valleys. - Conditions remain dry and mild areawide through a majority of the week, with the next chance for precipitation arriving next weekend.",
+  "issued": "2026-11-09T00:11:00+00:00",
+  "key_messages": null,
   "synopsis": null,
   "short_term": null,
   "long_term": null,
