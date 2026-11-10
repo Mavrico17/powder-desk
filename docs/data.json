@@ -1,37 +1,37 @@
 {
- "generated_at": "2026-11-10T05:39-07:00",
+ "generated_at": "2026-11-10T13:30-07:00",
  "timezone": "America/Denver",
  "home": {
   "name": "Logan",
   "week": [
    {
     "date": "2026-11-10",
-    "name": "Tuesday",
+    "name": "This Afternoon",
+    "hi": 58,
     "short": "Sunny",
+    "detailed": "Sunny. High near 58, with temperatures falling to around 54 in the afternoon. North wind around 2 mph.",
+    "pop": 0,
     "lo": 35,
     "night_short": "Mostly Clear",
-    "pop_night": 0,
-    "hi": 58,
-    "detailed": "Sunny. High near 58, with temperatures falling to around 53 in the afternoon. Northeast wind around 2 mph.",
-    "pop": 0
+    "pop_night": 0
    },
    {
     "date": "2026-11-11",
     "name": "Veterans Day",
     "hi": 59,
     "short": "Sunny",
-    "detailed": "Sunny, with a high near 59. North wind around 2 mph.",
+    "detailed": "Sunny. High near 59, with temperatures falling to around 54 in the afternoon. East northeast wind around 2 mph.",
     "pop": 0,
-    "lo": 34,
+    "lo": 35,
     "night_short": "Mostly Clear",
     "pop_night": 0
    },
    {
     "date": "2026-11-12",
     "name": "Thursday",
-    "hi": 60,
+    "hi": 59,
     "short": "Sunny",
-    "detailed": "Sunny, with a high near 60.",
+    "detailed": "Sunny, with a high near 59. South southwest wind around 2 mph.",
     "pop": 0,
     "lo": 36,
     "night_short": "Partly Cloudy",
@@ -43,40 +43,43 @@
     "hi": 60,
     "short": "Mostly Sunny",
     "detailed": "Mostly sunny, with a high near 60.",
-    "pop": 5,
+    "pop": 4,
     "lo": 39,
     "night_short": "Light Rain Likely",
-    "pop_night": 67
+    "pop_night": 74
    },
    {
     "date": "2026-11-14",
     "name": "Saturday",
-    "hi": 53,
+    "hi": 50,
     "short": "Light Rain Likely",
-    "detailed": "Rain likely. Mostly cloudy, with a high near 53.",
-    "pop": 67,
-    "lo": 36,
+    "detailed": "Rain likely. Mostly cloudy, with a high near 50.",
+    "pop": 74,
+    "lo": 33,
     "night_short": "Chance Light Rain",
-    "pop_night": 36
+    "pop_night": 30
    },
    {
     "date": "2026-11-15",
     "name": "Sunday",
-    "hi": 55,
-    "short": "Slight Chance Light Rain",
-    "detailed": "A slight chance of rain after 11am. Partly sunny, with a high near 55.",
-    "pop": 24,
-    "lo": 37,
+    "hi": 53,
+    "short": "Mostly Sunny",
+    "detailed": "Mostly sunny, with a high near 53.",
+    "pop": 12,
+    "lo": 36,
     "night_short": "Chance Light Rain",
-    "pop_night": 37
+    "pop_night": 25
    },
    {
     "date": "2026-11-16",
     "name": "Monday",
-    "hi": 52,
-    "short": "Light Rain Likely",
-    "detailed": "Rain likely. Mostly cloudy, with a high near 52.",
-    "pop": 56
+    "hi": 54,
+    "short": "Chance Light Rain",
+    "detailed": "A chance of rain. Mostly cloudy, with a high near 54.",
+    "pop": 46,
+    "lo": 37,
+    "night_short": "Light Rain Likely",
+    "pop_night": 56
    }
   ]
  },
@@ -113,8 +116,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 31
+     "hi": 46,
+     "lo": 30
     },
     {
      "date": "2026-11-11",
@@ -129,8 +132,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 49,
-     "lo": 30
+     "hi": 50,
+     "lo": 31
     },
     {
      "date": "2026-11-12",
@@ -146,7 +149,7 @@
       "gem_seamless": 0.0
      },
      "hi": 51,
-     "lo": 32
+     "lo": 31
     },
     {
      "date": "2026-11-13",
@@ -161,56 +164,56 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 47,
      "lo": 31
     },
     {
      "date": "2026-11-14",
-     "median": 0.4,
+     "median": 0.0,
      "min": 0.0,
-     "max": 3.3,
+     "max": 3.2,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.4,
-      "ncep_nbm_conus": 3.3,
-      "ecmwf_ifs025": 0.7,
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 3.2,
+      "ecmwf_ifs025": 1.2,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.1
+      "gem_seamless": 0.0
      },
-     "hi": 37,
-     "lo": 29
+     "hi": 38,
+     "lo": 30
     },
     {
      "date": "2026-11-15",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.5,
+     "max": 0.4,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.5,
-      "ncep_nbm_conus": 0.5,
+      "gfs_seamless": 0.2,
+      "ncep_nbm_conus": 0.4,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 39,
+     "hi": 38,
      "lo": 25
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.2,
+     "max": 1.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 1.2,
+      "ncep_nbm_conus": 1.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 40,
-     "lo": 30
+     "hi": 42,
+     "lo": 27
     }
    ],
    "h72": {
@@ -220,23 +223,23 @@
     "n": 5
    },
    "d7": {
-    "median": 0.7,
+    "median": 0.2,
     "min": 0.0,
-    "max": 5.1,
+    "max": 4.6,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 0.9
+     "d7": 0.2
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 5.1
+     "d7": 4.6
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 0.7
+     "d7": 1.2
     },
     "icon_seamless": {
      "h72": 0.0,
@@ -244,7 +247,7 @@
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 0.1
+     "d7": 0.0
     }
    },
    "avy": {
@@ -268,13 +271,13 @@
      "2026-11-11": 0,
      "2026-11-12": 0,
      "2026-11-13": 0,
-     "2026-11-14": 0.1,
-     "2026-11-15": 0,
-     "2026-11-16": 0.4
+     "2026-11-14": 0.4,
+     "2026-11-15": 0.1,
+     "2026-11-16": 0.1
     },
     "h72": 0.0,
-    "d7": 0.5,
-    "days_covered": 2
+    "d7": 0.6,
+    "days_covered": 3
    }
   },
   {
@@ -348,56 +351,56 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 45,
      "lo": 34
     },
     {
      "date": "2026-11-14",
-     "median": 0.8,
+     "median": 0.4,
      "min": 0.0,
-     "max": 4.7,
+     "max": 4.4,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.8,
-      "ncep_nbm_conus": 4.7,
-      "ecmwf_ifs025": 0.7,
-      "icon_seamless": 0.0,
-      "gem_seamless": 1.3
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 4.4,
+      "ecmwf_ifs025": 0.0,
+      "icon_seamless": 0.4,
+      "gem_seamless": 0.4
      },
-     "hi": 38,
-     "lo": 27
+     "hi": 37,
+     "lo": 30
     },
     {
      "date": "2026-11-15",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.7,
+     "max": 0.5,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.7,
-      "ncep_nbm_conus": 0.7,
+      "gfs_seamless": 0.5,
+      "ncep_nbm_conus": 0.5,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 36,
-     "lo": 25
+     "hi": 35,
+     "lo": 24
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.7,
+     "max": 1.2,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 1.7,
+      "ncep_nbm_conus": 1.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 39,
-     "lo": 28
+     "hi": 40,
+     "lo": 25
     }
    ],
    "h72": {
@@ -407,31 +410,31 @@
     "n": 5
    },
    "d7": {
-    "median": 1.3,
-    "min": 0.0,
-    "max": 7.2,
+    "median": 0.4,
+    "min": 0.1,
+    "max": 6.2,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 1.5
+     "d7": 0.5
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 7.2
+     "d7": 6.2
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 0.7
+     "d7": 0.1
     },
     "icon_seamless": {
      "h72": 0.0,
-     "d7": 0.0
+     "d7": 0.4
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 1.3
+     "d7": 0.4
     }
    },
    "avy": {
@@ -454,14 +457,14 @@
      "2026-11-10": 0,
      "2026-11-11": 0,
      "2026-11-12": 0,
-     "2026-11-13": 0,
-     "2026-11-14": 0.7,
-     "2026-11-15": 0.0,
-     "2026-11-16": 0.9
+     "2026-11-13": 0.2,
+     "2026-11-14": 4.3,
+     "2026-11-15": 0.1,
+     "2026-11-16": 0.2
     },
     "h72": 0.0,
-    "d7": 1.7,
-    "days_covered": 3
+    "d7": 4.8,
+    "days_covered": 4
    }
   },
   {
@@ -503,8 +506,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 50,
-     "lo": 31
+     "hi": 51,
+     "lo": 32
     },
     {
      "date": "2026-11-12",
@@ -540,51 +543,51 @@
     },
     {
      "date": "2026-11-14",
-     "median": 2.2,
+     "median": 0.9,
      "min": 0.0,
-     "max": 4.3,
+     "max": 3.9,
      "n": 5,
      "models": {
-      "gfs_seamless": 2.2,
-      "ncep_nbm_conus": 4.3,
-      "ecmwf_ifs025": 0.7,
+      "gfs_seamless": 0.3,
+      "ncep_nbm_conus": 3.9,
+      "ecmwf_ifs025": 0.9,
       "icon_seamless": 3.0,
       "gem_seamless": 0.0
      },
      "hi": 38,
-     "lo": 29
+     "lo": 30
     },
     {
      "date": "2026-11-15",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.6,
+     "max": 0.5,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.5,
-      "ncep_nbm_conus": 0.6,
+      "gfs_seamless": 0.3,
+      "ncep_nbm_conus": 0.5,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 40,
+     "hi": 38,
      "lo": 25
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.5,
+     "max": 1.2,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 1.5,
+      "ncep_nbm_conus": 1.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 40,
-     "lo": 30
+     "hi": 42,
+     "lo": 27
     }
    ],
    "h72": {
@@ -594,23 +597,23 @@
     "n": 5
    },
    "d7": {
-    "median": 2.7,
+    "median": 0.9,
     "min": 0.0,
-    "max": 6.4,
+    "max": 5.5,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 2.7
+     "d7": 0.6
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 6.4
+     "d7": 5.5
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 0.7
+     "d7": 0.9
     },
     "icon_seamless": {
      "h72": 0.0,
@@ -641,14 +644,14 @@
      "2026-11-10": 0,
      "2026-11-11": 0,
      "2026-11-12": 0,
-     "2026-11-13": 0,
-     "2026-11-14": 1.2,
-     "2026-11-15": 0.0,
-     "2026-11-16": 1.4
+     "2026-11-13": 0.2,
+     "2026-11-14": 6.0,
+     "2026-11-15": 0.1,
+     "2026-11-16": 0.5
     },
     "h72": 0.0,
-    "d7": 2.6,
-    "days_covered": 3
+    "d7": 6.8,
+    "days_covered": 4
    }
   },
   {
@@ -674,7 +677,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 49,
+     "hi": 48,
      "lo": 37
     },
     {
@@ -707,7 +710,7 @@
       "gem_seamless": 0.0
      },
      "hi": 50,
-     "lo": 37
+     "lo": 36
     },
     {
      "date": "2026-11-13",
@@ -729,17 +732,17 @@
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.5,
+     "max": 0.3,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.2,
-      "ecmwf_ifs025": 0.5,
+      "ncep_nbm_conus": 0.3,
+      "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 44,
-     "lo": 30
+     "lo": 32
     },
     {
      "date": "2026-11-15",
@@ -754,7 +757,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
+     "hi": 41,
      "lo": 28
     },
     {
@@ -771,7 +774,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 34
+     "lo": 30
     }
    ],
    "h72": {
@@ -783,7 +786,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 0.7,
+    "max": 0.8,
     "n": 5
    },
    "by_model": {
@@ -793,11 +796,11 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 0.7
+     "d7": 0.8
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 0.5
+     "d7": 0.0
     },
     "icon_seamless": {
      "h72": 0.0,
@@ -847,7 +850,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 48,
      "lo": 32
     },
     {
@@ -863,8 +866,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
-     "lo": 33
+     "hi": 49,
+     "lo": 32
     },
     {
      "date": "2026-11-12",
@@ -879,7 +882,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 49,
+     "hi": 50,
      "lo": 34
     },
     {
@@ -896,55 +899,55 @@
       "gem_seamless": 0.0
      },
      "hi": 50,
-     "lo": 34
+     "lo": 36
     },
     {
      "date": "2026-11-14",
-     "median": 0.1,
+     "median": 0.0,
      "min": 0.0,
      "max": 0.8,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
       "ncep_nbm_conus": 0.8,
-      "ecmwf_ifs025": 0.2,
+      "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.1
+      "gem_seamless": 0.0
      },
-     "hi": 40,
+     "hi": 39,
      "lo": 30
     },
     {
      "date": "2026-11-15",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.4,
+     "max": 0.3,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.2,
-      "ncep_nbm_conus": 0.4,
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 0.3,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
-     "lo": 29
+     "hi": 40,
+     "lo": 28
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
-     "min": 0.0,
-     "max": 0.5,
+     "min": -0.0,
+     "max": 0.6,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.5,
-      "ecmwf_ifs025": 0.0,
+      "ncep_nbm_conus": 0.6,
+      "ecmwf_ifs025": -0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
-     "lo": 32
+     "hi": 44,
+     "lo": 28
     }
    ],
    "h72": {
@@ -954,7 +957,7 @@
     "n": 5
    },
    "d7": {
-    "median": 0.2,
+    "median": 0.0,
     "min": 0.0,
     "max": 1.8,
     "n": 5
@@ -962,7 +965,7 @@
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 0.2
+     "d7": 0.0
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
@@ -970,7 +973,7 @@
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 0.2
+     "d7": 0.0
     },
     "icon_seamless": {
      "h72": 0.0,
@@ -978,7 +981,7 @@
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 0.1
+     "d7": 0.0
     }
    },
    "avy": {
@@ -1020,8 +1023,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 45,
-     "lo": 32
+     "hi": 44,
+     "lo": 31
     },
     {
      "date": "2026-11-11",
@@ -1053,7 +1056,7 @@
       "gem_seamless": 0.0
      },
      "hi": 50,
-     "lo": 32
+     "lo": 33
     },
     {
      "date": "2026-11-13",
@@ -1068,56 +1071,56 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 33
+     "hi": 46,
+     "lo": 34
     },
     {
      "date": "2026-11-14",
-     "median": 0.9,
+     "median": 0.0,
      "min": 0.0,
-     "max": 5.9,
+     "max": 5.4,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 5.9,
-      "ecmwf_ifs025": 3.2,
+      "ncep_nbm_conus": 5.4,
+      "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.9
+      "gem_seamless": 0.2
      },
      "hi": 37,
-     "lo": 27
+     "lo": 29
     },
     {
      "date": "2026-11-15",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.3,
+     "max": 1.1,
      "n": 5,
      "models": {
-      "gfs_seamless": 1.3,
-      "ncep_nbm_conus": 1.0,
+      "gfs_seamless": 0.6,
+      "ncep_nbm_conus": 1.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 37,
+     "hi": 36,
      "lo": 25
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.8,
+     "max": 1.3,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 1.8,
+      "ncep_nbm_conus": 1.3,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 41,
-     "lo": 31
+     "hi": 40,
+     "lo": 27
     }
    ],
    "h72": {
@@ -1127,23 +1130,23 @@
     "n": 5
    },
    "d7": {
-    "median": 1.3,
+    "median": 0.2,
     "min": 0.0,
-    "max": 8.7,
+    "max": 7.9,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 1.3
+     "d7": 0.6
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 8.7
+     "d7": 7.9
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 3.2
+     "d7": 0.1
     },
     "icon_seamless": {
      "h72": 0.0,
@@ -1151,7 +1154,7 @@
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 0.9
+     "d7": 0.2
     }
    },
    "avy": {
@@ -1193,8 +1196,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
-     "lo": 28
+     "hi": 45,
+     "lo": 29
     },
     {
      "date": "2026-11-11",
@@ -1232,33 +1235,33 @@
      "date": "2026-11-13",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
+      "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 28
+     "lo": 30
     },
     {
      "date": "2026-11-14",
      "median": 0.0,
      "min": 0.0,
-     "max": 3.8,
+     "max": 3.5,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 3.8,
-      "ecmwf_ifs025": 2.1,
+      "ncep_nbm_conus": 3.5,
+      "ecmwf_ifs025": 1.2,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 37,
-     "lo": 26
+     "lo": 28
     },
     {
      "date": "2026-11-15",
@@ -1273,24 +1276,24 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 39,
-     "lo": 26
+     "hi": 38,
+     "lo": 25
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.1,
+     "max": 0.9,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 1.1,
+      "ncep_nbm_conus": 0.9,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
-     "lo": 28
+     "hi": 43,
+     "lo": 26
     }
    ],
    "h72": {
@@ -1302,7 +1305,7 @@
    "d7": {
     "median": 0.0,
     "min": 0.0,
-    "max": 5.7,
+    "max": 5.1,
     "n": 5
    },
    "by_model": {
@@ -1312,11 +1315,11 @@
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 5.7
+     "d7": 5.1
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 2.1
+     "d7": 1.3
     },
     "icon_seamless": {
      "h72": 0.0,
@@ -1367,7 +1370,7 @@
       "gem_seamless": 0.0
      },
      "hi": 46,
-     "lo": 31
+     "lo": 30
     },
     {
      "date": "2026-11-11",
@@ -1382,7 +1385,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 49,
+     "hi": 48,
      "lo": 30
     },
     {
@@ -1414,56 +1417,56 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
-     "lo": 27
+     "hi": 48,
+     "lo": 30
     },
     {
      "date": "2026-11-14",
-     "median": 0.1,
+     "median": 0.0,
      "min": 0.0,
-     "max": 1.5,
+     "max": 1.1,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.2,
-      "ncep_nbm_conus": 1.5,
-      "ecmwf_ifs025": 0.1,
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 1.1,
+      "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 39,
-     "lo": 26
+     "hi": 37,
+     "lo": 27
     },
     {
      "date": "2026-11-15",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.5,
+     "max": 0.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.5,
+      "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 40,
-     "lo": 24
+     "hi": 39,
+     "lo": 22
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.9,
+     "max": 1.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.9,
+      "ncep_nbm_conus": 1.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
-     "lo": 26
+     "hi": 42,
+     "lo": 24
     }
    ],
    "h72": {
@@ -1473,23 +1476,23 @@
     "n": 5
    },
    "d7": {
-    "median": 0.1,
+    "median": 0.0,
     "min": 0.0,
-    "max": 2.8,
+    "max": 2.2,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 0.2
+     "d7": 0.0
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 2.8
+     "d7": 2.2
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 0.1
+     "d7": 0.0
     },
     "icon_seamless": {
      "h72": 0.0,
@@ -1525,7 +1528,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
+     "hi": 44,
      "lo": 29
     },
     {
@@ -1541,7 +1544,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 48,
      "lo": 29
     },
     {
@@ -1557,18 +1560,18 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 49,
      "lo": 33
     },
     {
      "date": "2026-11-13",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.3,
+     "max": 0.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.3,
+      "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -1578,51 +1581,51 @@
     },
     {
      "date": "2026-11-14",
-     "median": 4.3,
-     "min": 1.8,
-     "max": 10.2,
+     "median": 5.7,
+     "min": 2.7,
+     "max": 9.9,
      "n": 5,
      "models": {
-      "gfs_seamless": 4.3,
-      "ncep_nbm_conus": 10.2,
-      "ecmwf_ifs025": 1.8,
-      "icon_seamless": 2.4,
-      "gem_seamless": 8.6
+      "gfs_seamless": 8.1,
+      "ncep_nbm_conus": 9.9,
+      "ecmwf_ifs025": 2.7,
+      "icon_seamless": 5.7,
+      "gem_seamless": 2.9
      },
-     "hi": 34,
+     "hi": 32,
      "lo": 24
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
+     "median": 0.2,
      "min": 0.0,
-     "max": 1.2,
+     "max": 1.5,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.4,
-      "ncep_nbm_conus": 1.2,
+      "gfs_seamless": 1.5,
+      "ncep_nbm_conus": 0.8,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.0
+      "gem_seamless": 0.2
      },
-     "hi": 36,
+     "hi": 32,
      "lo": 20
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 4.5,
+     "max": 3.4,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 4.5,
+      "ncep_nbm_conus": 3.4,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 38,
-     "lo": 27
+     "lo": 25
     }
    ],
    "h72": {
@@ -1632,31 +1635,31 @@
     "n": 5
    },
    "d7": {
-    "median": 4.7,
-    "min": 1.8,
-    "max": 16.2,
+    "median": 5.7,
+    "min": 2.7,
+    "max": 14.2,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 4.7
+     "d7": 9.6
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 16.2
+     "d7": 14.2
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 1.8
+     "d7": 2.7
     },
     "icon_seamless": {
      "h72": 0.0,
-     "d7": 2.4
+     "d7": 5.7
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 8.6
+     "d7": 3.1
     }
    },
    "avy": {
@@ -1698,7 +1701,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
+     "hi": 44,
      "lo": 29
     },
     {
@@ -1714,7 +1717,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 47,
      "lo": 29
     },
     {
@@ -1730,18 +1733,18 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 49,
      "lo": 33
     },
     {
      "date": "2026-11-13",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.3,
+     "max": 0.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.3,
+      "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -1751,51 +1754,51 @@
     },
     {
      "date": "2026-11-14",
-     "median": 4.3,
-     "min": 1.8,
-     "max": 10.5,
+     "median": 5.7,
+     "min": 2.7,
+     "max": 10.1,
      "n": 5,
      "models": {
-      "gfs_seamless": 4.3,
-      "ncep_nbm_conus": 10.5,
-      "ecmwf_ifs025": 1.8,
-      "icon_seamless": 2.4,
-      "gem_seamless": 8.6
+      "gfs_seamless": 8.1,
+      "ncep_nbm_conus": 10.1,
+      "ecmwf_ifs025": 2.7,
+      "icon_seamless": 5.7,
+      "gem_seamless": 2.9
      },
-     "hi": 34,
+     "hi": 32,
      "lo": 24
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
+     "median": 0.2,
      "min": 0.0,
-     "max": 1.1,
+     "max": 1.5,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.4,
-      "ncep_nbm_conus": 1.1,
+      "gfs_seamless": 1.5,
+      "ncep_nbm_conus": 0.7,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.0
+      "gem_seamless": 0.2
      },
-     "hi": 36,
+     "hi": 32,
      "lo": 20
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 4.5,
+     "max": 3.3,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 4.5,
+      "ncep_nbm_conus": 3.3,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 38,
-     "lo": 27
+     "lo": 25
     }
    ],
    "h72": {
@@ -1805,31 +1808,31 @@
     "n": 5
    },
    "d7": {
-    "median": 4.7,
-    "min": 1.8,
-    "max": 16.4,
+    "median": 5.7,
+    "min": 2.7,
+    "max": 14.2,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 4.7
+     "d7": 9.6
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 16.4
+     "d7": 14.2
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 1.8
+     "d7": 2.7
     },
     "icon_seamless": {
      "h72": 0.0,
-     "d7": 2.4
+     "d7": 5.7
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 8.6
+     "d7": 3.1
     }
    },
    "avy": {
@@ -1904,71 +1907,71 @@
       "gem_seamless": 0.0
      },
      "hi": 51,
-     "lo": 34
+     "lo": 35
     },
     {
      "date": "2026-11-13",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.3,
+     "max": 0.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.3,
+      "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 43,
-     "lo": 30
+     "hi": 44,
+     "lo": 31
     },
     {
      "date": "2026-11-14",
-     "median": 4.3,
-     "min": 1.2,
+     "median": 5.3,
+     "min": 0.7,
      "max": 9.1,
      "n": 5,
      "models": {
-      "gfs_seamless": 4.3,
+      "gfs_seamless": 5.7,
       "ncep_nbm_conus": 9.1,
-      "ecmwf_ifs025": 1.2,
-      "icon_seamless": 2.3,
-      "gem_seamless": 8.5
+      "ecmwf_ifs025": 0.7,
+      "icon_seamless": 5.3,
+      "gem_seamless": 2.8
      },
-     "hi": 34,
-     "lo": 24
+     "hi": 33,
+     "lo": 28
     },
     {
      "date": "2026-11-15",
-     "median": 0.1,
+     "median": 0.3,
      "min": 0.0,
      "max": 0.8,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.1,
+      "gfs_seamless": 0.7,
       "ncep_nbm_conus": 0.8,
-      "ecmwf_ifs025": 0.1,
+      "ecmwf_ifs025": 0.3,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.0
+      "gem_seamless": 0.2
      },
-     "hi": 39,
-     "lo": 20
+     "hi": 38,
+     "lo": 21
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 3.4,
+     "max": 2.5,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 3.4,
+      "ncep_nbm_conus": 2.5,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 39,
-     "lo": 26
+     "hi": 38,
+     "lo": 24
     }
    ],
    "h72": {
@@ -1978,31 +1981,31 @@
     "n": 5
    },
    "d7": {
-    "median": 4.4,
-    "min": 1.3,
-    "max": 13.7,
+    "median": 5.3,
+    "min": 0.9,
+    "max": 12.5,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 4.4
+     "d7": 6.4
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 13.7
+     "d7": 12.5
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 1.3
+     "d7": 0.9
     },
     "icon_seamless": {
      "h72": 0.0,
-     "d7": 2.3
+     "d7": 5.3
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 8.5
+     "d7": 3.0
     }
    },
    "avy": {
@@ -2044,7 +2047,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 46,
+     "hi": 47,
      "lo": 30
     },
     {
@@ -2077,71 +2080,71 @@
       "gem_seamless": 0.0
      },
      "hi": 51,
-     "lo": 34
+     "lo": 35
     },
     {
      "date": "2026-11-13",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.3,
+     "max": 0.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.3,
+      "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 45,
-     "lo": 30
+     "lo": 31
     },
     {
      "date": "2026-11-14",
-     "median": 4.3,
-     "min": 1.2,
-     "max": 9.0,
+     "median": 5.3,
+     "min": 0.7,
+     "max": 8.9,
      "n": 5,
      "models": {
-      "gfs_seamless": 4.3,
-      "ncep_nbm_conus": 9.0,
-      "ecmwf_ifs025": 1.2,
-      "icon_seamless": 2.3,
-      "gem_seamless": 8.5
+      "gfs_seamless": 5.7,
+      "ncep_nbm_conus": 8.9,
+      "ecmwf_ifs025": 0.7,
+      "icon_seamless": 5.3,
+      "gem_seamless": 2.8
      },
-     "hi": 34,
-     "lo": 24
+     "hi": 33,
+     "lo": 28
     },
     {
      "date": "2026-11-15",
-     "median": 0.1,
+     "median": 0.3,
      "min": 0.0,
-     "max": 1.0,
+     "max": 0.7,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.1,
-      "ncep_nbm_conus": 1.0,
-      "ecmwf_ifs025": 0.1,
+      "gfs_seamless": 0.7,
+      "ncep_nbm_conus": 0.7,
+      "ecmwf_ifs025": 0.3,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.0
+      "gem_seamless": 0.2
      },
-     "hi": 39,
-     "lo": 20
+     "hi": 38,
+     "lo": 21
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 3.4,
+     "max": 2.5,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 3.4,
+      "ncep_nbm_conus": 2.5,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 39,
-     "lo": 26
+     "hi": 40,
+     "lo": 24
     }
    ],
    "h72": {
@@ -2151,31 +2154,31 @@
     "n": 5
    },
    "d7": {
-    "median": 4.4,
-    "min": 1.3,
-    "max": 13.8,
+    "median": 5.3,
+    "min": 0.9,
+    "max": 12.1,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 4.4
+     "d7": 6.4
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 13.8
+     "d7": 12.1
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 1.3
+     "d7": 0.9
     },
     "icon_seamless": {
      "h72": 0.0,
-     "d7": 2.3
+     "d7": 5.3
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 8.5
+     "d7": 3.0
     }
    },
    "avy": {
@@ -2217,8 +2220,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
-     "lo": 33
+     "hi": 47,
+     "lo": 30
     },
     {
      "date": "2026-11-11",
@@ -2256,65 +2259,65 @@
      "date": "2026-11-13",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.1,
+     "max": 0.0,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
+      "ncep_nbm_conus": 0.0,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 47,
-     "lo": 31
+     "lo": 32
     },
     {
      "date": "2026-11-14",
-     "median": 1.8,
-     "min": 0.7,
-     "max": 5.1,
+     "median": 0.5,
+     "min": 0.2,
+     "max": 4.7,
      "n": 5,
      "models": {
-      "gfs_seamless": 1.8,
-      "ncep_nbm_conus": 5.1,
-      "ecmwf_ifs025": 1.4,
-      "icon_seamless": 0.7,
-      "gem_seamless": 2.0
+      "gfs_seamless": 2.6,
+      "ncep_nbm_conus": 4.7,
+      "ecmwf_ifs025": 0.2,
+      "icon_seamless": 0.2,
+      "gem_seamless": 0.5
      },
      "hi": 36,
-     "lo": 26
+     "lo": 28
     },
     {
      "date": "2026-11-15",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.5,
+     "max": 0.9,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.2,
-      "ncep_nbm_conus": 0.5,
+      "gfs_seamless": 0.9,
+      "ncep_nbm_conus": 0.6,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 41,
-     "lo": 23
+     "hi": 40,
+     "lo": 22
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
-     "min": 0.0,
-     "max": 1.8,
+     "min": -0.0,
+     "max": 1.3,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 1.8,
-      "ecmwf_ifs025": 0.0,
+      "ncep_nbm_conus": 1.3,
+      "ecmwf_ifs025": -0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 42,
-     "lo": 24
+     "hi": 40,
+     "lo": 23
     }
    ],
    "h72": {
@@ -2324,31 +2327,31 @@
     "n": 5
    },
    "d7": {
-    "median": 2.0,
-    "min": 0.7,
-    "max": 7.5,
+    "median": 0.5,
+    "min": 0.2,
+    "max": 6.6,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 2.0
+     "d7": 3.5
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 7.5
+     "d7": 6.6
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 1.4
+     "d7": 0.2
     },
     "icon_seamless": {
      "h72": 0.0,
-     "d7": 0.7
+     "d7": 0.2
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 2.0
+     "d7": 0.5
     }
    },
    "avy": null
@@ -2392,7 +2395,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 48,
      "lo": 29
     },
     {
@@ -2415,11 +2418,11 @@
      "date": "2026-11-13",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.4,
+     "max": 0.2,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.4,
+      "ncep_nbm_conus": 0.2,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -2429,51 +2432,51 @@
     },
     {
      "date": "2026-11-14",
-     "median": 4.3,
-     "min": 1.8,
-     "max": 9.3,
+     "median": 5.7,
+     "min": 2.7,
+     "max": 8.8,
      "n": 5,
      "models": {
-      "gfs_seamless": 4.3,
-      "ncep_nbm_conus": 9.3,
-      "ecmwf_ifs025": 1.8,
-      "icon_seamless": 2.4,
-      "gem_seamless": 8.6
+      "gfs_seamless": 8.1,
+      "ncep_nbm_conus": 8.8,
+      "ecmwf_ifs025": 2.7,
+      "icon_seamless": 5.7,
+      "gem_seamless": 2.9
      },
-     "hi": 34,
+     "hi": 32,
      "lo": 24
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
+     "median": 0.2,
      "min": 0.0,
-     "max": 1.1,
+     "max": 1.5,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.4,
-      "ncep_nbm_conus": 1.1,
+      "gfs_seamless": 1.5,
+      "ncep_nbm_conus": 0.7,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.0
+      "gem_seamless": 0.2
      },
-     "hi": 37,
+     "hi": 32,
      "lo": 20
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 4.3,
+     "max": 3.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 4.3,
+      "ncep_nbm_conus": 3.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 38,
-     "lo": 27
+     "lo": 25
     }
    ],
    "h72": {
@@ -2483,31 +2486,31 @@
     "n": 5
    },
    "d7": {
-    "median": 4.7,
-    "min": 1.8,
-    "max": 15.2,
+    "median": 5.7,
+    "min": 2.7,
+    "max": 12.8,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 4.7
+     "d7": 9.6
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 15.2
+     "d7": 12.8
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 1.8
+     "d7": 2.7
     },
     "icon_seamless": {
      "h72": 0.0,
-     "d7": 2.4
+     "d7": 5.7
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 8.6
+     "d7": 3.1
     }
    },
    "avy": {
@@ -2565,7 +2568,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 49,
      "lo": 30
     },
     {
@@ -2588,11 +2591,11 @@
      "date": "2026-11-13",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.3,
+     "max": 0.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.3,
+      "ncep_nbm_conus": 0.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
@@ -2602,51 +2605,51 @@
     },
     {
      "date": "2026-11-14",
-     "median": 4.3,
-     "min": 1.8,
-     "max": 9.5,
+     "median": 5.7,
+     "min": 2.7,
+     "max": 9.2,
      "n": 5,
      "models": {
-      "gfs_seamless": 4.3,
-      "ncep_nbm_conus": 9.5,
-      "ecmwf_ifs025": 1.8,
-      "icon_seamless": 2.3,
-      "gem_seamless": 8.5
+      "gfs_seamless": 7.6,
+      "ncep_nbm_conus": 9.2,
+      "ecmwf_ifs025": 2.7,
+      "icon_seamless": 5.7,
+      "gem_seamless": 2.9
      },
-     "hi": 35,
+     "hi": 33,
      "lo": 25
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
+     "median": 0.2,
      "min": 0.0,
-     "max": 1.1,
+     "max": 1.5,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.4,
-      "ncep_nbm_conus": 1.1,
+      "gfs_seamless": 1.5,
+      "ncep_nbm_conus": 0.7,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
-      "gem_seamless": 0.0
+      "gem_seamless": 0.2
      },
-     "hi": 38,
+     "hi": 34,
      "lo": 21
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 3.8,
+     "max": 2.9,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 3.8,
+      "ncep_nbm_conus": 2.9,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
      "hi": 39,
-     "lo": 28
+     "lo": 26
     }
    ],
    "h72": {
@@ -2656,31 +2659,31 @@
     "n": 5
    },
    "d7": {
-    "median": 4.6,
-    "min": 1.8,
-    "max": 14.8,
+    "median": 5.7,
+    "min": 2.7,
+    "max": 12.9,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 4.6
+     "d7": 9.1
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 14.8
+     "d7": 12.9
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 1.8
+     "d7": 2.7
     },
     "icon_seamless": {
      "h72": 0.0,
-     "d7": 2.3
+     "d7": 5.7
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 8.5
+     "d7": 3.1
     }
    },
    "avy": {
@@ -2722,8 +2725,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 40,
-     "lo": 28
+     "hi": 41,
+     "lo": 29
     },
     {
      "date": "2026-11-11",
@@ -2738,7 +2741,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 45,
      "lo": 30
     },
     {
@@ -2754,8 +2757,8 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 49,
-     "lo": 33
+     "hi": 50,
+     "lo": 34
     },
     {
      "date": "2026-11-13",
@@ -2771,55 +2774,55 @@
       "gem_seamless": 0.0
      },
      "hi": 45,
-     "lo": 34
+     "lo": 33
     },
     {
      "date": "2026-11-14",
-     "median": 1.8,
+     "median": 0.1,
      "min": 0.0,
-     "max": 4.2,
+     "max": 2.8,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 4.2,
-      "ecmwf_ifs025": 1.8,
-      "icon_seamless": 0.2,
-      "gem_seamless": 3.2
+      "ncep_nbm_conus": 2.8,
+      "ecmwf_ifs025": 0.4,
+      "icon_seamless": 0.0,
+      "gem_seamless": 0.1
      },
      "hi": 36,
-     "lo": 26
+     "lo": 30
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
+     "median": 0.2,
      "min": 0.0,
-     "max": 1.4,
+     "max": 1.2,
      "n": 5,
      "models": {
-      "gfs_seamless": 1.4,
-      "ncep_nbm_conus": 1.4,
-      "ecmwf_ifs025": 0.0,
+      "gfs_seamless": 0.5,
+      "ncep_nbm_conus": 1.2,
+      "ecmwf_ifs025": 0.2,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 37,
-     "lo": 22
+     "hi": 34,
+     "lo": 23
     },
     {
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 2.2,
+     "max": 2.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 2.2,
+      "ncep_nbm_conus": 2.1,
       "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 39,
-     "lo": 28
+     "hi": 41,
+     "lo": 24
     }
    ],
    "h72": {
@@ -2829,31 +2832,31 @@
     "n": 5
    },
    "d7": {
-    "median": 1.8,
-    "min": 0.2,
-    "max": 7.8,
+    "median": 0.5,
+    "min": 0.0,
+    "max": 6.1,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 1.5
+     "d7": 0.5
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 7.8
+     "d7": 6.1
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 1.8
+     "d7": 0.6
     },
     "icon_seamless": {
      "h72": 0.0,
-     "d7": 0.2
+     "d7": 0.0
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 3.2
+     "d7": 0.1
     }
    },
    "avy": {
@@ -2886,12 +2889,12 @@
      "date": "2026-11-10",
      "median": 0.0,
      "min": 0.0,
-     "max": 0.0,
+     "max": 0.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
       "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
+      "ecmwf_ifs025": 0.1,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
@@ -2912,7 +2915,7 @@
       "gem_seamless": 0.0
      },
      "hi": 48,
-     "lo": 30
+     "lo": 29
     },
     {
      "date": "2026-11-12",
@@ -2927,7 +2930,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 48,
+     "hi": 50,
      "lo": 28
     },
     {
@@ -2943,35 +2946,35 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 44,
-     "lo": 29
+     "hi": 46,
+     "lo": 28
     },
     {
      "date": "2026-11-14",
-     "median": 3.0,
-     "min": 0.1,
-     "max": 4.3,
+     "median": 0.3,
+     "min": 0.0,
+     "max": 3.0,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.1,
-      "ncep_nbm_conus": 4.3,
-      "ecmwf_ifs025": 3.3,
-      "icon_seamless": 1.7,
-      "gem_seamless": 3.0
+      "gfs_seamless": 0.0,
+      "ncep_nbm_conus": 3.0,
+      "ecmwf_ifs025": 0.9,
+      "icon_seamless": 0.1,
+      "gem_seamless": 0.3
      },
-     "hi": 34,
-     "lo": 26
+     "hi": 36,
+     "lo": 27
     },
     {
      "date": "2026-11-15",
-     "median": 0.1,
+     "median": 0.2,
      "min": 0.0,
-     "max": 1.2,
+     "max": 1.1,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.8,
-      "ncep_nbm_conus": 1.2,
-      "ecmwf_ifs025": 0.1,
+      "gfs_seamless": 0.4,
+      "ncep_nbm_conus": 1.1,
+      "ecmwf_ifs025": 0.2,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
@@ -2982,17 +2985,17 @@
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 2.2,
+     "max": 1.7,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 2.2,
+      "ncep_nbm_conus": 1.7,
       "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
+      "icon_seamless": 0.1,
       "gem_seamless": 0.0
      },
-     "hi": 38,
-     "lo": 24
+     "hi": 39,
+     "lo": 22
     }
    ],
    "h72": {
@@ -3002,31 +3005,31 @@
     "n": 5
    },
    "d7": {
-    "median": 3.0,
-    "min": 0.9,
-    "max": 7.7,
+    "median": 0.4,
+    "min": 0.2,
+    "max": 5.8,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 0.9
+     "d7": 0.4
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 7.7
+     "d7": 5.8
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 3.4
+     "d7": 1.2
     },
     "icon_seamless": {
      "h72": 0.0,
-     "d7": 1.7
+     "d7": 0.2
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 3.0
+     "d7": 0.3
     }
    },
    "avy": {
@@ -3069,7 +3072,7 @@
       "gem_seamless": 0.0
      },
      "hi": 41,
-     "lo": 30
+     "lo": 31
     },
     {
      "date": "2026-11-11",
@@ -3100,7 +3103,7 @@
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
-     "hi": 47,
+     "hi": 48,
      "lo": 30
     },
     {
@@ -3121,30 +3124,30 @@
     },
     {
      "date": "2026-11-14",
-     "median": 1.9,
+     "median": 0.3,
      "min": 0.0,
-     "max": 2.8,
+     "max": 1.9,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 2.8,
-      "ecmwf_ifs025": 0.6,
-      "icon_seamless": 2.2,
-      "gem_seamless": 1.9
+      "ncep_nbm_conus": 1.9,
+      "ecmwf_ifs025": 0.3,
+      "icon_seamless": 1.5,
+      "gem_seamless": 0.0
      },
-     "hi": 34,
-     "lo": 25
+     "hi": 35,
+     "lo": 27
     },
     {
      "date": "2026-11-15",
-     "median": 0.1,
+     "median": 0.0,
      "min": 0.0,
-     "max": 0.7,
+     "max": 0.6,
      "n": 5,
      "models": {
-      "gfs_seamless": 0.7,
-      "ncep_nbm_conus": 0.7,
-      "ecmwf_ifs025": 0.1,
+      "gfs_seamless": 0.3,
+      "ncep_nbm_conus": 0.6,
+      "ecmwf_ifs025": 0.0,
       "icon_seamless": 0.0,
       "gem_seamless": 0.0
      },
@@ -3155,17 +3158,17 @@
      "date": "2026-11-16",
      "median": 0.0,
      "min": 0.0,
-     "max": 1.3,
+     "max": 1.1,
      "n": 5,
      "models": {
       "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 1.3,
+      "ncep_nbm_conus": 1.1,
       "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
+      "icon_seamless": 0.1,
       "gem_seamless": 0.0
      },
-     "hi": 37,
-     "lo": 23
+     "hi": 38,
+     "lo": 22
     }
    ],
    "h72": {
@@ -3175,31 +3178,31 @@
     "n": 5
    },
    "d7": {
-    "median": 1.9,
-    "min": 0.7,
-    "max": 4.8,
+    "median": 0.3,
+    "min": 0.0,
+    "max": 3.6,
     "n": 5
    },
    "by_model": {
     "gfs_seamless": {
      "h72": 0.0,
-     "d7": 0.7
+     "d7": 0.3
     },
     "ncep_nbm_conus": {
      "h72": 0.0,
-     "d7": 4.8
+     "d7": 3.6
     },
     "ecmwf_ifs025": {
      "h72": 0.0,
-     "d7": 0.7
+     "d7": 0.3
     },
     "icon_seamless": {
      "h72": 0.0,
-     "d7": 2.2
+     "d7": 1.7
     },
     "gem_seamless": {
      "h72": 0.0,
-     "d7": 1.9
+     "d7": 0.0
     }
    },
    "avy": {
@@ -3237,8 +3240,8 @@
  "nws_alerts": [],
  "discussion": {
   "office": "SLC",
-  "issued": "2026-11-10T11:12:00+00:00",
-  "key_messages": null,
+  "issued": "2026-11-10T19:39:00+00:00",
+  "key_messages": "- Dry conditions with valley inversions persisting through Thursday before valley rain and mountain snow arrive this weekend that will help to mix out the inversions. - Another storm early next week could bring cooler temperatures aloft and more widespread precipitation, but confidence is low on the timing and track.",
   "synopsis": null,
   "short_term": null,
   "long_term": null,
