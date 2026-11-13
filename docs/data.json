@@ -1,38 +1,30 @@
 {
- "generated_at": "2026-11-12T18:05-07:00",
+ "generated_at": "2026-11-13T02:31-07:00",
  "timezone": "America/Denver",
  "home": {
   "name": "Logan",
   "week": [
    {
-    "date": "2026-11-12",
-    "name": "Tonight",
-    "short": "Mostly Cloudy",
-    "lo": 37,
-    "night_short": "Mostly Cloudy",
-    "pop_night": 0
-   },
-   {
     "date": "2026-11-13",
     "name": "Friday",
-    "hi": 60,
     "short": "Mostly Cloudy then Chance Light Rain",
-    "detailed": "A chance of rain after 5pm. Mostly cloudy. High near 60, with temperatures falling to around 56 in the afternoon. South southeast wind 2 to 8 mph. Chance of precipitation is 30%.",
-    "pop": 29,
-    "lo": 39,
+    "lo": 38,
     "night_short": "Light Rain",
-    "pop_night": 94
+    "pop_night": 87,
+    "hi": 60,
+    "detailed": "A chance of rain after 5pm. Mostly cloudy. High near 60, with temperatures falling to around 56 in the afternoon. South southeast wind 2 to 7 mph. Chance of precipitation is 40%.",
+    "pop": 42
    },
    {
     "date": "2026-11-14",
     "name": "Saturday",
-    "hi": 47,
-    "short": "Light Rain",
-    "detailed": "Rain before 5pm. Cloudy, with a high near 47. Southwest wind around 2 mph. Chance of precipitation is 90%.",
-    "pop": 94,
-    "lo": 31,
+    "hi": 46,
+    "short": "Rain And Snow",
+    "detailed": "Rain before 8am, then rain and snow between 8am and 5pm. Mostly cloudy, with a high near 46. West southwest wind around 2 mph. Chance of precipitation is 100%. New rainfall amounts between a tenth and quarter of an inch possible.",
+    "pop": 96,
+    "lo": 30,
     "night_short": "Partly Cloudy",
-    "pop_night": 8
+    "pop_night": 6
    },
    {
     "date": "2026-11-15",
@@ -41,53 +33,55 @@
     "short": "Mostly Sunny",
     "detailed": "Mostly sunny, with a high near 52.",
     "pop": 0,
-    "lo": 33,
-    "night_short": "Mostly Cloudy",
-    "pop_night": 1
+    "lo": 31,
+    "night_short": "Partly Cloudy",
+    "pop_night": 0
    },
    {
     "date": "2026-11-16",
     "name": "Monday",
     "hi": 55,
-    "short": "Partly Sunny",
-    "detailed": "Partly sunny, with a high near 55.",
-    "pop": 11,
-    "lo": 35,
+    "short": "Mostly Sunny",
+    "detailed": "Mostly sunny, with a high near 55.",
+    "pop": 4,
+    "lo": 34,
     "night_short": "Chance Light Rain",
-    "pop_night": 46
+    "pop_night": 52
    },
    {
     "date": "2026-11-17",
     "name": "Tuesday",
-    "hi": 51,
-    "short": "Light Rain Likely",
-    "detailed": "Rain likely. Mostly cloudy, with a high near 51.",
-    "pop": 67,
-    "lo": 33,
-    "night_short": "Rain And Snow Likely",
-    "pop_night": 72
+    "hi": 48,
+    "short": "Light Rain",
+    "detailed": "Rain. Cloudy, with a high near 48.",
+    "pop": 88,
+    "lo": 30,
+    "night_short": "Rain And Snow",
+    "pop_night": 88
    },
    {
     "date": "2026-11-18",
     "name": "Wednesday",
-    "hi": 45,
+    "hi": 42,
     "short": "Chance Rain And Snow",
-    "detailed": "A chance of rain and snow. Partly sunny, with a high near 45.",
-    "pop": 47,
-    "lo": 30,
+    "detailed": "A chance of rain and snow. Partly sunny, with a high near 42. Little or no snow accumulation expected.",
+    "pop": 41,
+    "lo": 28,
     "night_short": "Rain And Snow Likely",
-    "pop_night": 55
+    "pop_night": 69
+   },
+   {
+    "date": "2026-11-19",
+    "name": "Thursday",
+    "hi": 41,
+    "short": "Light Snow Likely",
+    "detailed": "Snow likely before 11am, then rain and snow likely. Mostly cloudy, with a high near 41. New snow accumulation of less than half an inch possible.",
+    "pop": 69
    }
   ]
  },
  "primary_local": "beaver",
- "models": {
-  "gfs_seamless": "GFS (NOAA)",
-  "ncep_nbm_conus": "NBM (NOAA)",
-  "ecmwf_ifs025": "ECMWF (Europe)",
-  "icon_seamless": "ICON (Germany)",
-  "gem_seamless": "GEM (Canada)"
- },
+ "models": {},
  "snow_ratio": 10,
  "spots": [
   {
@@ -101,152 +95,51 @@
    "lon": -111.541,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 52,
-     "lo": 31
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.2,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.2,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.2
-     },
-     "hi": 46,
-     "lo": 32
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 3.1,
-     "min": 0.0,
-     "max": 5.8,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 5.8,
-      "ncep_nbm_conus": 3.2,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 3.1
-     },
-     "hi": 35,
-     "lo": 28
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 39,
-     "lo": 25
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 42,
-     "lo": 28
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 2.2,
-     "min": 1.3,
-     "max": 3.4,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 1.4,
-      "ncep_nbm_conus": 3.4,
-      "ecmwf_ifs025": 2.4,
-      "icon_seamless": 2.2,
-      "gem_seamless": 1.3
-     },
-     "hi": 35,
-     "lo": 24
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 1.7,
-     "min": 0.9,
-     "max": 3.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.0,
-      "ncep_nbm_conus": 3.0,
-      "ecmwf_ifs025": 1.5,
-      "icon_seamless": 1.7,
-      "gem_seamless": 0.9
-     },
-     "hi": 28,
-     "lo": 18
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 3.2,
-    "min": 0.0,
-    "max": 5.9,
-    "n": 5
-   },
-   "d7": {
-    "median": 5.6,
-    "min": 3.9,
-    "max": 9.7,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 5.9,
-     "d7": 9.3
-    },
-    "ncep_nbm_conus": {
-     "h72": 3.2,
-     "d7": 9.7
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 3.9
-    },
-    "icon_seamless": {
-     "h72": 0.0,
-     "d7": 3.9
-    },
-    "gem_seamless": {
-     "h72": 3.3,
-     "d7": 5.6
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Logan",
     "center": "Utah Avalanche Center",
@@ -264,16 +157,16 @@
    },
    "nws": {
     "days": {
-     "2026-11-12": 0,
      "2026-11-13": 0,
      "2026-11-14": 0.2,
      "2026-11-15": 0,
-     "2026-11-16": 0.0,
-     "2026-11-17": 0.5,
-     "2026-11-18": 1.2
+     "2026-11-16": 0,
+     "2026-11-17": 1.9,
+     "2026-11-18": 1.6,
+     "2026-11-19": 2.6
     },
     "h72": 0.2,
-    "d7": 1.9,
+    "d7": 6.3,
     "days_covered": 4
    }
   },
@@ -288,152 +181,51 @@
    "lon": -111.64,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 50,
-     "lo": 34
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.9,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.9
-     },
-     "hi": 45,
-     "lo": 33
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 3.9,
-     "min": 0.1,
-     "max": 9.8,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 9.8,
-      "ncep_nbm_conus": 5.5,
-      "ecmwf_ifs025": 0.1,
-      "icon_seamless": 0.2,
-      "gem_seamless": 3.9
-     },
-     "hi": 34,
-     "lo": 24
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 37,
-     "lo": 24
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 39,
-     "lo": 28
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 1.6,
-     "min": 0.8,
-     "max": 4.7,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 1.5,
-      "ncep_nbm_conus": 4.7,
-      "ecmwf_ifs025": 1.6,
-      "icon_seamless": 4.5,
-      "gem_seamless": 0.8
-     },
-     "hi": 34,
-     "lo": 22
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 2.2,
-     "min": 0.6,
-     "max": 3.5,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.1,
-      "ncep_nbm_conus": 3.5,
-      "ecmwf_ifs025": 2.2,
-      "icon_seamless": 2.5,
-      "gem_seamless": 0.6
-     },
-     "hi": 26,
-     "lo": 16
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 4.8,
-    "min": 0.1,
-    "max": 9.8,
-    "n": 5
-   },
-   "d7": {
-    "median": 7.1,
-    "min": 3.9,
-    "max": 13.6,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 9.8,
-     "d7": 13.3
-    },
-    "ncep_nbm_conus": {
-     "h72": 5.5,
-     "d7": 13.6
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.1,
-     "d7": 3.9
-    },
-    "icon_seamless": {
-     "h72": 0.2,
-     "d7": 7.1
-    },
-    "gem_seamless": {
-     "h72": 4.8,
-     "d7": 6.2
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Logan",
     "center": "Utah Avalanche Center",
@@ -451,16 +243,16 @@
    },
    "nws": {
     "days": {
-     "2026-11-12": 0,
      "2026-11-13": 0,
-     "2026-11-14": 0.5,
+     "2026-11-14": 0.7,
      "2026-11-15": 0,
-     "2026-11-16": 0.1,
-     "2026-11-17": 1.1,
-     "2026-11-18": 2.1
+     "2026-11-16": 0,
+     "2026-11-17": 3.2,
+     "2026-11-18": 1.4,
+     "2026-11-19": 3.0
     },
-    "h72": 0.5,
-    "d7": 3.8,
+    "h72": 0.7,
+    "d7": 8.3,
     "days_covered": 4
    }
   },
@@ -475,152 +267,51 @@
    "lon": -111.58,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 53,
-     "lo": 33
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 47,
-     "lo": 32
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 3.0,
-     "min": 0.0,
-     "max": 5.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 3.6,
-      "ncep_nbm_conus": 5.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 2.8,
-      "gem_seamless": 3.0
-     },
-     "hi": 35,
-     "lo": 28
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 39,
-     "lo": 25
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.2,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.2,
-      "gem_seamless": 0.0
-     },
-     "hi": 43,
-     "lo": 29
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 2.8,
-     "min": 1.3,
-     "max": 5.6,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.8,
-      "ncep_nbm_conus": 4.1,
-      "ecmwf_ifs025": 2.4,
-      "icon_seamless": 5.6,
-      "gem_seamless": 1.3
-     },
-     "hi": 35,
-     "lo": 25
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 2.0,
-     "min": 0.9,
-     "max": 3.7,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.0,
-      "ncep_nbm_conus": 3.7,
-      "ecmwf_ifs025": 1.5,
-      "icon_seamless": 3.4,
-      "gem_seamless": 0.9
-     },
-     "hi": 28,
-     "lo": 18
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 3.0,
-    "min": 0.0,
-    "max": 4.9,
-    "n": 5
-   },
-   "d7": {
-    "median": 8.5,
-    "min": 3.9,
-    "max": 12.7,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 3.6,
-     "d7": 8.5
-    },
-    "ncep_nbm_conus": {
-     "h72": 4.9,
-     "d7": 12.7
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 3.9
-    },
-    "icon_seamless": {
-     "h72": 2.8,
-     "d7": 12.0
-    },
-    "gem_seamless": {
-     "h72": 3.0,
-     "d7": 5.3
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Logan",
     "center": "Utah Avalanche Center",
@@ -638,16 +329,16 @@
    },
    "nws": {
     "days": {
-     "2026-11-12": 0,
-     "2026-11-13": 0.0,
-     "2026-11-14": 1.7,
+     "2026-11-13": 0.1,
+     "2026-11-14": 1.5,
      "2026-11-15": 0,
-     "2026-11-16": 0.1,
-     "2026-11-17": 1.2,
-     "2026-11-18": 2.0
+     "2026-11-16": 0,
+     "2026-11-17": 4.2,
+     "2026-11-18": 1.7,
+     "2026-11-19": 3.1
     },
-    "h72": 1.7,
-    "d7": 4.9,
+    "h72": 1.6,
+    "d7": 10.7,
     "days_covered": 5
    }
   },
@@ -662,152 +353,51 @@
    "lon": -111.758,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 50,
-     "lo": 38
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 52,
-     "lo": 38
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 4.7,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 4.7,
-      "ncep_nbm_conus": 1.4,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 43,
-     "lo": 30
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 43,
-     "lo": 28
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 46,
-     "lo": 31
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 1.3,
-     "min": 0.6,
-     "max": 3.5,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.6,
-      "ncep_nbm_conus": 1.3,
-      "ecmwf_ifs025": 0.9,
-      "icon_seamless": 3.5,
-      "gem_seamless": 1.3
-     },
-     "hi": 40,
-     "lo": 28
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 1.8,
-     "min": 0.7,
-     "max": 2.2,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 1.8,
-      "ncep_nbm_conus": 2.0,
-      "ecmwf_ifs025": 2.2,
-      "icon_seamless": 0.7,
-      "gem_seamless": 1.8
-     },
-     "hi": 33,
-     "lo": 24
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 0.0,
-    "min": 0.0,
-    "max": 4.7,
-    "n": 5
-   },
-   "d7": {
-    "median": 4.3,
-    "min": 3.1,
-    "max": 7.0,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 4.7,
-     "d7": 7.0
-    },
-    "ncep_nbm_conus": {
-     "h72": 1.4,
-     "d7": 4.7
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 3.2
-    },
-    "icon_seamless": {
-     "h72": 0.0,
-     "d7": 4.3
-    },
-    "gem_seamless": {
-     "h72": 0.0,
-     "d7": 3.1
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Logan",
     "center": "Utah Avalanche Center",
@@ -835,152 +425,51 @@
    "lon": -111.915,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 50,
-     "lo": 34
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 49,
-     "lo": 36
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 4.7,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 4.7,
-      "ncep_nbm_conus": 1.3,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 38,
-     "lo": 29
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 42,
-     "lo": 26
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 45,
-     "lo": 29
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 1.5,
-     "min": 0.8,
-     "max": 3.8,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 1.5,
-      "ncep_nbm_conus": 2.7,
-      "ecmwf_ifs025": 0.8,
-      "icon_seamless": 3.8,
-      "gem_seamless": 1.2
-     },
-     "hi": 40,
-     "lo": 26
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 2.7,
-     "min": 1.1,
-     "max": 3.8,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.7,
-      "ncep_nbm_conus": 3.4,
-      "ecmwf_ifs025": 1.1,
-      "icon_seamless": 3.8,
-      "gem_seamless": 2.1
-     },
-     "hi": 31,
-     "lo": 20
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 0.0,
-    "min": 0.0,
-    "max": 4.7,
-    "n": 5
-   },
-   "d7": {
-    "median": 7.4,
-    "min": 1.9,
-    "max": 8.9,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 4.7,
-     "d7": 8.9
-    },
-    "ncep_nbm_conus": {
-     "h72": 1.3,
-     "d7": 7.4
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 1.9
-    },
-    "icon_seamless": {
-     "h72": 0.0,
-     "d7": 7.6
-    },
-    "gem_seamless": {
-     "h72": 0.0,
-     "d7": 3.3
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Ogden",
     "center": "Utah Avalanche Center",
@@ -1008,152 +497,51 @@
    "lon": -111.78,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 52,
-     "lo": 33
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.3,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.3,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 46,
-     "lo": 34
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 1.1,
-     "min": 0.0,
-     "max": 12.2,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 12.2,
-      "ncep_nbm_conus": 7.7,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 1.1
-     },
-     "hi": 34,
-     "lo": 26
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 39,
-     "lo": 25
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 40,
-     "lo": 27
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 2.7,
-     "min": 2.4,
-     "max": 5.9,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.7,
-      "ncep_nbm_conus": 5.9,
-      "ecmwf_ifs025": 2.4,
-      "icon_seamless": 5.4,
-      "gem_seamless": 2.4
-     },
-     "hi": 34,
-     "lo": 23
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 3.5,
-     "min": 1.9,
-     "max": 5.3,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 3.8,
-      "ncep_nbm_conus": 5.3,
-      "ecmwf_ifs025": 1.9,
-      "icon_seamless": 3.5,
-      "gem_seamless": 3.4
-     },
-     "hi": 27,
-     "lo": 16
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 1.1,
-    "min": 0.0,
-    "max": 12.5,
-    "n": 5
-   },
-   "d7": {
-    "median": 9.0,
-    "min": 4.4,
-    "max": 19.0,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 12.5,
-     "d7": 19.0
-    },
-    "ncep_nbm_conus": {
-     "h72": 7.7,
-     "d7": 19.0
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 4.4
-    },
-    "icon_seamless": {
-     "h72": 0.0,
-     "d7": 9.0
-    },
-    "gem_seamless": {
-     "h72": 1.1,
-     "d7": 6.9
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Ogden",
     "center": "Utah Avalanche Center",
@@ -1181,152 +569,51 @@
    "lon": -111.857,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 50,
-     "lo": 28
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 48,
-     "lo": 30
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 10.3,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 10.3,
-      "ncep_nbm_conus": 4.8,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 36,
-     "lo": 29
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 40,
-     "lo": 24
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 43,
-     "lo": 25
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 1.7,
-     "min": 0.9,
-     "max": 5.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.9,
-      "ncep_nbm_conus": 5.0,
-      "ecmwf_ifs025": 0.9,
-      "icon_seamless": 3.4,
-      "gem_seamless": 1.7
-     },
-     "hi": 35,
-     "lo": 24
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 3.4,
-     "min": 0.9,
-     "max": 5.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.9,
-      "ncep_nbm_conus": 5.0,
-      "ecmwf_ifs025": 1.8,
-      "icon_seamless": 3.4,
-      "gem_seamless": 3.9
-     },
-     "hi": 30,
-     "lo": 18
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 0.0,
-    "min": 0.0,
-    "max": 10.3,
-    "n": 5
-   },
-   "d7": {
-    "median": 6.9,
-    "min": 2.7,
-    "max": 14.8,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 10.3,
-     "d7": 12.2
-    },
-    "ncep_nbm_conus": {
-     "h72": 4.8,
-     "d7": 14.8
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 2.7
-    },
-    "icon_seamless": {
-     "h72": 0.0,
-     "d7": 6.9
-    },
-    "gem_seamless": {
-     "h72": 0.0,
-     "d7": 5.6
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Ogden",
     "center": "Utah Avalanche Center",
@@ -1354,152 +641,51 @@
    "lon": -112.115,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 51,
-     "lo": 30
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 48,
-     "lo": 32
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 0.9,
-     "min": 0.0,
-     "max": 7.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 7.0,
-      "ncep_nbm_conus": 3.3,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.9
-     },
-     "hi": 37,
-     "lo": 25
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 40,
-     "lo": 23
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 1.5,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.2,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 1.5,
-      "gem_seamless": 0.0
-     },
-     "hi": 42,
-     "lo": 25
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 1.9,
-     "min": 1.1,
-     "max": 3.4,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 1.9,
-      "ncep_nbm_conus": 3.4,
-      "ecmwf_ifs025": 3.3,
-      "icon_seamless": 1.8,
-      "gem_seamless": 1.1
-     },
-     "hi": 35,
-     "lo": 25
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 1.0,
-     "min": 0.7,
-     "max": 2.4,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.4,
-      "ncep_nbm_conus": 1.9,
-      "ecmwf_ifs025": 1.0,
-      "icon_seamless": 0.9,
-      "gem_seamless": 0.7
-     },
-     "hi": 28,
-     "lo": 18
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 0.9,
-    "min": 0.0,
-    "max": 7.0,
-    "n": 5
-   },
-   "d7": {
-    "median": 4.3,
-    "min": 2.7,
-    "max": 11.3,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 7.0,
-     "d7": 11.3
-    },
-    "ncep_nbm_conus": {
-     "h72": 3.3,
-     "d7": 8.8
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 4.3
-    },
-    "icon_seamless": {
-     "h72": 0.0,
-     "d7": 4.3
-    },
-    "gem_seamless": {
-     "h72": 0.9,
-     "d7": 2.7
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": null
   },
   {
@@ -1513,152 +699,51 @@
    "lon": -111.638,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 48,
-     "lo": 33
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.9,
-     "min": 0.4,
-     "max": 1.8,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 1.8,
-      "ncep_nbm_conus": 1.2,
-      "ecmwf_ifs025": 0.4,
-      "icon_seamless": 0.5,
-      "gem_seamless": 0.9
-     },
-     "hi": 42,
-     "lo": 28
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 5.4,
-     "min": 2.3,
-     "max": 18.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 13.0,
-      "ncep_nbm_conus": 18.1,
-      "ecmwf_ifs025": 2.3,
-      "icon_seamless": 5.4,
-      "gem_seamless": 5.3
-     },
-     "hi": 31,
-     "lo": 22
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 36,
-     "lo": 19
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 39,
-     "lo": 26
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 6.8,
-     "min": 5.1,
-     "max": 13.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 6.8,
-      "ncep_nbm_conus": 11.2,
-      "ecmwf_ifs025": 5.6,
-      "icon_seamless": 13.1,
-      "gem_seamless": 5.1
-     },
-     "hi": 30,
-     "lo": 18
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 1.3,
-     "min": 0.0,
-     "max": 6.7,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 6.7,
-      "ecmwf_ifs025": 0.9,
-      "icon_seamless": 3.5,
-      "gem_seamless": 1.3
-     },
-     "hi": 25,
-     "lo": 13
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 6.2,
-    "min": 2.7,
-    "max": 19.3,
-    "n": 5
-   },
-   "d7": {
-    "median": 21.7,
-    "min": 9.3,
-    "max": 37.3,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 14.9,
-     "d7": 21.7
-    },
-    "ncep_nbm_conus": {
-     "h72": 19.3,
-     "d7": 37.3
-    },
-    "ecmwf_ifs025": {
-     "h72": 2.7,
-     "d7": 9.3
-    },
-    "icon_seamless": {
-     "h72": 5.8,
-     "d7": 22.5
-    },
-    "gem_seamless": {
-     "h72": 6.2,
-     "d7": 12.6
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Salt Lake",
     "center": "Utah Avalanche Center",
@@ -1686,152 +771,51 @@
    "lon": -111.657,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 48,
-     "lo": 33
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.9,
-     "min": 0.4,
-     "max": 1.7,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 1.7,
-      "ncep_nbm_conus": 1.3,
-      "ecmwf_ifs025": 0.4,
-      "icon_seamless": 0.5,
-      "gem_seamless": 0.9
-     },
-     "hi": 42,
-     "lo": 28
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 5.4,
-     "min": 2.3,
-     "max": 18.6,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 12.2,
-      "ncep_nbm_conus": 18.6,
-      "ecmwf_ifs025": 2.3,
-      "icon_seamless": 5.4,
-      "gem_seamless": 5.3
-     },
-     "hi": 30,
-     "lo": 22
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 36,
-     "lo": 19
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 39,
-     "lo": 26
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 6.8,
-     "min": 5.1,
-     "max": 13.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 6.8,
-      "ncep_nbm_conus": 11.1,
-      "ecmwf_ifs025": 5.6,
-      "icon_seamless": 13.1,
-      "gem_seamless": 5.1
-     },
-     "hi": 30,
-     "lo": 18
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 1.3,
-     "min": 0.0,
-     "max": 6.7,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 6.7,
-      "ecmwf_ifs025": 0.9,
-      "icon_seamless": 3.5,
-      "gem_seamless": 1.3
-     },
-     "hi": 25,
-     "lo": 13
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 6.2,
-    "min": 2.7,
-    "max": 20.0,
-    "n": 5
-   },
-   "d7": {
-    "median": 20.7,
-    "min": 9.3,
-    "max": 37.9,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 13.9,
-     "d7": 20.7
-    },
-    "ncep_nbm_conus": {
-     "h72": 20.0,
-     "d7": 37.9
-    },
-    "ecmwf_ifs025": {
-     "h72": 2.7,
-     "d7": 9.3
-    },
-    "icon_seamless": {
-     "h72": 5.8,
-     "d7": 22.5
-    },
-    "gem_seamless": {
-     "h72": 6.2,
-     "d7": 12.6
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Salt Lake",
     "center": "Utah Avalanche Center",
@@ -1859,152 +843,51 @@
    "lon": -111.583,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 51,
-     "lo": 34
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.7,
-     "min": 0.0,
-     "max": 0.9,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.9,
-      "ncep_nbm_conus": 0.7,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.5,
-      "gem_seamless": 0.9
-     },
-     "hi": 43,
-     "lo": 30
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 5.4,
-     "min": 0.5,
-     "max": 13.8,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 12.7,
-      "ncep_nbm_conus": 13.8,
-      "ecmwf_ifs025": 0.5,
-      "icon_seamless": 5.4,
-      "gem_seamless": 5.3
-     },
-     "hi": 33,
-     "lo": 26
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 37,
-     "lo": 21
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 39,
-     "lo": 26
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 6.6,
-     "min": 2.8,
-     "max": 13.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 6.6,
-      "ncep_nbm_conus": 9.8,
-      "ecmwf_ifs025": 2.8,
-      "icon_seamless": 13.1,
-      "gem_seamless": 4.5
-     },
-     "hi": 32,
-     "lo": 22
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 3.5,
-     "min": 0.0,
-     "max": 6.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 6.1,
-      "ecmwf_ifs025": 3.5,
-      "icon_seamless": 3.5,
-      "gem_seamless": 1.3
-     },
-     "hi": 27,
-     "lo": 15
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 6.2,
-    "min": 0.5,
-    "max": 14.5,
-    "n": 5
-   },
-   "d7": {
-    "median": 20.2,
-    "min": 6.8,
-    "max": 30.5,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 13.6,
-     "d7": 20.2
-    },
-    "ncep_nbm_conus": {
-     "h72": 14.5,
-     "d7": 30.5
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.5,
-     "d7": 6.8
-    },
-    "icon_seamless": {
-     "h72": 5.8,
-     "d7": 22.5
-    },
-    "gem_seamless": {
-     "h72": 6.2,
-     "d7": 12.0
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Salt Lake",
     "center": "Utah Avalanche Center",
@@ -2032,152 +915,51 @@
    "lon": -111.592,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 51,
-     "lo": 34
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.7,
-     "min": 0.0,
-     "max": 0.9,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.9,
-      "ncep_nbm_conus": 0.7,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.5,
-      "gem_seamless": 0.9
-     },
-     "hi": 43,
-     "lo": 31
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 5.4,
-     "min": 0.5,
-     "max": 13.8,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 11.9,
-      "ncep_nbm_conus": 13.8,
-      "ecmwf_ifs025": 0.5,
-      "icon_seamless": 5.4,
-      "gem_seamless": 5.3
-     },
-     "hi": 33,
-     "lo": 26
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 39,
-     "lo": 21
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 40,
-     "lo": 26
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 6.6,
-     "min": 2.8,
-     "max": 13.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 6.6,
-      "ncep_nbm_conus": 9.7,
-      "ecmwf_ifs025": 2.8,
-      "icon_seamless": 13.1,
-      "gem_seamless": 4.5
-     },
-     "hi": 32,
-     "lo": 22
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 3.5,
-     "min": 0.0,
-     "max": 6.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 6.1,
-      "ecmwf_ifs025": 3.5,
-      "icon_seamless": 3.5,
-      "gem_seamless": 1.3
-     },
-     "hi": 27,
-     "lo": 15
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 6.2,
-    "min": 0.5,
-    "max": 14.5,
-    "n": 5
-   },
-   "d7": {
-    "median": 19.5,
-    "min": 6.8,
-    "max": 30.4,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 12.8,
-     "d7": 19.5
-    },
-    "ncep_nbm_conus": {
-     "h72": 14.5,
-     "d7": 30.4
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.5,
-     "d7": 6.8
-    },
-    "icon_seamless": {
-     "h72": 5.8,
-     "d7": 22.5
-    },
-    "gem_seamless": {
-     "h72": 6.2,
-     "d7": 12.0
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Salt Lake",
     "center": "Utah Avalanche Center",
@@ -2205,152 +987,51 @@
    "lon": -111.508,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 54,
-     "lo": 32
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 1.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 1.1,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 46,
-     "lo": 32
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 2.2,
-     "min": 0.9,
-     "max": 9.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 9.0,
-      "ncep_nbm_conus": 6.3,
-      "ecmwf_ifs025": 2.2,
-      "icon_seamless": 0.9,
-      "gem_seamless": 0.9
-     },
-     "hi": 34,
-     "lo": 24
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": -0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": -0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 41,
-     "lo": 22
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 42,
-     "lo": 25
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 3.8,
-     "min": 1.1,
-     "max": 9.8,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 3.8,
-      "ncep_nbm_conus": 5.7,
-      "ecmwf_ifs025": 2.9,
-      "icon_seamless": 9.8,
-      "gem_seamless": 1.1
-     },
-     "hi": 35,
-     "lo": 21
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 1.0,
-     "min": 0.0,
-     "max": 4.2,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 4.2,
-      "ecmwf_ifs025": 1.0,
-      "icon_seamless": 2.7,
-      "gem_seamless": 0.5
-     },
-     "hi": 31,
-     "lo": 13
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 2.2,
-    "min": 0.9,
-    "max": 10.2,
-    "n": 5
-   },
-   "d7": {
-    "median": 13.5,
-    "min": 2.4,
-    "max": 16.3,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 10.2,
-     "d7": 14.0
-    },
-    "ncep_nbm_conus": {
-     "h72": 6.3,
-     "d7": 16.3
-    },
-    "ecmwf_ifs025": {
-     "h72": 2.2,
-     "d7": 6.1
-    },
-    "icon_seamless": {
-     "h72": 0.9,
-     "d7": 13.5
-    },
-    "gem_seamless": {
-     "h72": 0.9,
-     "d7": 2.4
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": null
   },
   {
@@ -2364,152 +1045,51 @@
    "lon": -111.683,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 49,
-     "lo": 33
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.9,
-     "min": 0.4,
-     "max": 2.9,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.9,
-      "ncep_nbm_conus": 1.6,
-      "ecmwf_ifs025": 0.4,
-      "icon_seamless": 0.5,
-      "gem_seamless": 0.9
-     },
-     "hi": 42,
-     "lo": 28
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 5.4,
-     "min": 2.3,
-     "max": 20.2,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 12.6,
-      "ncep_nbm_conus": 20.2,
-      "ecmwf_ifs025": 2.3,
-      "icon_seamless": 5.4,
-      "gem_seamless": 5.3
-     },
-     "hi": 31,
-     "lo": 22
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 36,
-     "lo": 19
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 39,
-     "lo": 26
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 6.8,
-     "min": 5.1,
-     "max": 13.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 6.8,
-      "ncep_nbm_conus": 10.8,
-      "ecmwf_ifs025": 5.6,
-      "icon_seamless": 13.1,
-      "gem_seamless": 5.1
-     },
-     "hi": 30,
-     "lo": 18
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 1.3,
-     "min": 0.0,
-     "max": 6.4,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 6.4,
-      "ecmwf_ifs025": 0.9,
-      "icon_seamless": 3.5,
-      "gem_seamless": 1.3
-     },
-     "hi": 25,
-     "lo": 13
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 6.2,
-    "min": 2.7,
-    "max": 21.8,
-    "n": 5
-   },
-   "d7": {
-    "median": 22.3,
-    "min": 9.3,
-    "max": 39.1,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 15.4,
-     "d7": 22.3
-    },
-    "ncep_nbm_conus": {
-     "h72": 21.8,
-     "d7": 39.1
-    },
-    "ecmwf_ifs025": {
-     "h72": 2.7,
-     "d7": 9.3
-    },
-    "icon_seamless": {
-     "h72": 5.8,
-     "d7": 22.5
-    },
-    "gem_seamless": {
-     "h72": 6.2,
-     "d7": 12.6
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Salt Lake",
     "center": "Utah Avalanche Center",
@@ -2537,152 +1117,51 @@
    "lon": -111.648,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 50,
-     "lo": 34
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.7,
-     "min": 0.4,
-     "max": 1.3,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 1.3,
-      "ncep_nbm_conus": 0.7,
-      "ecmwf_ifs025": 0.4,
-      "icon_seamless": 0.5,
-      "gem_seamless": 0.9
-     },
-     "hi": 43,
-     "lo": 30
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 5.4,
-     "min": 2.3,
-     "max": 16.2,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 12.9,
-      "ncep_nbm_conus": 16.2,
-      "ecmwf_ifs025": 2.3,
-      "icon_seamless": 5.4,
-      "gem_seamless": 5.3
-     },
-     "hi": 32,
-     "lo": 23
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 37,
-     "lo": 20
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 40,
-     "lo": 27
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 6.8,
-     "min": 5.1,
-     "max": 13.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 6.8,
-      "ncep_nbm_conus": 10.3,
-      "ecmwf_ifs025": 5.6,
-      "icon_seamless": 13.1,
-      "gem_seamless": 5.1
-     },
-     "hi": 32,
-     "lo": 18
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 1.3,
-     "min": 0.0,
-     "max": 6.4,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 6.4,
-      "ecmwf_ifs025": 0.9,
-      "icon_seamless": 3.5,
-      "gem_seamless": 1.3
-     },
-     "hi": 26,
-     "lo": 14
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 6.2,
-    "min": 2.6,
-    "max": 16.9,
-    "n": 5
-   },
-   "d7": {
-    "median": 21.0,
-    "min": 9.3,
-    "max": 33.8,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 14.2,
-     "d7": 21.0
-    },
-    "ncep_nbm_conus": {
-     "h72": 16.9,
-     "d7": 33.8
-    },
-    "ecmwf_ifs025": {
-     "h72": 2.6,
-     "d7": 9.3
-    },
-    "icon_seamless": {
-     "h72": 5.8,
-     "d7": 22.5
-    },
-    "gem_seamless": {
-     "h72": 6.2,
-     "d7": 12.6
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Salt Lake",
     "center": "Utah Avalanche Center",
@@ -2710,152 +1189,51 @@
    "lon": -110.957,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 51,
-     "lo": 33
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 44,
-     "lo": 32
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 0.6,
-     "min": 0.0,
-     "max": 2.4,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 1.8,
-      "ncep_nbm_conus": 2.4,
-      "ecmwf_ifs025": 0.3,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.6
-     },
-     "hi": 36,
-     "lo": 30
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 37,
-     "lo": 22
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.9,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.2,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.9,
-      "gem_seamless": 0.0
-     },
-     "hi": 41,
-     "lo": 27
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 3.7,
-     "min": 0.6,
-     "max": 5.8,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.6,
-      "ncep_nbm_conus": 5.8,
-      "ecmwf_ifs025": 3.7,
-      "icon_seamless": 5.3,
-      "gem_seamless": 3.7
-     },
-     "hi": 33,
-     "lo": 26
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 4.8,
-     "min": 2.0,
-     "max": 11.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.0,
-      "ncep_nbm_conus": 7.1,
-      "ecmwf_ifs025": 4.8,
-      "icon_seamless": 2.5,
-      "gem_seamless": 11.0
-     },
-     "hi": 26,
-     "lo": 18
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 0.6,
-    "min": 0.0,
-    "max": 2.4,
-    "n": 5
-   },
-   "d7": {
-    "median": 8.8,
-    "min": 4.4,
-    "max": 15.5,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 1.8,
-     "d7": 4.4
-    },
-    "ncep_nbm_conus": {
-     "h72": 2.4,
-     "d7": 15.5
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.2,
-     "d7": 8.8
-    },
-    "icon_seamless": {
-     "h72": 0.0,
-     "d7": 8.7
-    },
-    "gem_seamless": {
-     "h72": 0.6,
-     "d7": 15.2
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Tetons",
     "center": "Bridger-Teton Avalanche Center",
@@ -2866,8 +1244,8 @@
     "font_color": "#ffffff",
     "travel_advice": "Watch for signs of unstable snow such as recent avalanches, cracking in the snow, and audible collapsing. Avoid traveling on or under similar slopes.",
     "link": "https://bridgertetonavalanchecenter.org/forecasts/#/tetons",
-    "start": "2026-11-09T18:09:00",
-    "end": "2026-11-13T07:00:00",
+    "start": null,
+    "end": null,
     "expired": false,
     "warning": false
    }
@@ -2883,152 +1261,51 @@
    "lon": -110.955,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 50,
-     "lo": 30
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 45,
-     "lo": 29
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 1.5,
-     "min": 0.0,
-     "max": 2.6,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.6,
-      "ncep_nbm_conus": 2.3,
-      "ecmwf_ifs025": 0.3,
-      "icon_seamless": 0.0,
-      "gem_seamless": 1.5
-     },
-     "hi": 35,
-     "lo": 27
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 38,
-     "lo": 22
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.9,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.1,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.9,
-      "gem_seamless": 0.0
-     },
-     "hi": 41,
-     "lo": 26
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 3.5,
-     "min": 2.2,
-     "max": 5.3,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.2,
-      "ncep_nbm_conus": 5.3,
-      "ecmwf_ifs025": 3.5,
-      "icon_seamless": 4.7,
-      "gem_seamless": 3.4
-     },
-     "hi": 34,
-     "lo": 22
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 3.7,
-     "min": 2.5,
-     "max": 5.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 3.7,
-      "ncep_nbm_conus": 5.0,
-      "ecmwf_ifs025": 3.9,
-      "icon_seamless": 2.5,
-      "gem_seamless": 3.4
-     },
-     "hi": 26,
-     "lo": 17
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 1.5,
-    "min": 0.0,
-    "max": 2.6,
-    "n": 5
-   },
-   "d7": {
-    "median": 8.3,
-    "min": 7.7,
-    "max": 12.6,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 2.6,
-     "d7": 8.5
-    },
-    "ncep_nbm_conus": {
-     "h72": 2.3,
-     "d7": 12.6
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.3,
-     "d7": 7.7
-    },
-    "icon_seamless": {
-     "h72": 0.0,
-     "d7": 8.2
-    },
-    "gem_seamless": {
-     "h72": 1.5,
-     "d7": 8.3
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Tetons",
     "center": "Bridger-Teton Avalanche Center",
@@ -3039,8 +1316,8 @@
     "font_color": "#ffffff",
     "travel_advice": "Watch for signs of unstable snow such as recent avalanches, cracking in the snow, and audible collapsing. Avoid traveling on or under similar slopes.",
     "link": "https://bridgertetonavalanchecenter.org/forecasts/#/tetons",
-    "start": "2026-11-09T18:09:00",
-    "end": "2026-11-13T07:00:00",
+    "start": null,
+    "end": null,
     "expired": false,
     "warning": false
    }
@@ -3056,152 +1333,51 @@
    "lon": -110.828,
    "days": [
     {
-     "date": "2026-11-12",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 48,
-     "lo": 32
-    },
-    {
      "date": "2026-11-13",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 43,
-     "lo": 31
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-14",
-     "median": 0.9,
-     "min": 0.0,
-     "max": 5.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 5.0,
-      "ncep_nbm_conus": 1.9,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.9,
-      "gem_seamless": 0.4
-     },
-     "hi": 36,
-     "lo": 25
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-15",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 0.0,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 0.0,
-      "gem_seamless": 0.0
-     },
-     "hi": 36,
-     "lo": 22
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-16",
-     "median": 0.0,
-     "min": 0.0,
-     "max": 1.1,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 0.0,
-      "ncep_nbm_conus": 0.0,
-      "ecmwf_ifs025": 0.0,
-      "icon_seamless": 1.1,
-      "gem_seamless": 0.0
-     },
-     "hi": 41,
-     "lo": 25
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-17",
-     "median": 2.6,
-     "min": 1.4,
-     "max": 5.4,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 1.4,
-      "ncep_nbm_conus": 3.6,
-      "ecmwf_ifs025": 2.6,
-      "icon_seamless": 5.4,
-      "gem_seamless": 2.0
-     },
-     "hi": 34,
-     "lo": 22
+     "models": {},
+     "hi": null,
+     "lo": null
     },
     {
      "date": "2026-11-18",
-     "median": 2.7,
-     "min": 2.4,
-     "max": 3.7,
-     "n": 5,
-     "models": {
-      "gfs_seamless": 2.4,
-      "ncep_nbm_conus": 3.7,
-      "ecmwf_ifs025": 2.7,
-      "icon_seamless": 3.0,
-      "gem_seamless": 2.7
-     },
-     "hi": 27,
-     "lo": 17
+     "models": {},
+     "hi": null,
+     "lo": null
+    },
+    {
+     "date": "2026-11-19",
+     "models": {},
+     "hi": null,
+     "lo": null
     }
    ],
-   "h72": {
-    "median": 0.9,
-    "min": 0.0,
-    "max": 5.0,
-    "n": 5
-   },
-   "d7": {
-    "median": 8.7,
-    "min": 5.2,
-    "max": 10.4,
-    "n": 5
-   },
-   "by_model": {
-    "gfs_seamless": {
-     "h72": 5.0,
-     "d7": 8.7
-    },
-    "ncep_nbm_conus": {
-     "h72": 1.9,
-     "d7": 9.2
-    },
-    "ecmwf_ifs025": {
-     "h72": 0.0,
-     "d7": 5.2
-    },
-    "icon_seamless": {
-     "h72": 0.9,
-     "d7": 10.4
-    },
-    "gem_seamless": {
-     "h72": 0.4,
-     "d7": 5.2
-    }
-   },
+   "h72": null,
+   "d7": null,
+   "by_model": {},
    "avy": {
     "zone": "Tetons",
     "center": "Bridger-Teton Avalanche Center",
@@ -3212,8 +1388,8 @@
     "font_color": "#ffffff",
     "travel_advice": "Watch for signs of unstable snow such as recent avalanches, cracking in the snow, and audible collapsing. Avoid traveling on or under similar slopes.",
     "link": "https://bridgertetonavalanchecenter.org/forecasts/#/tetons",
-    "start": "2026-11-09T18:09:00",
-    "end": "2026-11-13T07:00:00",
+    "start": null,
+    "end": null,
     "expired": false,
     "warning": false
    }
@@ -3237,8 +1413,8 @@
  "nws_alerts": [],
  "discussion": {
   "office": "SLC",
-  "issued": "2026-11-12T23:57:00+00:00",
-  "key_messages": null,
+  "issued": "2026-11-13T05:59:00+00:00",
+  "key_messages": "- Dry conditions will give way to widespread valley rain and mountain snow late Friday into Saturday. - Two more storms arrive next week with the first on Tuesday/Wednesday that looks very similar to the Saturday storm, and another towards the end of the week that has high-end scenario potential, but run-to-run consistency has been lacking.",
   "synopsis": null,
   "short_term": null,
   "long_term": null,
@@ -3263,7 +1439,7 @@
   }
  ],
  "take": null,
- "rules_take": "Beaver Mountain: the forecasts put 4\u201310 in. over the next 7 days (middle 6 in.), and they roughly agree. About 3 in. of that lands in the next 72 hours. The NWS forecasters have 2 in. for the week.",
+ "rules_take": "Not enough model data to summarize.",
  "alerts_active": [],
  "thresholds": {
   "local_72h_in": 8,
@@ -3281,6 +1457,11 @@
   ]
  },
  "errors": [
+  "Open-Meteo gfs_seamless: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
+  "Open-Meteo ncep_nbm_conus: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
+  "Open-Meteo ecmwf_ifs025: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
+  "Open-Meteo icon_seamless: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
+  "Open-Meteo gem_seamless: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
   "UAC detail (optional): HTTPError: HTTP Error 401: Unauthorized"
  ]
 }
